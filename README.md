@@ -8,13 +8,14 @@ Theoretical results relating to distributed consensus
 * [The Weakest Failure Detector for Solving Consensus](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)
 * [Omega Meets Paxos: Leader Election and Stability without Eventual Timely Links](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/paxos-leader.pdf)
 * [Classic Paxos vs. Fast Paxos: Caveat Emptor](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)
-* [Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)
+* [Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)
 * [Lower Bounds for Asynchronous Consensus](https://lamport.azurewebsites.net/pubs/lower-bound.pdf)
 
 Algorithms for distributed consensus
 * [Consensus in the Presence of Partial Synchrony](https://dl.acm.org/citation.cfm?id=42283)
 * [The Part-Time Parliament](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
-* [Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems](http://pmg.csail.mit.edu/papers/vr.pdf) * [Viewstamped Replication Revisited](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)
+* [Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems](http://pmg.csail.mit.edu/papers/vr.pdf)
+* [Viewstamped Replication Revisited](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)
 * [Stoppable Paxos](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)
 * [Fast Paxos](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)
 * [Consensus on Transaction Commit](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf)
