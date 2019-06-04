@@ -1,5 +1,7 @@
 This file contains a list of papers in the field of distributed consensus. Many of the papers fit into more than one section, however, for simplicity, each paper is listed only in the most relevant section.
 
+### Papers on consensus
+
 Theoretical results relating to distributed consensus
 * [Impossibility of Distributed Consensus with One Faulty Process](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
 * [Unreliable Failure Detectors for Reliable Distributed Systems](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)
@@ -113,7 +115,7 @@ Correctness of consensus algorithms
 * [Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf)
 * [Modeling Paxos and Flexible Paxos in Pluscal and TLA+](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)
 
-Results on quorum systems
+Quorum systems
 * [A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases](https://dl.acm.org/citation.cfm?id=320076)
 * [Weighted Voting for Replicated Data](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)
 * [An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)
