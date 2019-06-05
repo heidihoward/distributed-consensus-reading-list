@@ -105,7 +105,13 @@ Implementations of consensus
 Linearizability
 * [Linearizability: A Correctness Condition for Concurrent Objects](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
 * [Implementing Linearizability at Large Scale and Low Latency](https://dl.acm.org/citation.cfm?id=2815416)
+
+Weaker consistency models
 * [Existential Consistency: Measuring and Understanding Consistency at Facebook](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/240-lu.pdf)
+* [TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
+* [Consistency in Non-Transactional Distributed Storage Systems](http://www.vukolic.com/consistency-survey.pdf)
+* [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+* [Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 
 Correctness of consensus algorithms
 * [IronFleet: Proving Practical Distributed Systems Correct](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
