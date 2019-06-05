@@ -1,6 +1,6 @@
 This file contains a list of papers in the field of distributed consensus. Many of the papers fit into more than one section, however, for simplicity, each paper is listed only in the most relevant section.
 
-### Papers on consensus
+### Papers on distributed consensus
 
 Theoretical results relating to distributed consensus
 * [Impossibility of Distributed Consensus with One Faulty Process](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
@@ -10,6 +10,7 @@ Theoretical results relating to distributed consensus
 * [Omega Meets Paxos: Leader Election and Stability without Eventual Timely Links](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/paxos-leader.pdf)
 * [Lower Bounds for Asynchronous Consensus](https://lamport.azurewebsites.net/pubs/lower-bound.pdf)
 * [On the Minimal Synchronism Needed for Distributed Consensus](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)
+* [The implementation of reliable distributed multiprocess systems](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)
 
 Surveys, tutorials & evaluations of consensus algorithms
 * [Classic Paxos vs. Fast Paxos: Caveat Emptor](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)
@@ -22,6 +23,8 @@ Surveys, tutorials & evaluations of consensus algorithms
 * [How to Build a Highly Available System Using Consensus](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)
 * [Consensus in the Cloud: Paxos Systems Demystified](https://cse.buffalo.edu/tech-reports/2016-02.pdf)
 * [Paxos Made Moderately Complex](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)
+* [Tutorial Summary: Paxos Explained from Scratch](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)
+* [A Modular Approach to Fault-Tolerant Broadcasts and Related Problems](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)
 
 Algorithms for distributed consensus
 * [Consensus in the Presence of Partial Synchrony](https://dl.acm.org/citation.cfm?id=42283)
@@ -43,6 +46,9 @@ Algorithms for distributed consensus
 * [On Collision-fast Atomic Broadcast](https://infoscience.epfl.ch/record/100857/files/CFAbcastTR.pdf)
 * [Dynamic atomic storage without consensus](https://dl.acm.org/citation.cfm?id=1944348)
 * [Specifying and Using a Partitionable Group Communication Service](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)
+* [Active Disk Paxos with infinitely many processes](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)
+* [CASPaxos: Replicated State Machines without logs](https://arxiv.org/pdf/1802.07000.pdf)
+* [Multicoordinated Paxos](https://dl.acm.org/citation.cfm?id=1281150)
 
 Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * [Paxos Made Switch-y](https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf)
@@ -54,6 +60,8 @@ Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * [Derecho: Group Communication at the Speed of Light](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/Derecho-Protocols.pdf)
 * [Groups, Subgroups and Auto-Sharding in Derecho: A Customizable RDMA Framework for Highly Available Cloud Services](https://pdfs.semanticscholar.org/5dc4/ac5ac578fae726adcc5776d2a277f09dd9b5.pdf?_ga=2.198677487.1756250239.1559555537-1469340531.1559555537)
 * [Just say NO to Paxos Overhead: Replacing Consensus with Network Ordering](https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf)
+* [AllConcur: Leaderless Concurrent Atomic Broadcast](https://spcl.inf.ethz.ch/Publications/.pdf/poke2017allconcur.pdf)
+* [DARE: High-Performance State Machine Replication on RDMA Networks](https://spcl.inf.ethz.ch/Research/Parallel_Programming/DARE/dare-TR.pdf)
 
 Implementing consensus for geo-distributed systems
 * [MDCC: Multi-Data Center Consistency](http://mdcc.cs.berkeley.edu/mdcc.pdf)
@@ -67,6 +75,7 @@ Implementing consensus for geo-distributed systems
 * [Scalable Consistency in Scatter](https://homes.cs.washington.edu/~tom/pubs/scatter.pdf)
 * [GlobalFS: A Strongly Consistent Multi-Site File System](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7794339)
 * [CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)
+* [Modelling Paxos performance in wide area](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
 
 Distributed consensus in production
 * [Paxos Made Live - An Engineering Perspective](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)
@@ -99,8 +108,11 @@ Implementations of consensus
 * [Scalable State-Machine Replication](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)
 * [Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)
 * [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf)
+* [Paxos made transparent](https://dl.acm.org/citation.cfm?doid=2815400.2815427)
+* [Designing Distributed Systems Using Approximate Synchrony in Data Center Networks](https://syslab.cs.washington.edu/papers/specpaxos-nsdi15.pdf)
+* [No compromises: distributed transactions with consistency, availability, and performance](https://pdos.csail.mit.edu/6.824/papers/farm-2015.pdf)
 
-### Related topics
+### Papers on related topics
 
 Linearizability
 * [Linearizability: A Correctness Condition for Concurrent Objects](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
@@ -112,6 +124,16 @@ Weaker consistency models
 * [Consistency in Non-Transactional Distributed Storage Systems](http://www.vukolic.com/consistency-survey.pdf)
 * [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
+* [Spanner: Google’s Globally-Distributed Database](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+* [Spanner, TrueTime & The CAP Theorem](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)
+* [Quantifying eventual consistency with PBS](http://www.bailis.org/papers/pbs-vldbj2014.pdf)
+* [Eventual Consistency Today: Limitations, Extensions, and Beyond](https://queue.acm.org/detail.cfm?id=2462076)
+* [Fine-grained consistency for geo-replicated systems](https://www.usenix.org/system/files/conference/atc18/atc18-li_cheng.pdf)
+* [The many faces of consistency](http://sites.computer.org/debull/A16mar/p3.pdf)
+
+Failures
+* [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
+* [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
 
 Correctness of consensus algorithms
 * [IronFleet: Proving Practical Distributed Systems Correct](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
@@ -136,3 +158,17 @@ Quorum systems
 * [Coterie Availability in Sites](https://link.springer.com/chapter/10.1007/11561927_3)
 * [The virtue of dependent failures in multi-site systems](https://dl.acm.org/citation.cfm?id=1973401)
 * [Crumbling Walls: A Class of Practical and Efficient Quorum Systems](https://link.springer.com/article/10.1007/s004460050027)
+
+### Blogroll
+* [Jepsen](https://jepsen.io)
+* [Aphyr](https://aphyr.com/posts)
+* [The Paper Trail](https://www.the-paper-trail.org)
+* [Brave new geek](https://bravenewgeek.com/archive/)
+* [Peter Bailis](http://www.bailis.org/blog/)
+* [Christopher Meiklejohn](http://christophermeiklejohn.com)
+* [Denis Rystsov](http://rystsov.info)
+* [Murat Demirbas](http://muratbuffalo.blogspot.com)
+* [Slash dev slash null](https://simbo1905.blog)
+* [David Turner](https://davecturner.github.io)
+* [Aleksey Charapko](http://charap.co)
+* [The Morning Paper](https://blog.acolyer.org/about/)
