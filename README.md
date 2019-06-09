@@ -172,3 +172,4 @@ Quorum systems
 * [David Turner](https://davecturner.github.io)
 * [Aleksey Charapko](http://charap.co)
 * [The Morning Paper](https://blog.acolyer.org/about/)
+* [Hacking, Distributed](http://hackingdistributed.com)
