@@ -106,7 +106,7 @@ Implementations of consensus
 * [Granola: Low-Overhead Distributed Transaction Coordination](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
 * [Making Fast Consensus Generally Faster](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7579738)
 * [Scalable State-Machine Replication](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)
-* [Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)
+
 * [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf)
 * [Paxos made transparent](https://dl.acm.org/citation.cfm?doid=2815400.2815427)
 * [Designing Distributed Systems Using Approximate Synchrony in Data Center Networks](https://syslab.cs.washington.edu/papers/specpaxos-nsdi15.pdf)
@@ -114,9 +114,11 @@ Implementations of consensus
 
 ### Papers on related topics
 
-Linearizability
+Linearizability & SMR
+* [Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)
 * [Linearizability: A Correctness Condition for Concurrent Objects](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
 * [Implementing Linearizability at Large Scale and Low Latency](https://dl.acm.org/citation.cfm?id=2815416)
+* [Cheap and Available State Machine Replication](https://www.usenix.org/system/files/conference/atc16/atc16_paper-shi.pdf)
 
 Weaker consistency models
 * [Existential Consistency: Measuring and Understanding Consistency at Facebook](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/240-lu.pdf)
