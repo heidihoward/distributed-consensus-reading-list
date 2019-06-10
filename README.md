@@ -123,11 +123,15 @@ Linearizability & SMR
 
 Weaker consistency models
 * [Existential Consistency: Measuring and Understanding Consistency at Facebook](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/240-lu.pdf)
+* [What consistency does your key-value store actually provide?](https://www.usenix.net/legacy/events/hotdep10/tech/full_papers/Anderson.pdf)
+  * offline consistency checking of key-value traces
 * [TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
 * [Consistency in Non-Transactional Distributed Storage Systems](http://www.vukolic.com/consistency-survey.pdf)
 * [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 * [Spanner: Google’s Globally-Distributed Database](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+* [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
+  * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
 * [Spanner, TrueTime & The CAP Theorem](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)
 * [Towards Robust Distributed Systems](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)
   * PODC keynote in which Eric Brewer proposed the now infamous CAP theorem
@@ -135,11 +139,15 @@ Weaker consistency models
 * [Eventual Consistency Today: Limitations, Extensions, and Beyond](https://queue.acm.org/detail.cfm?id=2462076)
 * [Fine-grained consistency for geo-replicated systems](https://www.usenix.org/system/files/conference/atc18/atc18-li_cheng.pdf)
 * [The many faces of consistency](http://sites.computer.org/debull/A16mar/p3.pdf)
+* [Benchmarking Cloud Serving Systems with YCSB](https://www2.cs.duke.edu/courses/fall13/compsci590.4/838-CloudPapers/ycsb.pdf)
+  * Popular benchmarking tool for key-values stores
+  * Actively maintained [open source project](https://github.com/brianfrankcooper/YCSB/wiki) with support for various data stores
 
 
-Failures
+Failures & Bugs
 * [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
 * [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
+* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)
 
 Correctness of consensus algorithms
 * [IronFleet: Proving Practical Distributed Systems Correct](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
@@ -180,3 +188,7 @@ Quorum systems
 * [The Morning Paper by Adrian Colyer](https://blog.acolyer.org/about/)
 * [Hacking, Distributed by Emin Gün Sirer](http://hackingdistributed.com)
 * [All Things Distributed by Werner Vogels](https://www.allthingsdistributed.com)
+
+### Reading lists
+* [Testing Distributed Systems by Andrey Satarin](https://asatarin.github.io/testing-distributed-systems/)
+* [An introduction to distributed systems by Kyle Kingsbury](https://github.com/aphyr/distsys-class)
