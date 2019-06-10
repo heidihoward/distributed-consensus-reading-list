@@ -106,7 +106,6 @@ Implementations of consensus
 * [Granola: Low-Overhead Distributed Transaction Coordination](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
 * [Making Fast Consensus Generally Faster](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7579738)
 * [Scalable State-Machine Replication](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)
-
 * [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf)
 * [Paxos made transparent](https://dl.acm.org/citation.cfm?doid=2815400.2815427)
 * [Designing Distributed Systems Using Approximate Synchrony in Data Center Networks](https://syslab.cs.washington.edu/papers/specpaxos-nsdi15.pdf)
