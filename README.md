@@ -4,6 +4,7 @@ This file contains a list of papers in the field of distributed consensus. Many 
 
 Theoretical results relating to distributed consensus
 * [Impossibility of Distributed Consensus with One Faulty Process](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
+  * aka the FLP result
 * [Unreliable Failure Detectors for Reliable Distributed Systems](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
 * [The Weakest Failure Detector for Solving Consensus](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)
@@ -90,6 +91,7 @@ Implementations of consensus
 * [Replication and fault-tolerance in the ISIS system](https://ecommons.cornell.edu/handle/1813/6508)
 * [The ISIS project: real experience with a fault tolerant programming system](https://dl.acm.org/citation.cfm?id=122133)
 * [In Search of an Understandable Consensus Algorithm (Extended Version)](https://raft.github.io/raft.pdf)
+  * aka the RAFT consensus paper
 * [Consensus: Bridging Theory and Practice](https://github.com/ongardie/dissertation)
 * [S-Paxos: Offloading the Leader for High Throughput State Machine Replication](https://infoscience.epfl.ch/record/179912/files/2012_SPaxos-CameraReady.pdf)
 * [Optimizing Paxos with batching and pipelining](https://infoscience.epfl.ch/record/189440/files/TCS.pdf)
