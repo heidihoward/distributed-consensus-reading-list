@@ -127,10 +127,13 @@ Weaker consistency models
 * [Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 * [Spanner: Google’s Globally-Distributed Database](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
 * [Spanner, TrueTime & The CAP Theorem](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)
+* [Towards Robust Distributed Systems](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)
+  * PODC keynote in which Eric Brewer proposed the now infamous CAP theorem
 * [Quantifying eventual consistency with PBS](http://www.bailis.org/papers/pbs-vldbj2014.pdf)
 * [Eventual Consistency Today: Limitations, Extensions, and Beyond](https://queue.acm.org/detail.cfm?id=2462076)
 * [Fine-grained consistency for geo-replicated systems](https://www.usenix.org/system/files/conference/atc18/atc18-li_cheng.pdf)
 * [The many faces of consistency](http://sites.computer.org/debull/A16mar/p3.pdf)
+
 
 Failures
 * [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
