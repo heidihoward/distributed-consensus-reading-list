@@ -77,6 +77,7 @@ Implementing consensus for geo-distributed systems
 * [GlobalFS: A Strongly Consistent Multi-Site File System](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7794339)
 * [CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)
 * [Modelling Paxos performance in wide area](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
+* [Low-Latency Multi-Datacenter Databases using Replicated Commit](http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf)
 
 Distributed consensus in production
 * [Paxos Made Live - An Engineering Perspective](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)
@@ -112,6 +113,11 @@ Implementations of consensus
 * [Paxos made transparent](https://dl.acm.org/citation.cfm?doid=2815400.2815427)
 * [Designing Distributed Systems Using Approximate Synchrony in Data Center Networks](https://syslab.cs.washington.edu/papers/specpaxos-nsdi15.pdf)
 * [No compromises: distributed transactions with consistency, availability, and performance](https://pdos.csail.mit.edu/6.824/papers/farm-2015.pdf)
+* [Building Consistent Transactions with Inconsistent Replication](https://irenezhang.net/papers/tapir-sosp15.pdf)
+  * Weakly consistent key-val store with support for linearizability as requested
+  * Useful related blog post [Lessons learned from TAPIR(s)](https://irenezhang.net/blog/2015/04/02/tapir.html)
+  * geo-distributed performance is evaluated
+
 
 ### Papers on related topics
 
