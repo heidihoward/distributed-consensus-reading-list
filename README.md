@@ -60,6 +60,7 @@ Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * [Taming uncertainty in distributed systems with help from the network](http://www.cs.utexas.edu/falcon/papers/albatross-eurosys2015.pdf)
 * [Derecho: Group Communication at the Speed of Light](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/Derecho-Protocols.pdf)
 * [Groups, Subgroups and Auto-Sharding in Derecho: A Customizable RDMA Framework for Highly Available Cloud Services](https://pdfs.semanticscholar.org/5dc4/ac5ac578fae726adcc5776d2a277f09dd9b5.pdf?_ga=2.198677487.1756250239.1559555537-1469340531.1559555537)
+* [Derecho: Fast State Machine Replication for Cloud Services](https://dl.acm.org/citation.cfm?id=3302258)
 * [Just say NO to Paxos Overhead: Replacing Consensus with Network Ordering](https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf)
 * [AllConcur: Leaderless Concurrent Atomic Broadcast](https://spcl.inf.ethz.ch/Publications/.pdf/poke2017allconcur.pdf)
 * [DARE: High-Performance State Machine Replication on RDMA Networks](https://spcl.inf.ethz.ch/Research/Parallel_Programming/DARE/dare-TR.pdf)
@@ -149,7 +150,6 @@ Weaker consistency models
   * Popular benchmarking tool for key-values stores
   * Actively maintained [open source project](https://github.com/brianfrankcooper/YCSB/wiki) with support for various data stores
 
-
 Failures & Bugs
 * [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
 * [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
@@ -179,7 +179,14 @@ Quorum systems
 * [The virtue of dependent failures in multi-site systems](https://dl.acm.org/citation.cfm?id=1973401)
 * [Crumbling Walls: A Class of Practical and Efficient Quorum Systems](https://link.springer.com/article/10.1007/s004460050027)
 
-### Blogroll
+Reading lists
+* [Testing Distributed Systems by Andrey Satarin](https://asatarin.github.io/testing-distributed-systems/)
+* [An introduction to distributed systems by Kyle Kingsbury](https://github.com/aphyr/distsys-class)
+
+### Future reading list
+The following lists contain places to watch for new writings in the field of distributed consensus.
+
+Blogroll
 * [Jepsen by Kyle Kingsbury](https://jepsen.io)
 * [Aphyr by Kyle Kingsbury](https://aphyr.com/posts)
 * [The Paper Trail](https://www.the-paper-trail.org)
@@ -195,6 +202,47 @@ Quorum systems
 * [Hacking, Distributed by Emin Gün Sirer](http://hackingdistributed.com)
 * [All Things Distributed by Werner Vogels](https://www.allthingsdistributed.com)
 
-### Reading lists
-* [Testing Distributed Systems by Andrey Satarin](https://asatarin.github.io/testing-distributed-systems/)
-* [An introduction to distributed systems by Kyle Kingsbury](https://github.com/aphyr/distsys-class)
+Academic conferences & symposiums
+* [ACM Symposium on Principles of Distributed Computing (PODC)](http://www.podc.org)
+* [IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)](http://2019.dsn.org)
+* [IEEE International Conference on Distributed Computing Systems (ICDCS)](https://theory.utdallas.edu/ICDCS2019/)
+* [International Conference on Principles of Distributed Systems (OPODIS)](https://opodis2019.unine.ch)
+* [International Symposium on Distributed Computing (DISC)](http://www.disc-conference.org/wp/disc2019/)
+* [International Symposium on Reliable Distributed Systems (SRDS)](https://srds2019.projet.liris.cnrs.fr)
+* [ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)](https://spaa.acm.org/2019/)
+* [USENIX Symposium on Networked Systems Design and Implementation (NSDI)](https://www.usenix.org/conference/nsdi20)
+* [USENIX Symposium on Operating Systems Design and Implementation (OSDI)](https://www.usenix.org/conference/osdi18) - Biennial evens
+* [ACM Symposium on Operating Systems Principles (SOSP)](https://sosp19.rcs.uwaterloo.ca) - Biennial odds
+* [USENIX Annual Technical Conference (ATC)](https://www.usenix.org/conference/atc19)
+* [European Conference on Computer Systems (EuroSys)](https://2019.eurosys.org)
+* [ACM SIGMOD/PODS Conference](https://sigmod2019.org)
+* [ACM SIGMETRICS / IFIP Performance](https://www.sigmetrics.org/sigmetrics2019/)
+* [ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM)](http://sigcomm.org/events/sigcomm-conference)
+* [USENIX Conference on File and Storage Technologies (FAST)](https://www.usenix.org/conference/fast20)
+* [ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)](https://pldi19.sigplan.org)
+* [International Conference on Very Large Data Bases (VLDB)](http://vldb.org/2019/)
+* [ACM Symposium on Cloud Computing (SoCC)](https://acmsocc.github.io/2019/)
+* [ACM Symposium on Theory of Computing (STOC)](http://acm-stoc.org/stoc2019/)
+
+Workshops
+* [Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC)](https://novasys.di.fct.unl.pt/conferences/papoc19/)
+* [ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS)](http://ladisworkshop.org)
+* [USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage)](https://www.usenix.org/conference/hotstorage19)
+* [Workshop on Hot Topics in Operating Systems (HotOS)](https://www.sigops.org/2018/hotos2019/)
+* [ACM Workshop on Hot Topics in Networks (HotNets)](https://conferences.sigcomm.org/hotnets/2019/)
+* [USENIX Workshop on Hot Topics in Cloud Computing (HotCloud)](https://www.usenix.org/conference/hotcloud19)
+* [USENIX Workshop on Hot Topics in Edge Computing (HotEdge)](https://www.usenix.org/conference/hotedge19)
+
+Journals & Magazines
+* [ACM Transactions on Computer Systems (TOCS)](https://tocs.acm.org)
+* [Journal of the ACM (JACM)](https://jacm.acm.org)
+* [Communications of the ACM (CACM)](https://cacm.acm.org)
+* [SIGOPS Operating Systems Review (OSR)](https://www.sigops.org/osr.html)
+* [ACM Computing Surveys (CSUR)](https://csur.acm.org)
+* [ACM Transactions on Database Systems (TODS)](https://tods.acm.org)
+* [ACM Queue](https://queue.acm.org)
+* [ACM SIGACT News](https://dl.acm.org/citation.cfm?id=J697)
+* [IEEE Transactions on Dependable and Secure Computing (TDSC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)
+* [IEEE Transactions on Parallel and Distributed Systems (TPDS)](https://www.computer.org/csdl/journal/td)
+* [IEEE Transactions on Computers (TC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)
+* [IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)
