@@ -71,6 +71,7 @@ Implementing consensus for geo-distributed systems
 * [There Is More Consensus in Egalitarian Parliaments](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)
 * [DPaxos: Managing Data Closer to Users for Low-Latency and Mobile Applications](https://nawab.me/Uploads/Nawab_DPaxos_SIGMOD2018.pdf)
 * [SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines](https://www.microsoft.com/en-us/research/publication/sdpaxos-building-efficient-semi-decentralized-geo-replicated-state-machines/)
+* [FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases](https://cse.buffalo.edu/tech-reports/2018-02.pdf)
 * [Mencius: Building Efficient Replicated State Machines for WANs](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao.pdf)
 * [Geo-replicated storage with scalable deferred update replication](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.724.1706&rep=rep1&type=pdf)
 * [Multileader WAN Paxos: Ruling the Archipelago with Fast Consensus](https://cse.buffalo.edu/tech-reports/2017-01.pdf)
@@ -79,6 +80,7 @@ Implementing consensus for geo-distributed systems
 * [CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)
 * [Modelling Paxos performance in wide area](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
 * [Low-Latency Multi-Datacenter Databases using Replicated Commit](http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf)
+* [FaunaDB: An Architectural Overview](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)
 
 Distributed consensus in production
 * [Paxos Made Live - An Engineering Perspective](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)
@@ -88,6 +90,8 @@ Distributed consensus in production
 * [ZooKeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
 * [PaxosStore: High-availability Storage Made Practical in WeChat](http://www.vldb.org/pvldb/vol10/p1730-lin.pdf)
 * [Windows Azure Storage: a highly available cloud storage service with strong consistency](https://dl.acm.org/citation.cfm?id=2043571)
+* [Distributed Coordination Engine (DConE)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
+* [Bizur: A Key-value Consensus Algorithm for Scalable File-systems](https://arxiv.org/pdf/1702.04242.pdf)
 
 Implementations of consensus
 * [Replication and fault-tolerance in the ISIS system](https://ecommons.cornell.edu/handle/1813/6508)
@@ -118,6 +122,7 @@ Implementations of consensus
   * Weakly consistent key-val store with support for linearizability as requested
   * Useful related blog post [Lessons learned from TAPIR(s)](https://irenezhang.net/blog/2015/04/02/tapir.html)
   * geo-distributed performance is evaluated
+* [Commodifying Replicated State Machines with OpenReplica](https://ecommons.cornell.edu/handle/1813/29009)
 
 
 ### Papers on related topics
