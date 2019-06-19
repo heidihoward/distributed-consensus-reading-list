@@ -18,6 +18,7 @@ Surveys, tutorials & evaluations of consensus algorithms
 * [Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)
 * [The ABCD’s of Paxos](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)
 * [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)
+  * describes single-degree Paxos as well as Multi-Paxos from SMR
 * [Revisiting the PAXOS algorithm](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)
 * [Total order broadcast and multicast algorithms: Taxonomy and survey](https://dl.acm.org/citation.cfm?id=1041682)
 * [The Performance of Paxos in the Cloud](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)
@@ -50,6 +51,9 @@ Algorithms for distributed consensus
 * [Active Disk Paxos with infinitely many processes](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)
 * [CASPaxos: Replicated State Machines without logs](https://arxiv.org/pdf/1802.07000.pdf)
 * [Multicoordinated Paxos](https://dl.acm.org/citation.cfm?id=1281150)
+* [Paxos Quorum Leases: Fast Reads Without Sacrificing Writes](https://www.cs.cmu.edu/~dga/papers/leases-socc2014.pdf)
+  * extends the idea of master read leases to allow the master to promise to use a specified subset of acceptors in every majority quorum. Acceptors in this quorum can then serve reads locally.
+  * similar to master read leases, it relies on clock synchrony.
 
 Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * [Paxos Made Switch-y](https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf)
@@ -86,8 +90,15 @@ Distributed consensus in production
 * [Paxos Made Live - An Engineering Perspective](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)
 * [The Chubby lock service for loosely-coupled distributed systems](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf)
 * [Megastore: Providing Scalable, Highly Available Storage for Interactive Services](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf)
+  * seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for i-1  
+  * uses SMR with witnesses, replicas with participate in log replication but do not run a state machine and read-only replicas which only run a state machine.
 * [Zab: High-performance broadcast for primary-backup systems](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf)
 * [ZooKeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
+  * Widely utilized Apache licensed open source project written in Java [[project website]](https://zookeeper.apache.org)
+  * Architecture is similar to Google's Chubby but unlike Chubby is described in detail and open source
+  * Writes are linearizable, reads may be stale unless sync is called first
+  * Clients may have multiple outstanding requests, they will be handled FIFO
+  * Uses primary-backup replication instead of state machine replication
 * [PaxosStore: High-availability Storage Made Practical in WeChat](http://www.vldb.org/pvldb/vol10/p1730-lin.pdf)
 * [Windows Azure Storage: a highly available cloud storage service with strong consistency](https://dl.acm.org/citation.cfm?id=2043571)
 * [Distributed Coordination Engine (DConE)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
@@ -98,7 +109,12 @@ Implementations of consensus
 * [The ISIS project: real experience with a fault tolerant programming system](https://dl.acm.org/citation.cfm?id=122133)
 * [In Search of an Understandable Consensus Algorithm (Extended Version)](https://raft.github.io/raft.pdf)
   * aka the RAFT consensus paper
+  * algorithm implemented by [etcd](https://etcd.io)
+    * open sourced and widely utilized including by [kubernetes](https://kubernetes.io)
+    * written in golang
+  * implemented by [CockroachDB](https://www.cockroachlabs.com/docs/stable/)
 * [Consensus: Bridging Theory and Practice](https://github.com/ongardie/dissertation)
+  * PhD thesis describing RAFT consensus in more detail
 * [S-Paxos: Offloading the Leader for High Throughput State Machine Replication](https://infoscience.epfl.ch/record/179912/files/2012_SPaxos-CameraReady.pdf)
 * [Optimizing Paxos with batching and pipelining](https://infoscience.epfl.ch/record/189440/files/TCS.pdf)
 * [Paxos for System Builders: An Overview](http://www.cnds.jhu.edu/pub/papers/psb_ladis_08.pdf)
@@ -142,6 +158,9 @@ Weaker consistency models
 * [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 * [Spanner: Google’s Globally-Distributed Database](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+  * Provides linearizability but it assumes a bounded clock drift
+  * Google implement this using Truetime, GPS and atomic clocks in their data centers instead of NTP
+  * Closed source but now available as a cloud service, [Cloud Spanner](https://cloud.google.com/spanner/)
 * [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
   * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
 * [Spanner, TrueTime & The CAP Theorem](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)
@@ -154,6 +173,8 @@ Weaker consistency models
 * [Benchmarking Cloud Serving Systems with YCSB](https://www2.cs.duke.edu/courses/fall13/compsci590.4/838-CloudPapers/ycsb.pdf)
   * Popular benchmarking tool for key-values stores
   * Actively maintained [open source project](https://github.com/brianfrankcooper/YCSB/wiki) with support for various data stores
+* [Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)
+  * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases
 
 Failures & Bugs
 * [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
