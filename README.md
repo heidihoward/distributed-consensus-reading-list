@@ -228,6 +228,7 @@ Blogroll
 * [The Morning Paper by Adrian Colyer](https://blog.acolyer.org/about/)
 * [Hacking, Distributed by Emin Gün Sirer](http://hackingdistributed.com)
 * [All Things Distributed by Werner Vogels](https://www.allthingsdistributed.com)
+* [Decentralized Thoughts by Ittai Abraham](https://ittaiab.github.io/)
 
 Academic conferences & symposiums
 * [ACM Symposium on Principles of Distributed Computing (PODC)](http://www.podc.org)
