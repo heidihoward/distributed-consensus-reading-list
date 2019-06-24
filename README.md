@@ -176,10 +176,11 @@ Weaker consistency models
 * [Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases
 
-Failures & Bugs
+Failures & bugs
 * [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
 * [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)
+* [Teaching Rigorous Distributed Systems With Efficient Model Checking](https://dl.acm.org/citation.cfm?id=3303947)
 
 Correctness of consensus algorithms
 * [IronFleet: Proving Practical Distributed Systems Correct](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
