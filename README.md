@@ -212,6 +212,7 @@ Quorum systems
 * [Crumbling Walls: A Class of Practical and Efficient Quorum Systems](https://link.springer.com/article/10.1007/s004460050027)
 
 Reading lists
+* [Awesome Consensus by Damian Gryski](https://github.com/dgryski/awesome-consensus)
 * [Testing Distributed Systems by Andrey Satarin](https://asatarin.github.io/testing-distributed-systems/)
 * [An introduction to distributed systems by Kyle Kingsbury](https://github.com/aphyr/distsys-class)
 
