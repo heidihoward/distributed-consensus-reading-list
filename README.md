@@ -13,7 +13,7 @@ Theoretical results relating to distributed consensus
 * [On the Minimal Synchronism Needed for Distributed Consensus](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)
 * [The implementation of reliable distributed multiprocess systems](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)
 
-Surveys, tutorials & evaluations of consensus algorithms
+Surveys & tutorials of consensus algorithms
 * [Classic Paxos vs. Fast Paxos: Caveat Emptor](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)
 * [Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)
 * [The ABCD’s of Paxos](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)
@@ -21,9 +21,7 @@ Surveys, tutorials & evaluations of consensus algorithms
   * describes single-degree Paxos as well as Multi-Paxos from SMR
 * [Revisiting the PAXOS algorithm](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)
 * [Total order broadcast and multicast algorithms: Taxonomy and survey](https://dl.acm.org/citation.cfm?id=1041682)
-* [The Performance of Paxos in the Cloud](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)
 * [How to Build a Highly Available System Using Consensus](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)
-* [Consensus in the Cloud: Paxos Systems Demystified](https://cse.buffalo.edu/tech-reports/2016-02.pdf)
 * [Paxos Made Moderately Complex](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)
 * [Tutorial Summary: Paxos Explained from Scratch](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)
 * [A Modular Approach to Fault-Tolerant Broadcasts and Related Problems](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)
@@ -140,6 +138,11 @@ Implementations of consensus
   * geo-distributed performance is evaluated
 * [Commodifying Replicated State Machines with OpenReplica](https://ecommons.cornell.edu/handle/1813/29009)
 
+Standalone evaluations of consensus algorithms
+* [The Performance of Paxos in the Cloud](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)
+* [Consensus in the Cloud: Paxos Systems Demystified](https://cse.buffalo.edu/tech-reports/2016-02.pdf)
+* [Spectrum: A Framework for Adapting Consensus Protocols](https://arxiv.org/abs/1902.05873)
+
 
 ### Papers on related topics
 
@@ -180,7 +183,9 @@ Failures & bugs
 * [The Network is Reliable: An informal survey of real-world communications failures](https://queue.acm.org/detail.cfm?id=2655736)
 * [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)
+* [Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)
 * [Teaching Rigorous Distributed Systems With Efficient Model Checking](https://dl.acm.org/citation.cfm?id=3303947)
+* [Lineage-driven Fault Injection](https://people.ucsc.edu/~palvaro/molly.pdf)
 
 Correctness of consensus algorithms
 * [IronFleet: Proving Practical Distributed Systems Correct](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
