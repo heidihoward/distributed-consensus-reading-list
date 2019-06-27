@@ -92,8 +92,9 @@ Distributed consensus in production
   * uses SMR with witnesses, replicas with participate in log replication but do not run a state machine and read-only replicas which only run a state machine.
 * Zab: High-performance broadcast for primary-backup systems [(paper)](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf)
 * ZooKeeper: Wait-free coordination for Internet-scale systems [(paper)](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
-  * Widely utilized Apache licensed open source project written in Java [[project website] [(paper)](https://zookeeper.apache.org)
-  * Architecture is similar to Google's Chubby but unlike Chubby is described in detail and open source
+  * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
+    * [Apache Kafka](https://kafka.apache.org) uses Zookeeper, as well as its own replication protocol, by described [here](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka/)
+  * Architecture is similar to Google's Chubby but unlike Chubby is described in detail and is open source
   * Writes are linearizable, reads may be stale unless sync is called first
   * Clients may have multiple outstanding requests, they will be handled FIFO
   * Uses primary-backup replication instead of state machine replication
@@ -107,10 +108,12 @@ Implementations of consensus
 * The ISIS project: real experience with a fault tolerant programming system [(paper)](https://dl.acm.org/citation.cfm?id=122133)
 * In Search of an Understandable Consensus Algorithm (Extended Version) [(paper)](https://raft.github.io/raft.pdf)
   * aka the RAFT consensus paper
-  * algorithm implemented by [etcd](https://etcd.io)
+  * implemented in [etcd](https://etcd.io)
     * open sourced and widely utilized including by [kubernetes](https://kubernetes.io)
     * written in golang
-  * implemented by [CockroachDB](https://www.cockroachlabs.com/docs/stable/)
+  * implemented in [CockroachDB](https://www.cockroachlabs.com/docs/stable/)
+  * implemented in [Consul](https://www.consul.io) from [HashiCorp](https://www.hashicorp.com)
+  * implement in [Atomix](https://atomix.io)
 * Consensus: Bridging Theory and Practice [(paper)](https://github.com/ongardie/dissertation)
   * PhD thesis describing RAFT consensus in more detail
 * S-Paxos: Offloading the Leader for High Throughput State Machine Replication [(paper)](https://infoscience.epfl.ch/record/179912/files/2012_SPaxos-CameraReady.pdf)
@@ -165,7 +168,7 @@ Weaker consistency models
   * Google implement this using Truetime, GPS and atomic clocks in their data centers instead of NTP
   * Closed source but now available as a cloud service, [Cloud Spanner [(paper)](https://cloud.google.com/spanner/)
 * Cassandra - A Decentralized Structured Storage System [(paper)](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
-  * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions [(paper)](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
+  * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
 * Spanner, TrueTime & The CAP Theorem [(paper)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)
 * Towards Robust Distributed Systems [(paper)](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)
   * PODC keynote in which Eric Brewer proposed the now infamous CAP theorem
