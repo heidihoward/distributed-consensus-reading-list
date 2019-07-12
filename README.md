@@ -66,6 +66,10 @@ Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * Just say NO to Paxos Overhead: Replacing Consensus with Network Ordering [(paper)](https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf)
 * AllConcur: Leaderless Concurrent Atomic Broadcast [(paper)](https://spcl.inf.ethz.ch/Publications/.pdf/poke2017allconcur.pdf)
 * DARE: High-Performance State Machine Replication on RDMA Networks [(paper)](https://spcl.inf.ethz.ch/Research/Parallel_Programming/DARE/dare-TR.pdf)
+* P4xos: Consensus as a Network Service [(paper)](http://web.inf.usi.ch/file/pub/105/p4xos.pdf)
+  * P4xos is also evaluated in "The Case For In-Network Computing On Demand" [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/eurosys2019.pdf)
+  * Code dump is available on [github](https://github.com/P4xos/P4xos)
+* Partitioned Paxos via the Network Data Plane [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)
 
 Implementing consensus for geo-distributed systems
 * MDCC: Multi-Data Center Consistency [(paper)](http://mdcc.cs.berkeley.edu/mdcc.pdf)
