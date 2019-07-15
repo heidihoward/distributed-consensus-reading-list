@@ -281,25 +281,25 @@ The following lists contain places to watch for new writings in the field of dis
 * ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
 * ACM Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/)]
 
-### Workshops
-* Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [(link)](https://novasys.di.fct.unl.pt/conferences/papoc19/)
-* ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS) [(link)](http://ladisworkshop.org)
-* USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage) [(link)](https://www.usenix.org/conference/hotstorage19)
-* Workshop on Hot Topics in Operating Systems (HotOS) [(link)](https://www.sigops.org/2018/hotos2019/)
-* ACM Workshop on Hot Topics in Networks (HotNets) [(link)](https://conferences.sigcomm.org/hotnets/2019/)
-* USENIX Workshop on Hot Topics in Cloud Computing (HotCloud) [(link)](https://www.usenix.org/conference/hotcloud19)
-* USENIX Workshop on Hot Topics in Edge Computing (HotEdge) [(link)](https://www.usenix.org/conference/hotedge19)
+### Academic Workshops
+* Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [[2019](https://novasys.di.fct.unl.pt/conferences/papoc19/)]
+* ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS) [[website](http://ladisworkshop.org)]
+* USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage) [[2019](https://www.usenix.org/conference/hotstorage19)]
+* Workshop on Hot Topics in Operating Systems (HotOS) [[2019](https://www.sigops.org/2018/hotos2019/)]
+* ACM Workshop on Hot Topics in Networks (HotNets) [[2019](https://conferences.sigcomm.org/hotnets/2019/)]
+* USENIX Workshop on Hot Topics in Cloud Computing (HotCloud) [[2019](https://www.usenix.org/conference/hotcloud19)]
+* USENIX Workshop on Hot Topics in Edge Computing (HotEdge) [[2019](https://www.usenix.org/conference/hotedge19)]
 
-### Journals & Magazines
-* ACM Transactions on Computer Systems (TOCS) [(link)](https://tocs.acm.org)
-* Journal of the ACM (JACM) [(link)](https://jacm.acm.org)
-* Communications of the ACM (CACM) [(link)](https://cacm.acm.org)
-* SIGOPS Operating Systems Review (OSR) [(link)](https://www.sigops.org/osr.html)
-* ACM Computing Surveys (CSUR) [(link)](https://csur.acm.org)
-* ACM Transactions on Database Systems (TODS) [(link)](https://tods.acm.org)
-* ACM Queue [(link)](https://queue.acm.org)
-* ACM SIGACT News [(link)](https://dl.acm.org/citation.cfm?id=J697)
-* IEEE Transactions on Dependable and Secure Computing (TDSC) [(link)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)
-* IEEE Transactions on Parallel and Distributed Systems (TPDS) [(link)](https://www.computer.org/csdl/journal/td)
-* IEEE Transactions on Computers (TC) [(link)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)
-* IEEE Transactions on Software Engineering [[(link)]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)
+### Academic Journals & Magazines
+* ACM Transactions on Computer Systems (TOCS) [[website](https://tocs.acm.org)]
+* Journal of the ACM (JACM) [[website](https://jacm.acm.org)]
+* Communications of the ACM (CACM) [[website](https://cacm.acm.org)]
+* SIGOPS Operating Systems Review (OSR) [[website](https://www.sigops.org/osr.html)]
+* ACM Computing Surveys (CSUR) [[website](https://csur.acm.org)]
+* ACM Transactions on Database Systems (TODS) [[website](https://tods.acm.org)]
+* ACM Queue [[website](https://queue.acm.org)]
+* ACM SIGACT News [[website](https://dl.acm.org/citation.cfm?id=J697)]
+* IEEE Transactions on Dependable and Secure Computing (TDSC) [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)]
+* IEEE Transactions on Parallel and Distributed Systems (TPDS) [[website](https://www.computer.org/csdl/journal/td)]
+* IEEE Transactions on Computers (TC) [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)]
+* IEEE Transactions on Software Engineering [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)]
