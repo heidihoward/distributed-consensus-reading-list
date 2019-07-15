@@ -32,9 +32,9 @@ This section lists surveys, tutorials and systemisation of knowledge papers cove
 This section lists papers describing algorithms for distributed consensus.
 * Reliable communication in the presence of failures, TOCS 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7478),[pdf](https://pdos.csail.mit.edu/archive/6.824-2006/papers/isis87.pdf)]
 * Consensus in the Presence of Partial Synchrony, JACM 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=42283),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)]
-* Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems, PODC 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=62549),[pdf](http://pmg.csail.mit.edu/papers/vr.pdf)]
+* Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems, PODC 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=62549),[pdf](http://pmg.csail.mit.edu/papers/vr.pdf),[tmp](https://blog.acolyer.org/2015/03/02/viewstamped-replication-a-new-primary-copy-method-to-support-highly-available-distributed-systems/)]
 * Efficient Message Ordering in Dynamic Networks, PODC 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=248062),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=A396429A7FB80EE184CC3AFC78347A86?doi=10.1.1.27.6092&rep=rep1&type=pdf)]
-* The Part-Time Parliament, TOCS 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279229),[pdf](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)]
+* The Part-Time Parliament, TOCS 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279229),[pdf](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf),[tmp](https://blog.acolyer.org/2015/03/03/the-part-time-parliament/)]
 * Disk Paxos, DISC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=675967),[pdf](https://lamport.azurewebsites.net/pubs/disk-paxos.pdf)]
 * Specifying and Using a Partitionable Group Communication Service, TOCS 2001 [[acmdl](https://dl.acm.org/citation.cfm?id=377776&dl=ACM&coll=DL),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)]
 * Active Disk Paxos with infinitely many processes, PODC 2002 [[acmdl](https://dl.acm.org/citation.cfm?id=1146169),[pdf](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)]
@@ -47,7 +47,7 @@ This section lists papers describing algorithms for distributed consensus.
 * Vertical Paxos and Primary-Backup Replication, PODC 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1582783),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)]
 * Reconfiguring a State Machine, SIGACT News 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1753191),[pdf](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)]
 * Dynamic atomic storage without consensus, JACM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1944348),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/dynastore-podc2009.pdf)]
-* Viewstamped Replication Revisited, Tech Report 2012 [[pdf](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)]
+* Viewstamped Replication Revisited, Tech Report 2012 [[pdf](http://pmg.csail.mit.edu/papers/vr-revisited.pdf),[tmp](https://blog.acolyer.org/2015/03/06/viewstamped-replication-revisited/)]
 * On Collision-fast Atomic Broadcast, AINA 2014 [[pdf](https://infoscience.epfl.ch/record/100857/files/CFAbcastTR.pdf)]
 * Paxos Quorum Leases: Fast Reads Without Sacrificing Writes, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2671001),[pdf](https://www.cs.cmu.edu/~dga/papers/leases-socc2014.pdf)]
   * extends the idea of master read leases to allow the master to promise to use a specified subset of acceptors in every majority quorum. Acceptors in this quorum can then serve reads locally.
@@ -99,14 +99,14 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 
 ### Distributed consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
-* The Chubby lock service for loosely-coupled distributed systems, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298487),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf)]
+* The Chubby lock service for loosely-coupled distributed systems, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298487),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf),[tmp](https://blog.acolyer.org/2015/02/13/the-chubby-lock-service-for-loosely-coupled-distributed-systems/)]
 * Paxos Made Live - An Engineering Perspective, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281103),[pdf](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf),[tmp](https://blog.acolyer.org/2015/03/05/paxos-made-live/)]
-* ZooKeeper: Wait-free coordination for Internet-scale systems, ATC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1855840.1855851),[pdf](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)]
+* ZooKeeper: Wait-free coordination for Internet-scale systems, ATC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1855840.1855851),[pdf](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf),[tmp](https://blog.acolyer.org/2015/01/27/zookeeper-wait-free-coordination-for-internet-scale-systems/)]
 * Windows Azure Storage: a highly available cloud storage service with strong consistency, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043571),[pdf](https://webcourse.cs.technion.ac.il/236802/Spring2018/ho/WCFiles/Azure_Cloud_Storage.pdf)]
 * Megastore: Providing Scalable, Highly Available Storage for Interactive Services, CIDR 2011 [[pdf](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf)]
   * seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for i-1  
   * uses SMR with witnesses, replicas which participate in log replication but do not run a state machine and read-only replicas which only run a state machine.
-* Zab: High-performance broadcast for primary-backup systems, DSN 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2056409),[pdf](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf)]
+* Zab: High-performance broadcast for primary-backup systems, DSN 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2056409),[pdf](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf),[tmp](https://blog.acolyer.org/2015/03/09/zab-high-performance-broadcast-for-primary-backup-systems/)]
   * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
     * [Apache Kafka](https://kafka.apache.org) uses Zookeeper, as well as its own replication protocol, by described [here](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka/)
   * Architecture is similar to Google's Chubby but unlike Chubby is described in detail and is open source
@@ -136,7 +136,7 @@ This section lists papers describing implementations of distributed consensus al
 * Tango: Distributed data structures over a shared log, SOSP 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2522732),[pdf](http://www.cs.cornell.edu/~taozou/sosp13/tangososp.pdf)]
 * CORFU: A Distributed Shared Log, TOCS 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2535930),[pdf](http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf),[tmp](https://blog.acolyer.org/2017/05/02/corfu-a-distributed-shared-log/)]
 * Scalable State-Machine Replication, DSN 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2672426),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)]
-* In Search of an Understandable Consensus Algorithm (Extended Version), ATC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2643666),[pdf](https://raft.github.io/raft.pdf)]
+* In Search of an Understandable Consensus Algorithm (Extended Version), ATC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2643666),[pdf](https://raft.github.io/raft.pdf),[tmp](https://blog.acolyer.org/2015/03/12/in-search-of-an-understandable-consensus-algorithm/)]
   * aka the RAFT consensus paper
   * implemented in [etcd](https://etcd.io)
     * open sourced and widely utilized including by [kubernetes](https://kubernetes.io)
