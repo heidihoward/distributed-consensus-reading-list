@@ -261,7 +261,7 @@ The following lists contain places to watch for new writings in the field of dis
 
 ### Academic conferences & symposiums
 * ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
-* IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org)]
+* IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
 * IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/)]
 * International Conference on Principles of Distributed Systems (OPODIS) [[2019](https://opodis2019.unine.ch)]
 * International Symposium on Distributed Computing (DISC) [[2019](http://www.disc-conference.org/wp/disc2019/)]
