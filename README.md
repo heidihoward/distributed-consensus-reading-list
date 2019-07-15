@@ -250,22 +250,23 @@ The following lists contain places to watch for new writings in the field of dis
 * [Aphyr](https://aphyr.com/posts) by Kyle Kingsbury
 * [The Paper Trail](https://www.the-paper-trail.org)
 * [Brave new geek](https://bravenewgeek.com/archive/) by Tyler Treat
-* [Highly Available, Seldom Consistent](http://www.bailis.org/blog/) by Peter Bailis
+* [Highly Available, Seldom Consistent](http://www.bailis.org/blog/) by [Peter Bailis](https://twitter.com/pbailis)
 * [Christopher Meiklejohn](http://christophermeiklejohn.com)
 * [Denis Rystsov](http://rystsov.info)
-* [Metadata](http://muratbuffalo.blogspot.com) by Murat Demirbas
+* [Metadata](http://muratbuffalo.blogspot.com) by [Murat Demirbas](https://twitter.com/muratdemirbas)
 * [Slash dev slash null](https://simbo1905.blog)
 * [David Turner](https://davecturner.github.io)
 * [Aleksey Charapko](http://charap.co)
-* [The Morning Paper](https://blog.acolyer.org/about/) by Adrian Colyer
+* [The Morning Paper](https://blog.acolyer.org/about/) by [Adrian Colyer](https://twitter.com/adriancolyer)
 * [Hacking, Distributed](http://hackingdistributed.com) by Emin Gün Sirer
-* [All Things Distributed](https://www.allthingsdistributed.com) by Werner Vogels
-* [Decentralized Thoughts](https://ittaiab.github.io/) by Ittai Abraham
+* [All Things Distributed](https://www.allthingsdistributed.com) by [Werner Vogels](https://twitter.com/Werner)
+* [Decentralized Thoughts](https://ittaiab.github.io/) by [Ittai Abraham](https://twitter.com/ittaia?lang=en)
 
 ### Reading lists
-* [Awesome Consensus](https://github.com/dgryski/awesome-consensus) by Damian Gryski
-* [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/) by Andrey Satarin
+* [Awesome Consensus](https://github.com/dgryski/awesome-consensus) by [Damian Gryski](https://twitter.com/dgryski)
+* [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/) by [Andrey Satarin](https://twitter.com/asatarin)
 * [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
+* [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/) by [Henry Robinson](https://twitter.com/henryr)
 
 ### Academic conferences & symposiums
 * ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
