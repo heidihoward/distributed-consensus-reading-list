@@ -2,15 +2,15 @@ This file contains a list of academic papers (and other works) in the field of d
 
 ### Theoretical results
 This section lists theoretical results relating to distributed consensus.
-* Impossibility of Distributed Consensus with One Faulty Process [(paper)](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
+* Impossibility of Distributed Consensus with One Faulty Process [[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
   * aka the FLP result
-* Unreliable Failure Detectors for Reliable Distributed Systems [(paper)](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)
-* Time, Clocks, and the Ordering of Events in a Distributed System [(paper)](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
-* The Weakest Failure Detector for Solving Consensus [(paper)](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)
-* Omega Meets Paxos: Leader Election and Stability without Eventual Timely Links [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/paxos-leader.pdf)
-* Lower Bounds for Asynchronous Consensus [(paper)](https://lamport.azurewebsites.net/pubs/lower-bound.pdf)
-* On the Minimal Synchronism Needed for Distributed Consensus [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)
-* The implementation of reliable distributed multiprocess systems [(paper)](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)
+* Unreliable Failure Detectors for Reliable Distributed Systems [[pdf](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)]
+* Time, Clocks, and the Ordering of Events in a Distributed System [[pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)]
+* The Weakest Failure Detector for Solving Consensus [[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)]
+* Omega Meets Paxos: Leader Election and Stability without Eventual Timely Links [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/paxos-leader.pdf)]
+* Lower Bounds for Asynchronous Consensus [[pdf](https://lamport.azurewebsites.net/pubs/lower-bound.pdf)]
+* On the Minimal Synchronism Needed for Distributed Consensus [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)]
+* The implementation of reliable distributed multiprocess systems [[pdf](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)]
 
 ### Surveys
 This section lists surveys, tutorials and systemisation of knowledge papers covering distributed consensus algorithms.
