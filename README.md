@@ -178,7 +178,7 @@ This section lists papers which discuss alternative consistency models to Linear
 * Spanner: Google’s Globally-Distributed Database [[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)]
   * Provides linearizability but it assumes a bounded clock drift
   * Google implement this using Truetime, GPS and atomic clocks in their data centers instead of NTP
-  * Closed source but now available as a cloud service, [Cloud Spanner [[pdf](https://cloud.google.com/spanner/)
+  * Closed source but now available as a cloud service, [Cloud Spanner](https://cloud.google.com/spanner/)
 * Cassandra - A Decentralized Structured Storage System [[pdf](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)]
   * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
 * Spanner, TrueTime & The CAP Theorem [[pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)]
