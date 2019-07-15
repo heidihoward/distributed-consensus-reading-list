@@ -214,20 +214,20 @@ This section lists papers on proving or testing the correctness of consensus alg
 
 ### Quorum systems
 This section lists papers on quorum systems.
-* A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases [[acmdl](https://dl.acm.org/citation.cfm?id=320076),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/p180-thomas.pdf)]
-* Weighted Voting for Replicated Data [[acmdl](https://dl.acm.org/citation.cfm?id=806583),[pdf](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)]
-* An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion [[acmdl](https://dl.acm.org/citation.cfm?doid=103727.103728),[pdf](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)]
-* The Generalized Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data [[acmdl](https://dl.acm.org/citation.cfm?id=146935),[pdf](https://www.cs.rice.edu/~alc/old/comp520/papers/generalized-tree.pdf)]
-* The Reliability of Voting Mechanisms [[acmdl](https://dl.acm.org/citation.cfm?id=32406),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)]
-* The grid protocol: a high performance scheme for maintaining replicated data [[acmdl](https://dl.acm.org/citation.cfm?id=627546),[pdf](https://ieeexplore.ieee.org/abstract/document/180609)]
-* How to Assign Votes in a Distributed System [[acmdl](https://dl.acm.org/citation.cfm?id=4223),[pdf](https://www.cs.purdue.edu/homes/bb/cs542-17Spr/How%20to%20assign%20Votes-JACM-garcia-molina.pdf)]
-* Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data [[acmdl](https://dl.acm.org/citation.cfm?id=126154),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83661)]
-* The Load, Capacity, and Availability of Quorum Systems [[acmdl](https://dl.acm.org/citation.cfm?id=279082.279096),[pdf](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232)]
-* A √N algorithm for mutual exclusion in decentralized systems [[acmdl](https://dl.acm.org/citation.cfm?id=214445),[pdf](https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf)]
-* The Availability of Quorum Systems [[acmdl](https://dl.acm.org/citation.cfm?id=903705),[pdf](https://pdfs.semanticscholar.org/ab7d/30f7a808173bc305d679262f9838869cb681.pdf)]
-* Coterie Availability in Sites [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
-* The virtue of dependent failures in multi-site systems [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
-* Crumbling Walls: A Class of Practical and Efficient Quorum Systems [[acmdl](https://dl.acm.org/citation.cfm?id=224978),[pdf](https://link.springer.com/article/10.1007/s004460050027)]
+* A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases, TODS 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=320076),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/p180-thomas.pdf)]
+* Weighted Voting for Replicated Data, SOSP 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=806583),[pdf](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)]
+* An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion, TOCS 1991 [[acmdl](https://dl.acm.org/citation.cfm?doid=103727.103728),[pdf](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)]
+* The Generalized Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data, TODS 1992 [[acmdl](https://dl.acm.org/citation.cfm?id=146935),[pdf](https://www.cs.rice.edu/~alc/old/comp520/papers/generalized-tree.pdf)]
+* The Reliability of Voting Mechanisms, ToC 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=32406),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)]
+* The grid protocol: a high performance scheme for maintaining replicated data, TKDE 1992 [[acmdl](https://dl.acm.org/citation.cfm?id=627546),[pdf](https://ieeexplore.ieee.org/abstract/document/180609)]
+* How to Assign Votes in a Distributed System, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=4223),[pdf](https://www.cs.purdue.edu/homes/bb/cs542-17Spr/How%20to%20assign%20Votes-JACM-garcia-molina.pdf)]
+* Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data, ToC 1991 [[acmdl](https://dl.acm.org/citation.cfm?id=126154),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83661)]
+* The Load, Capacity, and Availability of Quorum Systems, SIAM 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279082.279096),[pdf](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232)]
+* A √N algorithm for mutual exclusion in decentralized systems, TOCS 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214445),[pdf](https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf)]
+* The Availability of Quorum Systems, Tech report 1993 [[acmdl](https://dl.acm.org/citation.cfm?id=903705),[pdf](https://pdfs.semanticscholar.org/ab7d/30f7a808173bc305d679262f9838869cb681.pdf)]
+* Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
+* The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
+* Crumbling Walls: A Class of Practical and Efficient Quorum Systems, PODC 1995 [[acmdl](https://dl.acm.org/citation.cfm?id=224978),[pdf](https://link.springer.com/article/10.1007/s004460050027)]
 
 ### Books
 The following books include material relating to distributed consensus.
