@@ -250,7 +250,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [David Turner](https://davecturner.github.io)
 * [Aleksey Charapko](http://charap.co)
 * [The Morning Paper](https://blog.acolyer.org/about/) by Adrian Colyer
-* [Hacking, Distributed]((http://hackingdistributed.com)) by Emin Gün Sirer
+* [Hacking, Distributed](http://hackingdistributed.com) by Emin Gün Sirer
 * [All Things Distributed](https://www.allthingsdistributed.com) by Werner Vogels
 * [Decentralized Thoughts](https://ittaiab.github.io/) by Ittai Abraham
 
