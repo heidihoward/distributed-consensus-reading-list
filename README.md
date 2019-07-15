@@ -267,15 +267,17 @@ The following lists contain places to watch for new writings in the field of dis
 * International Symposium on Distributed Computing (DISC) [[2019](http://www.disc-conference.org/wp/disc2019/)]
 * International Symposium on Reliable Distributed Systems (SRDS) [[2019](https://srds2019.projet.liris.cnrs.fr)]
 * ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) [[2019](https://spaa.acm.org/2019/)]
-* USENIX Symposium on Networked Systems Design and Implementation (NSDI) [[2020](https://www.usenix.org/conference/nsdi20)]
-* USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[2018](https://www.usenix.org/conference/osdi18)] - Biennial evens
-* ACM Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)] - Biennial odds
+* USENIX Symposium on Networked Systems Design and Implementation (NSDI) [[2019](https://www.usenix.org/conference/nsdi19),[2020](https://www.usenix.org/conference/nsdi20)]
+* USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18)]
+  * Biennial evens only
+* ACM Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)]
+  * Biennial odds only
 * USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19)]
 * European Conference on Computer Systems (EuroSys) [[2019](https://2019.eurosys.org)]
 * ACM SIGMOD/PODS Conference [[2019](https://sigmod2019.org)]
 * ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/)]
 * ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference)]
-* USENIX Conference on File and Storage Technologies (FAST) [[2020](https://www.usenix.org/conference/fast20)]
+* USENIX Conference on File and Storage Technologies (FAST) [[2019](https://www.usenix.org/conference/fast19),[2020](https://www.usenix.org/conference/fast20)]
 * ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org)]
 * International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/)]
 * ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
