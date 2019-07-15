@@ -238,26 +238,26 @@ This section lists papers on quorum systems.
 The following lists contain places to watch for new writings in the field of distributed consensus.
 
 ### Blogroll
-* Jepsen by Kyle Kingsbury [(link)](https://jepsen.io)
-* Aphyr by Kyle Kingsbury [(link)](https://aphyr.com/posts)
-* The Paper Trail [(link)](https://www.the-paper-trail.org)
-* Brave new geek by Tyler Treat [(link)](https://bravenewgeek.com/archive/)
-* Highly Available, Seldom Consistent by Peter Bailis [(link)](http://www.bailis.org/blog/)
-* Christopher Meiklejohn [(link)](http://christophermeiklejohn.com)
-* Denis Rystsov [(link)](http://rystsov.info)
-* Metadata by Murat Demirbas [(link)](http://muratbuffalo.blogspot.com)
-* Slash dev slash null [(link)](https://simbo1905.blog)
-* David Turner [(link)](https://davecturner.github.io)
-* Aleksey Charapko [(link)](http://charap.co)
-* The Morning Paper by Adrian Colyer [(link)](https://blog.acolyer.org/about/)
-* Hacking, Distributed by Emin Gün Sirer [(link)](http://hackingdistributed.com)
-* All Things Distributed by Werner Vogels [(link)](https://www.allthingsdistributed.com)
-* Decentralized Thoughts by Ittai Abraham [(link)](https://ittaiab.github.io/)
+* [Jepsen](https://jepsen.io) by Kyle Kingsbury
+* [Aphyr](https://aphyr.com/posts) by Kyle Kingsbury
+* [The Paper Trail](https://www.the-paper-trail.org)
+* [Brave new geek](https://bravenewgeek.com/archive/) by Tyler Treat
+* [Highly Available, Seldom Consistent](http://www.bailis.org/blog/) by Peter Bailis
+* [Christopher Meiklejohn](http://christophermeiklejohn.com)
+* [Denis Rystsov](http://rystsov.info)
+* [Metadata](http://muratbuffalo.blogspot.com) by Murat Demirbas
+* [Slash dev slash null](https://simbo1905.blog)
+* [David Turner](https://davecturner.github.io)
+* [Aleksey Charapko](http://charap.co)
+* [The Morning Paper](https://blog.acolyer.org/about/) by Adrian Colyer
+* [Hacking, Distributed]((http://hackingdistributed.com)) by Emin Gün Sirer
+* [All Things Distributed](https://www.allthingsdistributed.com) by Werner Vogels
+* [Decentralized Thoughts](https://ittaiab.github.io/) by Ittai Abraham
 
 ### Reading lists
-* Awesome Consensus by Damian Gryski [(link)](https://github.com/dgryski/awesome-consensus)
-* Testing Distributed Systems by Andrey Satarin [(link)](https://asatarin.github.io/testing-distributed-systems/)
-* An introduction to distributed systems by Kyle Kingsbury [(link)](https://github.com/aphyr/distsys-class)
+* [Awesome Consensus](https://github.com/dgryski/awesome-consensus) by Damian Gryski
+* [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/) by Andrey Satarin
+* [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
 
 ### Academic conferences & symposiums
 * ACM Symposium on Principles of Distributed Computing (PODC) [(link)](http://www.podc.org)
