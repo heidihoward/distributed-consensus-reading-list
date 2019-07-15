@@ -186,7 +186,11 @@ Weaker consistency models
 * Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency [(paper)](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases
 * Amazon Aurora: On Avoiding Distributed Consensus for I/Os, Commits, and Membership Changes [(acmdl)](https://dl.acm.org/citation.cfm?id=3183713.3196937)
-
+  * covered in [the morning paper](https://blog.acolyer.org/2019/03/27/amazon-aurora-on-avoiding-distributed-consensus-for-i-os-commits-and-membership-changes/)
+* Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases [(acmdl)](https://dl.acm.org/citation.cfm?id=3056101)
+  * covered in [the morning paper](https://blog.acolyer.org/2019/03/25/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases/)
+  * related blog on [all things distributed](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
+  
 Failures & bugs
 * The Network is Reliable: An informal survey of real-world communications failures [(paper)](https://queue.acm.org/detail.cfm?id=2655736)
 * Communication Costs in Real-world Networks [(paper)](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
