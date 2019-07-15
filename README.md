@@ -81,10 +81,11 @@ Implementing consensus for geo-distributed systems
 * Mencius: Building Efficient Replicated State Machines for WANs [(paper)](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao.pdf)
 * Geo-replicated storage with scalable deferred update replication [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.724.1706&rep=rep1&type=pdf)
 * Multileader WAN Paxos: Ruling the Archipelago with Fast Consensus [(paper)](https://cse.buffalo.edu/tech-reports/2017-01.pdf)
+* WPaxos: Wide Area Network Flexible Consensus [(paper)](https://arxiv.org/abs/1703.08905)
+  * Related blog post, [Modelling Paxos performance in wide area](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
 * Scalable Consistency in Scatter [(paper)](https://homes.cs.washington.edu/~tom/pubs/scatter.pdf)
 * GlobalFS: A Strongly Consistent Multi-Site File System [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7794339)
 * CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems [(paper)](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)
-* Modelling Paxos performance in wide area [(paper)](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
 * Low-Latency Multi-Datacenter Databases using Replicated Commit [(paper)](http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf)
 * FaunaDB: An Architectural Overview [(paper)](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)
 
@@ -149,7 +150,7 @@ Standalone evaluations of consensus algorithms
 * The Performance of Paxos in the Cloud [(paper)](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)
 * Consensus in the Cloud: Paxos Systems Demystified [(paper)](https://cse.buffalo.edu/tech-reports/2016-02.pdf)
 * Spectrum: A Framework for Adapting Consensus Protocols [(paper)](https://arxiv.org/abs/1902.05873)
-
+* Dissecting the Performance of Strongly-Consistent Replication Protocols [(acmdl)](https://dl.acm.org/citation.cfm?id=3319893)
 
 ### Papers on related topics
 
@@ -190,7 +191,7 @@ Weaker consistency models
 * Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases [(acmdl)](https://dl.acm.org/citation.cfm?id=3056101)
   * covered in [the morning paper](https://blog.acolyer.org/2019/03/25/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases/)
   * related blog on [all things distributed](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
-  
+
 Failures & bugs
 * The Network is Reliable: An informal survey of real-world communications failures [(paper)](https://queue.acm.org/detail.cfm?id=2655736)
 * Communication Costs in Real-world Networks [(paper)](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
