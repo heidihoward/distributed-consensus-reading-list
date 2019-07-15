@@ -260,7 +260,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
 
 ### Academic conferences & symposiums
-* ACM Symposium on Principles of Distributed Computing (PODC) [(link)](http://www.podc.org)
+* ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
 * IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [(link)](http://2019.dsn.org)
 * IEEE International Conference on Distributed Computing Systems (ICDCS) [(link)](https://theory.utdallas.edu/ICDCS2019/)
 * International Conference on Principles of Distributed Systems (OPODIS) [(link)](https://opodis2019.unine.ch)
