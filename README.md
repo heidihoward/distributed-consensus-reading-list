@@ -73,6 +73,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * Partitioned Paxos via the Network Data Plane [[pdf](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)]
 * The Impact of RDMA on Agreement [[pdf](https://arxiv.org/abs/1905.12143)]
 * When Raft Meets SDN: How to Elect a Leader and Reach Consensus in an Unruly Network [[acmdl](https://dl.acm.org/citation.cfm?doid=3106989.3106999),[pdf](https://conferences.sigcomm.org/events/apnet2017/papers/raft-zhang.pdf)]
+* APUS: Fast and Scalable Paxos on RDMA [[acmdl](https://dl.acm.org/citation.cfm?id=3128609),[pdf](https://i.cs.hku.hk/~heming/papers/socc17-apus.pdf)]
 
 ### Implementing consensus for geo-distributed systems
 This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
@@ -233,6 +234,12 @@ This section lists papers on quorum systems.
 * The virtue of dependent failures in multi-site systems [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
 * Crumbling Walls: A Class of Practical and Efficient Quorum Systems [[acmdl](https://dl.acm.org/citation.cfm?id=224978),[pdf](https://link.springer.com/article/10.1007/s004460050027)]
 
+### Books
+The following books include material relating to distributed consensus.
+* Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers [[acmdl](https://dl.acm.org/citation.cfm?id=579617),[pdf](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf),[website](https://lamport.azurewebsites.net/tla/book.html)]
+* Introduction to Reliable and Secure Distributed Programming [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
+* Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
+
 ## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
 
@@ -257,6 +264,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [Awesome Consensus](https://github.com/dgryski/awesome-consensus) by Damian Gryski
 * [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/) by Andrey Satarin
 * [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
+* [](https://github.com/dist-research/articles)
 
 ### Academic conferences & symposiums
 * ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
