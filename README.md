@@ -20,18 +20,18 @@ Surveys & tutorials of consensus algorithms
 * Paxos Made Simple [(paper)](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)
   * describes single-degree Paxos as well as Multi-Paxos from SMR
 * Revisiting the PAXOS algorithm [(paper)](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)
-* Total order broadcast and multicast algorithms: Taxonomy and survey [(paper)](https://dl.acm.org/citation.cfm?id=1041682)
+* Total order broadcast and multicast algorithms: Taxonomy and survey [(acmdl)](https://dl.acm.org/citation.cfm?id=1041682)
 * How to Build a Highly Available System Using Consensus [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)
 * Paxos Made Moderately Complex [(paper)](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)
 * Tutorial Summary: Paxos Explained from Scratch [(paper)](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)
 * A Modular Approach to Fault-Tolerant Broadcasts and Related Problems [(paper)](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)
 
 Algorithms for distributed consensus
-* Consensus in the Presence of Partial Synchrony [(paper)](https://dl.acm.org/citation.cfm?id=42283)
+* Consensus in the Presence of Partial Synchrony [(acmdl)](https://dl.acm.org/citation.cfm?id=42283)
 * The Part-Time Parliament [(paper)](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
 * Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems [(paper)](http://pmg.csail.mit.edu/papers/vr.pdf)
 * Viewstamped Replication Revisited [(paper)](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)
-* Efficient Message Ordering in Dynamic Networks [(paper)](https://dl.acm.org/citation.cfm?id=248062)
+* Efficient Message Ordering in Dynamic Networks [(acmdl)](https://dl.acm.org/citation.cfm?id=248062)
 * Stoppable Paxos [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)
 * Fast Paxos [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)
 * Consensus on Transaction Commit [(paper)](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf)
@@ -41,10 +41,10 @@ Algorithms for distributed consensus
 * Cheap Paxos [(paper)](https://lamport.azurewebsites.net/pubs/web-dsn-submission.pdf)
 * Paxos Made Practical [(paper)](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)
 * Reconfiguring a State Machine [(paper)](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)
-* Reliable communication in the presence of failures [(paper)](https://dl.acm.org/citation.cfm?id=7478)
-* Efficient message ordering in dynamic networks [(paper)](https://dl.acm.org/citation.cfm?id=248062)
+* Reliable communication in the presence of failures [(acmdl)](https://dl.acm.org/citation.cfm?id=7478)
+* Efficient message ordering in dynamic networks [(acmdl)](https://dl.acm.org/citation.cfm?id=248062)
 * On Collision-fast Atomic Broadcast [(paper)](https://infoscience.epfl.ch/record/100857/files/CFAbcastTR.pdf)
-* Dynamic atomic storage without consensus [(paper)](https://dl.acm.org/citation.cfm?id=1944348)
+* Dynamic atomic storage without consensus [(acmdl)](https://dl.acm.org/citation.cfm?id=1944348)
 * Specifying and Using a Partitionable Group Communication Service [(paper)](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)
 * Active Disk Paxos with infinitely many processes [(paper)](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)
 * CASPaxos: Replicated State Machines without logs [(paper)](https://arxiv.org/pdf/1802.07000.pdf)
@@ -55,20 +55,20 @@ Algorithms for distributed consensus
 
 Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * Paxos Made Switch-y [(paper)](https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf)
-* NetPaxos: consensus at network speed [(paper)](https://dl.acm.org/citation.cfm?id=2774999)
+* NetPaxos: consensus at network speed [(acmdl)](https://dl.acm.org/citation.cfm?id=2774999)
 * Consensus in a Box: Inexpensive Coordination in Hardware [(paper)](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-istvan.pdf)
 * Ring Paxos: A high-throughput atomic broadcast protocol [(paper)](https://ieeexplore.ieee.org/document/5544272)
 * Multi-Ring Paxos [(paper)](https://ieeexplore.ieee.org/document/6263916)
 * Taming uncertainty in distributed systems with help from the network [(paper)](http://www.cs.utexas.edu/falcon/papers/albatross-eurosys2015.pdf)
 * Derecho: Group Communication at the Speed of Light [(paper)](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/Derecho-Protocols.pdf)
 * Groups, Subgroups and Auto-Sharding in Derecho: A Customizable RDMA Framework for Highly Available Cloud Services [(paper)](https://pdfs.semanticscholar.org/5dc4/ac5ac578fae726adcc5776d2a277f09dd9b5.pdf?_ga=2.198677487.1756250239.1559555537-1469340531.1559555537)
-* Derecho: Fast State Machine Replication for Cloud Services [(paper)](https://dl.acm.org/citation.cfm?id=3302258)
+* Derecho: Fast State Machine Replication for Cloud Services [(acmdl)](https://dl.acm.org/citation.cfm?id=3302258)
 * Just say NO to Paxos Overhead: Replacing Consensus with Network Ordering [(paper)](https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf)
 * AllConcur: Leaderless Concurrent Atomic Broadcast [(paper)](https://spcl.inf.ethz.ch/Publications/.pdf/poke2017allconcur.pdf)
 * DARE: High-Performance State Machine Replication on RDMA Networks [(paper)](https://spcl.inf.ethz.ch/Research/Parallel_Programming/DARE/dare-TR.pdf)
 * P4xos: Consensus as a Network Service [(paper)](http://web.inf.usi.ch/file/pub/105/p4xos.pdf)
   * P4xos is also evaluated in "The Case For In-Network Computing On Demand" [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/eurosys2019.pdf)
-  * Code dump is available on [github](https://github.com/P4xos/P4xos)
+  * Code dump is available on [github](https://github.com/P4xos/P4xos).
 * Partitioned Paxos via the Network Data Plane [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)
 
 Implementing consensus for geo-distributed systems
@@ -103,13 +103,13 @@ Distributed consensus in production
   * Clients may have multiple outstanding requests, they will be handled FIFO
   * Uses primary-backup replication instead of state machine replication
 * PaxosStore: High-availability Storage Made Practical in WeChat [(paper)](http://www.vldb.org/pvldb/vol10/p1730-lin.pdf)
-* Windows Azure Storage: a highly available cloud storage service with strong consistency [(paper)](https://dl.acm.org/citation.cfm?id=2043571)
+* Windows Azure Storage: a highly available cloud storage service with strong consistency [(acmdl)](https://dl.acm.org/citation.cfm?id=2043571)
 * Distributed Coordination Engine (DConE) [(paper)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
 * Bizur: A Key-value Consensus Algorithm for Scalable File-systems [(paper)](https://arxiv.org/pdf/1702.04242.pdf)
 
 Implementations of consensus
 * Replication and fault-tolerance in the ISIS system [(paper)](https://ecommons.cornell.edu/handle/1813/6508)
-* The ISIS project: real experience with a fault tolerant programming system [(paper)](https://dl.acm.org/citation.cfm?id=122133)
+* The ISIS project: real experience with a fault tolerant programming system [(acmdl)](https://dl.acm.org/citation.cfm?id=122133)
 * In Search of an Understandable Consensus Algorithm (Extended Version) [(paper)](https://raft.github.io/raft.pdf)
   * aka the RAFT consensus paper
   * implemented in [etcd](https://etcd.io)
@@ -127,16 +127,16 @@ Implementations of consensus
 * The SMART Way to Migrate Replicated Stateful Services [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/eurosys2006.pdf)
 * Boxwood: Abstractions as the Foundation for Storage Infrastructure [(paper)](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/maccormick/maccormick.pdf)
 * Replication in the Harp File System [(paper)](http://www.pmg.csail.mit.edu/papers/harp.pdf)
-* CORFU: A Distributed Shared Log [(paper)](https://dl.acm.org/citation.cfm?id=2535930)
+* CORFU: A Distributed Shared Log [(acmdl)](https://dl.acm.org/citation.cfm?id=2535930)
 * Tango: Distributed data structures over a shared log [(paper)](http://www.cs.cornell.edu/~taozou/sosp13/tangososp.pdf)
 * The Farsite Project: A Retrospective [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2007/04/OSR2007-4aa.pdf)
-* Using Paxos to Build a Scalable, Consistent, and Highly Available Datastore [(paper)](https://dl.acm.org/citation.cfm?id=1938549)
-* Paxos replicated state machines as the basis of a high-performance data store [(paper)](https://dl.acm.org/citation.cfm?id=1972472)
+* Using Paxos to Build a Scalable, Consistent, and Highly Available Datastore [(acmdl)](https://dl.acm.org/citation.cfm?id=1938549)
+* Paxos replicated state machines as the basis of a high-performance data store [(acmdl)](https://dl.acm.org/citation.cfm?id=1972472)
 * Granola: Low-Overhead Distributed Transaction Coordination [(paper)](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
 * Making Fast Consensus Generally Faster [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7579738)
 * Scalable State-Machine Replication [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)
 * Calvin: Fast Distributed Transactions for Partitioned Database Systems [(paper)](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf)
-* Paxos made transparent [(paper)](https://dl.acm.org/citation.cfm?doid=2815400.2815427)
+* Paxos made transparent [(acmdl)](https://dl.acm.org/citation.cfm?doid=2815400.2815427)
 * Designing Distributed Systems Using Approximate Synchrony in Data Center Networks [(paper)](https://syslab.cs.washington.edu/papers/specpaxos-nsdi15.pdf)
 * No compromises: distributed transactions with consistency, availability, and performance [(paper)](https://pdos.csail.mit.edu/6.824/papers/farm-2015.pdf)
 * Building Consistent Transactions with Inconsistent Replication [(paper)](https://irenezhang.net/papers/tapir-sosp15.pdf)
@@ -185,37 +185,38 @@ Weaker consistency models
   * Actively maintained [open source project](https://github.com/brianfrankcooper/YCSB/wiki) with support for various data stores
 * Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency [(paper)](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases
+* Amazon Aurora: On Avoiding Distributed Consensus for I/Os, Commits, and Membership Changes [(acmdl)](https://dl.acm.org/citation.cfm?id=3183713.3196937)
 
 Failures & bugs
 * The Network is Reliable: An informal survey of real-world communications failures [(paper)](https://queue.acm.org/detail.cfm?id=2655736)
 * Communication Costs in Real-world Networks [(paper)](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems [(paper)](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)
 * Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications [(paper)](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)
-* Teaching Rigorous Distributed Systems With Efficient Model Checking [(paper)](https://dl.acm.org/citation.cfm?id=3303947)
+* Teaching Rigorous Distributed Systems With Efficient Model Checking [(acmdl)](https://dl.acm.org/citation.cfm?id=3303947)
 * Lineage-driven Fault Injection [(paper)](https://people.ucsc.edu/~palvaro/molly.pdf)
 
 Correctness of consensus algorithms
 * IronFleet: Proving Practical Distributed Systems Correct [(paper)](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
-* Paxos Made EPR: Decidable Reasoning about Distributed Protocols [(paper)](https://dl.acm.org/citation.cfm?doid=3152284.3140568)
+* Paxos Made EPR: Decidable Reasoning about Distributed Protocols [(acmdl)](https://dl.acm.org/citation.cfm?doid=3152284.3140568)
 * Verdi: A framework for implementing and formally verifying distributed systems [(paper)](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf)
 * A Proof of Correctness for Egalitarian Paxos [(paper)](http://www.cs.cmu.edu/~imoraru/epaxos/tr.pdf)
 * Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers [(paper)](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf)
 * Modeling Paxos and Flexible Paxos in Pluscal and TLA+ [(paper)](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)
 
 Quorum systems
-* A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases [(paper)](https://dl.acm.org/citation.cfm?id=320076)
+* A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases [(acmdl)](https://dl.acm.org/citation.cfm?id=320076)
 * Weighted Voting for Replicated Data [(paper)](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)
 * An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion [(paper)](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)
-* The Generalized Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data [(paper)](https://dl.acm.org/citation.cfm?id=146935)
+* The Generalized Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data [(acmdl)](https://dl.acm.org/citation.cfm?id=146935)
 * The Reliability of Voting Mechanisms [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)
 * The grid protocol: a high performance scheme for maintaining replicated data [(paper)](https://ieeexplore.ieee.org/abstract/document/180609)
-* How to Assign Votes in a Distributed System [(paper)](https://dl.acm.org/citation.cfm?id=4223)
+* How to Assign Votes in a Distributed System [(acmdl)](https://dl.acm.org/citation.cfm?id=4223)
 * Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83661)
 * The Load, Capacity, and Availability of Quorum Systems [(paper)](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232)
-* A √N algorithm for mutual exclusion in decentralized systems [(paper)](https://dl.acm.org/citation.cfm?id=214445)
+* A √N algorithm for mutual exclusion in decentralized systems [(acmdl)](https://dl.acm.org/citation.cfm?id=214445)
 * The Availability of Quorum Systems [(paper)](https://pdfs.semanticscholar.org/ab7d/30f7a808173bc305d679262f9838869cb681.pdf)
 * Coterie Availability in Sites [(paper)](https://link.springer.com/chapter/10.1007/11561927_3)
-* The virtue of dependent failures in multi-site systems [(paper)](https://dl.acm.org/citation.cfm?id=1973401)
+* The virtue of dependent failures in multi-site systems [(acmdl)](https://dl.acm.org/citation.cfm?id=1973401)
 * Crumbling Walls: A Class of Practical and Efficient Quorum Systems [(paper)](https://link.springer.com/article/10.1007/s004460050027)
 
 Reading lists
