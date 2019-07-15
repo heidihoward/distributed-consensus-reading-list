@@ -1,8 +1,7 @@
-This file contains a list of papers in the field of distributed consensus. Many of the papers fit into more than one section, however, for simplicity, each paper is listed only in the most relevant section.
+This file contains a list of academic papers (and other works) in the field of distributed consensus. Many of the papers listed below fit into more than one section, however, for simplicity, each paper is listed only in the most relevant section.
 
-### Papers on distributed consensus
-
-Theoretical results relating to distributed consensus
+### Theoretical results
+This section lists theoretical results relating to distributed consensus.
 * Impossibility of Distributed Consensus with One Faulty Process [(paper)](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
   * aka the FLP result
 * Unreliable Failure Detectors for Reliable Distributed Systems [(paper)](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)
@@ -13,7 +12,8 @@ Theoretical results relating to distributed consensus
 * On the Minimal Synchronism Needed for Distributed Consensus [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)
 * The implementation of reliable distributed multiprocess systems [(paper)](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)
 
-Surveys & tutorials of consensus algorithms
+### Surveys
+This section lists surveys, tutorials and systemisation of knowledge papers covering distributed consensus algorithms.
 * Classic Paxos vs. Fast Paxos: Caveat Emptor [(paper)](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)
 * Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab [(paper)](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)
 * The ABCD’s of Paxos [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)
@@ -26,7 +26,8 @@ Surveys & tutorials of consensus algorithms
 * Tutorial Summary: Paxos Explained from Scratch [(paper)](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)
 * A Modular Approach to Fault-Tolerant Broadcasts and Related Problems [(paper)](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)
 
-Algorithms for distributed consensus
+### Algorithms for distributed consensus
+This section lists papers describing algorithms for distributed consensus.
 * Consensus in the Presence of Partial Synchrony [(acmdl)](https://dl.acm.org/citation.cfm?id=42283)
 * The Part-Time Parliament [(paper)](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
 * Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems [(paper)](http://pmg.csail.mit.edu/papers/vr.pdf)
@@ -53,7 +54,8 @@ Algorithms for distributed consensus
   * extends the idea of master read leases to allow the master to promise to use a specified subset of acceptors in every majority quorum. Acceptors in this quorum can then serve reads locally.
   * similar to master read leases, it relies on clock synchrony.
 
-Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
+### Distributed consensus on specialist hardware
+This section lists papers describing consensus algorithms using specialist hardware such as SDN, IP-multicast or RDMA.
 * Paxos Made Switch-y [(paper)](https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf)
 * NetPaxos: consensus at network speed [(acmdl)](https://dl.acm.org/citation.cfm?id=2774999)
 * Consensus in a Box: Inexpensive Coordination in Hardware [(paper)](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-istvan.pdf)
@@ -72,7 +74,8 @@ Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
 * Partitioned Paxos via the Network Data Plane [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)
 * The Impact of RDMA on Agreement [(paper)](https://arxiv.org/abs/1905.12143)
 
-Implementing consensus for geo-distributed systems
+### Implementing consensus for geo-distributed systems
+This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
 * MDCC: Multi-Data Center Consistency [(paper)](http://mdcc.cs.berkeley.edu/mdcc.pdf)
 * Canopus: A Scalable and Massively Parallel Consensus Protocol [(paper)](https://cs.uwaterloo.ca/~bernard/Canopus.pdf)
 * There Is More Consensus in Egalitarian Parliaments [(paper)](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)
@@ -90,12 +93,13 @@ Implementing consensus for geo-distributed systems
 * Low-Latency Multi-Datacenter Databases using Replicated Commit [(paper)](http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf)
 * FaunaDB: An Architectural Overview [(paper)](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)
 
-Distributed consensus in production
+### Distributed consensus in production
+This section lists papers describing experiences of deploying distributed consensus in production.
 * Paxos Made Live - An Engineering Perspective [(paper)](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)
 * The Chubby lock service for loosely-coupled distributed systems [(paper)](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf)
 * Megastore: Providing Scalable, Highly Available Storage for Interactive Services [(paper)](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf)
   * seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for i-1  
-  * uses SMR with witnesses, replicas with participate in log replication but do not run a state machine and read-only replicas which only run a state machine.
+  * uses SMR with witnesses, replicas which participate in log replication but do not run a state machine and read-only replicas which only run a state machine.
 * Zab: High-performance broadcast for primary-backup systems [(paper)](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf)
 * ZooKeeper: Wait-free coordination for Internet-scale systems [(paper)](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
   * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
@@ -109,7 +113,8 @@ Distributed consensus in production
 * Distributed Coordination Engine (DConE) [(paper)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
 * Bizur: A Key-value Consensus Algorithm for Scalable File-systems [(paper)](https://arxiv.org/pdf/1702.04242.pdf)
 
-Implementations of consensus
+### Implementations of consensus
+This section lists papers describing implementations of distributed consensus algorithms.
 * Replication and fault-tolerance in the ISIS system [(paper)](https://ecommons.cornell.edu/handle/1813/6508)
 * The ISIS project: real experience with a fault tolerant programming system [(acmdl)](https://dl.acm.org/citation.cfm?id=122133)
 * In Search of an Understandable Consensus Algorithm (Extended Version) [(paper)](https://raft.github.io/raft.pdf)
@@ -147,21 +152,22 @@ Implementations of consensus
   * geo-distributed performance is evaluated
 * Commodifying Replicated State Machines with OpenReplica [(paper)](https://ecommons.cornell.edu/handle/1813/29009)
 
-Standalone evaluations of consensus algorithms
+### Evaluations of consensus algorithms
+This section lists papers describing standalone evaluations of consensus algorithms.
 * The Performance of Paxos in the Cloud [(paper)](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)
 * Consensus in the Cloud: Paxos Systems Demystified [(paper)](https://cse.buffalo.edu/tech-reports/2016-02.pdf)
 * Spectrum: A Framework for Adapting Consensus Protocols [(paper)](https://arxiv.org/abs/1902.05873)
 * Dissecting the Performance of Strongly-Consistent Replication Protocols [(acmdl)](https://dl.acm.org/citation.cfm?id=3319893)
 
-### Papers on related topics
-
-Linearizability & SMR
+### State Machine Replication
+This section lists papers the application of consensus to State Machine Replication (SMR) and Linearizability.
 * Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial [(paper)](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)
 * Linearizability: A Correctness Condition for Concurrent Objects [(paper)](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
 * Implementing Linearizability at Large Scale and Low Latency [(paper)](https://dl.acm.org/citation.cfm?id=2815416)
 * Cheap and Available State Machine Replication [(paper)](https://www.usenix.org/system/files/conference/atc16/atc16_paper-shi.pdf)
 
-Weaker consistency models
+### Weaker consistency models
+This section lists papers which discuss alternative consistency models to Linearizability.
 * Existential Consistency: Measuring and Understanding Consistency at Facebook [(paper)](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/240-lu.pdf)
 * What consistency does your key-value store actually provide? [(paper)](https://www.usenix.net/legacy/events/hotdep10/tech/full_papers/Anderson.pdf)
   * offline consistency checking of key-value traces
@@ -193,7 +199,8 @@ Weaker consistency models
   * covered in [the morning paper](https://blog.acolyer.org/2019/03/25/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases/)
   * related blog on [all things distributed](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
 
-Failures & bugs
+### Failures
+This section lists papers which analyse real-world failures of distributed systems.
 * The Network is Reliable: An informal survey of real-world communications failures [(paper)](https://queue.acm.org/detail.cfm?id=2655736)
 * Communication Costs in Real-world Networks [(paper)](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems [(paper)](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)
@@ -201,7 +208,8 @@ Failures & bugs
 * Teaching Rigorous Distributed Systems With Efficient Model Checking [(acmdl)](https://dl.acm.org/citation.cfm?id=3303947)
 * Lineage-driven Fault Injection [(paper)](https://people.ucsc.edu/~palvaro/molly.pdf)
 
-Correctness of consensus algorithms
+### Correctness of consensus algorithms
+This section lists papers on proving or testing the correctness of consensus algorithms.
 * IronFleet: Proving Practical Distributed Systems Correct [(paper)](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)
 * Paxos Made EPR: Decidable Reasoning about Distributed Protocols [(acmdl)](https://dl.acm.org/citation.cfm?doid=3152284.3140568)
 * Verdi: A framework for implementing and formally verifying distributed systems [(paper)](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf)
@@ -209,7 +217,8 @@ Correctness of consensus algorithms
 * Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers [(paper)](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf)
 * Modeling Paxos and Flexible Paxos in Pluscal and TLA+ [(paper)](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)
 
-Quorum systems
+### Quorum systems
+This section lists papers on quorum systems.
 * A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases [(acmdl)](https://dl.acm.org/citation.cfm?id=320076)
 * Weighted Voting for Replicated Data [(paper)](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)
 * An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion [(paper)](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)
@@ -225,15 +234,10 @@ Quorum systems
 * The virtue of dependent failures in multi-site systems [(acmdl)](https://dl.acm.org/citation.cfm?id=1973401)
 * Crumbling Walls: A Class of Practical and Efficient Quorum Systems [(paper)](https://link.springer.com/article/10.1007/s004460050027)
 
-Reading lists
-* Awesome Consensus by Damian Gryski [(link)](https://github.com/dgryski/awesome-consensus)
-* Testing Distributed Systems by Andrey Satarin [(link)](https://asatarin.github.io/testing-distributed-systems/)
-* An introduction to distributed systems by Kyle Kingsbury [(link)](https://github.com/aphyr/distsys-class)
-
-### Future reading list
+## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
 
-Blogroll
+### Blogroll
 * Jepsen by Kyle Kingsbury [(link)](https://jepsen.io)
 * Aphyr by Kyle Kingsbury [(link)](https://aphyr.com/posts)
 * The Paper Trail [(link)](https://www.the-paper-trail.org)
@@ -250,7 +254,12 @@ Blogroll
 * All Things Distributed by Werner Vogels [(link)](https://www.allthingsdistributed.com)
 * Decentralized Thoughts by Ittai Abraham [(link)](https://ittaiab.github.io/)
 
-Academic conferences & symposiums
+### Reading lists
+* Awesome Consensus by Damian Gryski [(link)](https://github.com/dgryski/awesome-consensus)
+* Testing Distributed Systems by Andrey Satarin [(link)](https://asatarin.github.io/testing-distributed-systems/)
+* An introduction to distributed systems by Kyle Kingsbury [(link)](https://github.com/aphyr/distsys-class)
+
+### Academic conferences & symposiums
 * ACM Symposium on Principles of Distributed Computing (PODC) [(link)](http://www.podc.org)
 * IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [(link)](http://2019.dsn.org)
 * IEEE International Conference on Distributed Computing Systems (ICDCS) [(link)](https://theory.utdallas.edu/ICDCS2019/)
@@ -272,7 +281,7 @@ Academic conferences & symposiums
 * ACM Symposium on Cloud Computing (SoCC) [(link)](https://acmsocc.github.io/2019/)
 * ACM Symposium on Theory of Computing (STOC) [(link)](http://acm-stoc.org/stoc2019/)
 
-Workshops
+### Workshops
 * Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [(link)](https://novasys.di.fct.unl.pt/conferences/papoc19/)
 * ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS) [(link)](http://ladisworkshop.org)
 * USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage) [(link)](https://www.usenix.org/conference/hotstorage19)
@@ -281,7 +290,7 @@ Workshops
 * USENIX Workshop on Hot Topics in Cloud Computing (HotCloud) [(link)](https://www.usenix.org/conference/hotcloud19)
 * USENIX Workshop on Hot Topics in Edge Computing (HotEdge) [(link)](https://www.usenix.org/conference/hotedge19)
 
-Journals & Magazines
+### Journals & Magazines
 * ACM Transactions on Computer Systems (TOCS) [(link)](https://tocs.acm.org)
 * Journal of the ACM (JACM) [(link)](https://jacm.acm.org)
 * Communications of the ACM (CACM) [(link)](https://cacm.acm.org)
