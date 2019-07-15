@@ -50,6 +50,7 @@ This section lists papers describing algorithms for distributed consensus.
 * Paxos Quorum Leases: Fast Reads Without Sacrificing Writes, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2671001),[pdf](https://www.cs.cmu.edu/~dga/papers/leases-socc2014.pdf)]
   * extends the idea of master read leases to allow the master to promise to use a specified subset of acceptors in every majority quorum. Acceptors in this quorum can then serve reads locally.
   * similar to master read leases, it relies on clock synchrony.
+* Flexible Paxos: Quorum Intersection Revisited, OPODIS 2016 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2017/7094/pdf/LIPIcs-OPODIS-2016-25.pdf)]
 * CASPaxos: Replicated State Machines without logs, Unpublished 2018 [[pdf](https://arxiv.org/pdf/1802.07000.pdf)]
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 
@@ -202,15 +203,15 @@ This section lists papers which analyse real-world failures of distributed syste
 * Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications, SIGCOMM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2018477),[pdf](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)]
 * The Network is Reliable: An informal survey of real-world communications failures, ACM Queue 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2655736),[pdf](https://queue.acm.org/detail.cfm?id=2655736)]
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2670986),[pdf](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)]
-* Lineage-driven Fault Injection, SIGMOD 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2723711),[pdf](https://people.ucsc.edu/~palvaro/molly.pdf)]
-* Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf)]
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
 * A Proof of Correctness for Egalitarian Paxos, Tech report 2013 [[pdf](http://www.cs.cmu.edu/~imoraru/epaxos/tr.pdf)]
 * Verdi: A framework for implementing and formally verifying distributed systems, PLDI 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2737958),[pdf](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf)]
 * IronFleet: Proving Practical Distributed Systems Correct, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815428),[pdf](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf)]
+* Lineage-driven Fault Injection, SIGMOD 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2723711),[pdf](https://people.ucsc.edu/~palvaro/molly.pdf)]
 * Paxos Made EPR: Decidable Reasoning about Distributed Protocols, OOPSLA 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3152284.3140568),[pdf](https://www.cs.tau.ac.il/~odedp/paxos-made-epr-oopsla17.pdf)]
+* Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf)]
 
 ### Quorum systems
 This section lists papers on quorum systems.
@@ -218,9 +219,9 @@ This section lists papers on quorum systems.
 * Weighted Voting for Replicated Data, SOSP 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=806583),[pdf](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)]
 * How to Assign Votes in a Distributed System, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=4223),[pdf](https://www.cs.purdue.edu/homes/bb/cs542-17Spr/How%20to%20assign%20Votes-JACM-garcia-molina.pdf)]
 * A √N algorithm for mutual exclusion in decentralized systems, TOCS 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214445),[pdf](https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf)]
-* The Reliability of Voting Mechanisms, ToC 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=32406),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)]
+* The Reliability of Voting Mechanisms, TC 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=32406),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)]
 * An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion, TOCS 1991 [[acmdl](https://dl.acm.org/citation.cfm?doid=103727.103728),[pdf](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)]
-* Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data, ToC 1991 [[acmdl](https://dl.acm.org/citation.cfm?id=126154),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83661)]
+* Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data, TC 1991 [[acmdl](https://dl.acm.org/citation.cfm?id=126154),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83661)]
 * The Generalized Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data, TODS 1992 [[acmdl](https://dl.acm.org/citation.cfm?id=146935),[pdf](https://www.cs.rice.edu/~alc/old/comp520/papers/generalized-tree.pdf)]
 * The grid protocol: a high performance scheme for maintaining replicated data, TKDE 1992 [[acmdl](https://dl.acm.org/citation.cfm?id=627546),[pdf](https://ieeexplore.ieee.org/abstract/document/180609)]
 * The Availability of Quorum Systems, Tech report 1993 [[acmdl](https://dl.acm.org/citation.cfm?id=903705),[pdf](https://pdfs.semanticscholar.org/ab7d/30f7a808173bc305d679262f9838869cb681.pdf)]
@@ -265,7 +266,6 @@ The following lists contain places to watch for new writings in the field of dis
 * [Awesome Consensus](https://github.com/dgryski/awesome-consensus) by Damian Gryski
 * [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/) by Andrey Satarin
 * [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
-* [](https://github.com/dist-research/articles)
 
 ### Academic conferences & symposiums
 * ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
