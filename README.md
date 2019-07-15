@@ -70,6 +70,7 @@ Implementing consensus using specialist hardware, SDN, IP-multicast, RDMA etc
   * P4xos is also evaluated in "The Case For In-Network Computing On Demand" [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/eurosys2019.pdf)
   * Code dump is available on [github](https://github.com/P4xos/P4xos).
 * Partitioned Paxos via the Network Data Plane [(paper)](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)
+* The Impact of RDMA on Agreement [(paper)](https://arxiv.org/abs/1905.12143)
 
 Implementing consensus for geo-distributed systems
 * MDCC: Multi-Data Center Consistency [(paper)](http://mdcc.cs.berkeley.edu/mdcc.pdf)
