@@ -14,17 +14,17 @@ This section lists theoretical results relating to distributed consensus.
 
 ### Surveys
 This section lists surveys, tutorials and systemisation of knowledge papers covering distributed consensus algorithms.
-* Classic Paxos vs. Fast Paxos: Caveat Emptor [(paper)](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)
-* Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab [(paper)](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)
-* The ABCD’s of Paxos [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)
-* Paxos Made Simple [(paper)](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)
+* Classic Paxos vs. Fast Paxos: Caveat Emptor [[pdf](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)]
+* Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)]
+* The ABCD’s of Paxos [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)]
+* Paxos Made Simple [[pdf](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)]
   * describes single-degree Paxos as well as Multi-Paxos from SMR
-* Revisiting the PAXOS algorithm [(paper)](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)
-* Total order broadcast and multicast algorithms: Taxonomy and survey [(acmdl)](https://dl.acm.org/citation.cfm?id=1041682)
-* How to Build a Highly Available System Using Consensus [(paper)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)
-* Paxos Made Moderately Complex [(paper)](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)
-* Tutorial Summary: Paxos Explained from Scratch [(paper)](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)
-* A Modular Approach to Fault-Tolerant Broadcasts and Related Problems [(paper)](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)
+* Revisiting the PAXOS algorithm [[pdf](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)]
+* Total order broadcast and multicast algorithms: Taxonomy and survey [[acmdl](https://dl.acm.org/citation.cfm?id=1041682)]
+* How to Build a Highly Available System Using Consensus [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)]
+* Paxos Made Moderately Complex [[pdf](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)]
+* Tutorial Summary: Paxos Explained from Scratch [[pdf](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)]
+* A Modular Approach to Fault-Tolerant Broadcasts and Related Problems [[pdf](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)]
 
 ### Algorithms for distributed consensus
 This section lists papers describing algorithms for distributed consensus.
