@@ -28,29 +28,29 @@ This section lists surveys, tutorials and systemisation of knowledge papers cove
 
 ### Algorithms for distributed consensus
 This section lists papers describing algorithms for distributed consensus.
-* Consensus in the Presence of Partial Synchrony [(acmdl)](https://dl.acm.org/citation.cfm?id=42283)
-* The Part-Time Parliament [(paper)](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
-* Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems [(paper)](http://pmg.csail.mit.edu/papers/vr.pdf)
-* Viewstamped Replication Revisited [(paper)](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)
-* Efficient Message Ordering in Dynamic Networks [(acmdl)](https://dl.acm.org/citation.cfm?id=248062)
-* Stoppable Paxos [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)
-* Fast Paxos [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)
-* Consensus on Transaction Commit [(paper)](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf)
-* Generalized Consensus and Paxos [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf)
-* Vertical Paxos and Primary-Backup Replication [(paper)](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)
-* Disk Paxos [(paper)](https://lamport.azurewebsites.net/pubs/disk-paxos.pdf)
-* Cheap Paxos [(paper)](https://lamport.azurewebsites.net/pubs/web-dsn-submission.pdf)
-* Paxos Made Practical [(paper)](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)
-* Reconfiguring a State Machine [(paper)](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)
-* Reliable communication in the presence of failures [(acmdl)](https://dl.acm.org/citation.cfm?id=7478)
-* Efficient message ordering in dynamic networks [(acmdl)](https://dl.acm.org/citation.cfm?id=248062)
-* On Collision-fast Atomic Broadcast [(paper)](https://infoscience.epfl.ch/record/100857/files/CFAbcastTR.pdf)
-* Dynamic atomic storage without consensus [(acmdl)](https://dl.acm.org/citation.cfm?id=1944348)
-* Specifying and Using a Partitionable Group Communication Service [(paper)](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)
-* Active Disk Paxos with infinitely many processes [(paper)](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)
-* CASPaxos: Replicated State Machines without logs [(paper)](https://arxiv.org/pdf/1802.07000.pdf)
-* Multicoordinated Paxos [(paper)](https://dl.acm.org/citation.cfm?id=1281150)
-* Paxos Quorum Leases: Fast Reads Without Sacrificing Writes [(paper)](https://www.cs.cmu.edu/~dga/papers/leases-socc2014.pdf)
+* Consensus in the Presence of Partial Synchrony [[acmdl](https://dl.acm.org/citation.cfm?id=42283)]
+* The Part-Time Parliament [[pdf](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)]
+* Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems [[pdf](http://pmg.csail.mit.edu/papers/vr.pdf)]
+* Viewstamped Replication Revisited [[pdf](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)]
+* Efficient Message Ordering in Dynamic Networks [[acmdl](https://dl.acm.org/citation.cfm?id=248062)]
+* Stoppable Paxos [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)]
+* Fast Paxos [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)]
+* Consensus on Transaction Commit [[pdf](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf)]
+* Generalized Consensus and Paxos [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf)]
+* Vertical Paxos and Primary-Backup Replication [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)]
+* Disk Paxos [[pdf](https://lamport.azurewebsites.net/pubs/disk-paxos.pdf)]
+* Cheap Paxos [[pdf](https://lamport.azurewebsites.net/pubs/web-dsn-submission.pdf)]
+* Paxos Made Practical [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
+* Reconfiguring a State Machine [[pdf](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)]
+* Reliable communication in the presence of failures [[acmdl](https://dl.acm.org/citation.cfm?id=7478)]
+* Efficient message ordering in dynamic networks [[acmdl](https://dl.acm.org/citation.cfm?id=248062)]
+* On Collision-fast Atomic Broadcast [[pdf](https://infoscience.epfl.ch/record/100857/files/CFAbcastTR.pdf)]
+* Dynamic atomic storage without consensus [[acmdl](https://dl.acm.org/citation.cfm?id=1944348)]
+* Specifying and Using a Partitionable Group Communication Service [[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)]
+* Active Disk Paxos with infinitely many processes [[pdf](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)]
+* CASPaxos: Replicated State Machines without logs [[pdf](https://arxiv.org/pdf/1802.07000.pdf)]
+* Multicoordinated Paxos [[pdf](https://dl.acm.org/citation.cfm?id=1281150)]
+* Paxos Quorum Leases: Fast Reads Without Sacrificing Writes [[pdf](https://www.cs.cmu.edu/~dga/papers/leases-socc2014.pdf)]
   * extends the idea of master read leases to allow the master to promise to use a specified subset of acceptors in every majority quorum. Acceptors in this quorum can then serve reads locally.
   * similar to master read leases, it relies on clock synchrony.
 
