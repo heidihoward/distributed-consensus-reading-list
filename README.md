@@ -73,11 +73,11 @@ This section lists papers describing consensus algorithms using specialist hardw
   * P4xos is also evaluated in The Case For In-Network Computing On Demand [[acmdl](https://dl.acm.org/citation.cfm?id=3303979),[pdf](https://www.inf.usi.ch/faculty/soule/pubs/eurosys2019.pdf)]
   * Code dump is available on [github](https://github.com/P4xos/P4xos).
 * Derecho: Fast State Machine Replication for Cloud Services, TOCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3302258),[pdf](http://www.cs.cornell.edu/ken/derecho-tocs.pdf)]
+  * Derecho: Group Communication at the Speed of Light, Unpublished [[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/Derecho-Protocols.pdf)]
+  * Groups, Subgroups and Auto-Sharding in Derecho: A Customizable RDMA Framework for Highly Available Cloud Services, Unpublished [[pdf](https://pdfs.semanticscholar.org/5dc4/ac5ac578fae726adcc5776d2a277f09dd9b5.pdf?_ga=2.198677487.1756250239.1559555537-1469340531.1559555537)]
 * NetChain: Scale-Free Sub-RTT Coordination, NSDI 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3307445),[pdf](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-jin.pdf),[tmp](https://blog.acolyer.org/2018/04/30/netchain-scale-free-sub-rtt-coordination/)]
 * Partitioned Paxos via the Network Data Plane, Tech Report 2019 [[pdf](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)]
 * The Impact of RDMA on Agreement, PODC 2019 [[pdf](https://arxiv.org/abs/1905.12143)]
-* Derecho: Group Communication at the Speed of Light, Unpublished [[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/Derecho-Protocols.pdf)]
-* Groups, Subgroups and Auto-Sharding in Derecho: A Customizable RDMA Framework for Highly Available Cloud Services, Unpublished [[pdf](https://pdfs.semanticscholar.org/5dc4/ac5ac578fae726adcc5776d2a277f09dd9b5.pdf?_ga=2.198677487.1756250239.1559555537-1469340531.1559555537)]
 
 ### Implementing consensus for geo-distributed systems
 This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
@@ -218,6 +218,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * IronFleet: Proving Practical Distributed Systems Correct, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815428),[pdf](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf),[tmp](https://blog.acolyer.org/2015/10/15/ironfleet-proving-practical-distributed-systems-correc/)]
 * Lineage-driven Fault Injection, SIGMOD 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2723711),[pdf](https://people.ucsc.edu/~palvaro/molly.pdf),[tmp](https://blog.acolyer.org/2015/03/26/lineage-driven-fault-injection/)]
 * PSYNC: A partially synchronous language for fault-tolerant distributed algorithms, POPL 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2837650),[pdf](https://www.di.ens.fr/~cezarad/popl16.pdf),[tmp](https://blog.acolyer.org/2016/02/01/psync/)]
+* Ivy: safety verification by interactive generalization, PLDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2908080.2908118),[pdf](http://www.cs.tau.ac.il/~odedp/pldi16-paper228.pdf),[code](http://apanda.github.io/ivy/)]
 * Paxos Made EPR: Decidable Reasoning about Distributed Protocols, OOPSLA 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3152284.3140568),[pdf](https://www.cs.tau.ac.il/~odedp/paxos-made-epr-oopsla17.pdf)]
 * Growing a protocol, HotCloud 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3154593),[pdf](https://www.usenix.org/conference/hotcloud17/program/presentation/ramasubramanian),[tmp](https://blog.acolyer.org/2017/08/23/growing-a-protocol/)]
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf),[tmp](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)]
