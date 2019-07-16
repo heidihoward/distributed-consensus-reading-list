@@ -15,7 +15,7 @@ This section lists theoretical results relating to distributed consensus.
 * The Heard-Of Model: Computing in Distributed Systems with Benign Failures, Distributed Computing 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=3271165),[pdf](https://infoscience.epfl.ch/record/109375/files/HO-TR-2007.pdf),[tmp](https://blog.acolyer.org/2016/02/09/the-heard-of-model/)]
 
 ### Surveys
-This section lists surveys, tutorials and systemisation of knowledge papers covering distributed consensus algorithms.
+This section lists surveys, tutorials, book chapters and systemisation of knowledge papers covering distributed consensus algorithms.
 * A Modular Approach to Fault-Tolerant Broadcasts and Related Problems, Tech Report 1994 [[acmdl](https://dl.acm.org/citation.cfm?id=866693),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)]
 * How to Build a Highly Available System Using Consensus, WDAG 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=675640),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)]
 * Revisiting the PAXOS algorithm, WDAG 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=675657),[pdf](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)]
@@ -25,8 +25,10 @@ This section lists surveys, tutorials and systemisation of knowledge papers cove
 * Total order broadcast and multicast algorithms: Taxonomy and survey, CSUR 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1041682),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.110.6701&rep=rep1&type=pdf)]
 * Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab, TDSC 2005 [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf),[tmp](https://blog.acolyer.org/2015/03/11/vive-la-difference-paxos-vs-viewstamped-replication-vs-zab/)]
 * Classic Paxos vs. Fast Paxos: Caveat Emptor, HotDep 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1323158),[pdf](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)]
+* Introduction to Reliable and Secure Distributed Programming, Book 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
 * Tutorial Summary: Paxos Explained from Scratch, OPODIS 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2696603),[pdf](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)]
 * Paxos Made Moderately Complex, CSUR 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2673577),[pdf](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)]
+* Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Book 2017 [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
 
 ### Algorithms for distributed consensus
 This section lists papers describing algorithms for distributed consensus.
@@ -58,7 +60,7 @@ This section lists papers describing algorithms for distributed consensus.
 
 ### Distributed consensus on specialist hardware
 This section lists papers describing consensus algorithms using specialist hardware such as SDN, IP-multicast or RDMA.
-* Ring Paxos: A high-throughput atomic broadcast protocol, DSN 2010 [[pdf](https://ieeexplore.ieee.org/document/5544272)]
+* Ring Paxos: A high-throughput atomic broadcast protocol, DSN 2010 [[pdf](https://ieeexplore.ieee.org/document/5544272),[code](http://libpaxos.sourceforge.net/paxos_projects.php#ringpaxos)]
 * Multi-Ring Paxos, DSN 2012 [[acmdl](https://dl.acm.org/citation.cfm?id=2354410.2355144),[pdf](https://ieeexplore.ieee.org/document/6263916)]
 * NetPaxos: consensus at network speed, SOSR 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2774999),[pdf](https://mcanini.github.io/papers/netpaxos.sosr15.pdf)]
 * Taming uncertainty in distributed systems with help from the network, Eurosys 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2741976),[pdf](http://www.cs.utexas.edu/falcon/papers/albatross-eurosys2015.pdf),[tmp](https://blog.acolyer.org/2015/05/05/taming-uncertainty-in-distributed-systems-with-help-from-the-network/)]
@@ -70,9 +72,8 @@ This section lists papers describing consensus algorithms using specialist hardw
 * APUS: Fast and Scalable Paxos on RDMA, SoCC 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3128609),[pdf](https://i.cs.hku.hk/~heming/papers/socc17-apus.pdf)]
 * When Raft Meets SDN: How to Elect a Leader and Reach Consensus in an Unruly Network, APNet 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3106989.3106999),[pdf](https://conferences.sigcomm.org/events/apnet2017/papers/raft-zhang.pdf)]
 * P4xos: Consensus as a Network Service, Tech Report 2018 [[pdf](http://web.inf.usi.ch/file/pub/105/p4xos.pdf)]
-  * P4xos is also evaluated in The Case For In-Network Computing On Demand [[acmdl](https://dl.acm.org/citation.cfm?id=3303979),[pdf](https://www.inf.usi.ch/faculty/soule/pubs/eurosys2019.pdf)]
-  * Code dump is available on [github](https://github.com/P4xos/P4xos).
-* Derecho: Fast State Machine Replication for Cloud Services, TOCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3302258),[pdf](http://www.cs.cornell.edu/ken/derecho-tocs.pdf)]
+  * P4xos is also evaluated in The Case For In-Network Computing On Demand [[acmdl](https://dl.acm.org/citation.cfm?id=3303979),[pdf](https://www.inf.usi.ch/faculty/soule/pubs/eurosys2019.pdf),[code](https://github.com/P4xos/P4xos)]
+* Derecho: Fast State Machine Replication for Cloud Services, TOCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3302258),[pdf](http://www.cs.cornell.edu/ken/derecho-tocs.pdf),[code](https://derecho-project.github.io)]
   * Derecho: Group Communication at the Speed of Light, Unpublished [[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/Derecho-Protocols.pdf)]
   * Groups, Subgroups and Auto-Sharding in Derecho: A Customizable RDMA Framework for Highly Available Cloud Services, Unpublished [[pdf](https://pdfs.semanticscholar.org/5dc4/ac5ac578fae726adcc5776d2a277f09dd9b5.pdf?_ga=2.198677487.1756250239.1559555537-1469340531.1559555537)]
 * NetChain: Scale-Free Sub-RTT Coordination, NSDI 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3307445),[pdf](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-jin.pdf),[tmp](https://blog.acolyer.org/2018/04/30/netchain-scale-free-sub-rtt-coordination/)]
@@ -213,6 +214,7 @@ This section lists papers which analyse real-world failures of distributed syste
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
+* Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers, Book 2002 [[acmdl](https://dl.acm.org/citation.cfm?id=579617),[pdf](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf),[website](https://lamport.azurewebsites.net/tla/book.html),[amazon](https://www.amazon.com/Specifying-Systems-Language-Hardware-Engineers/dp/032114306X)]
 * A Proof of Correctness for Egalitarian Paxos, Tech report 2013 [[pdf](http://www.cs.cmu.edu/~imoraru/epaxos/tr.pdf)]
 * Verdi: A framework for implementing and formally verifying distributed systems, PLDI 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2737958),[pdf](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf)]
 * IronFleet: Proving Practical Distributed Systems Correct, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815428),[pdf](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf),[tmp](https://blog.acolyer.org/2015/10/15/ironfleet-proving-practical-distributed-systems-correc/)]
@@ -239,12 +241,6 @@ This section lists papers on quorum systems.
 * The Load, Capacity, and Availability of Quorum Systems, SIAM 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279082.279096),[pdf](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232),[tmp](https://blog.acolyer.org/2016/10/03/the-load-capacity-and-availability-of-quorum-systems/)]
 * Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
-
-### Books
-The following books include material relating to distributed consensus.
-* Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers [[acmdl](https://dl.acm.org/citation.cfm?id=579617),[pdf](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf),[website](https://lamport.azurewebsites.net/tla/book.html)]
-* Introduction to Reliable and Secure Distributed Programming [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
-* Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
 
 ### Misc
 * FaunaDB: An Architectural Overview [[pdf](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)]
