@@ -276,28 +276,36 @@ The following lists contain places to watch for new writings in the field of dis
 * [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/) by [Henry Robinson](https://twitter.com/henryr)
 
 ### Academic conferences & symposiums
-* ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
-* IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
-* IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/)]
-* International Conference on Principles of Distributed Systems (OPODIS) [[2019](https://opodis2019.unine.ch)]
-* International Symposium on Distributed Computing (DISC) [[2019](http://www.disc-conference.org/wp/disc2019/)]
-* International Symposium on Reliable Distributed Systems (SRDS) [[2019](https://srds2019.projet.liris.cnrs.fr)]
-* ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) [[2019](https://spaa.acm.org/2019/)]
+January - March
 * USENIX Symposium on Networked Systems Design and Implementation (NSDI) [[2019](https://www.usenix.org/conference/nsdi19),[2020](https://www.usenix.org/conference/nsdi20)]
+* USENIX Conference on File and Storage Technologies (FAST) [[2019](https://www.usenix.org/conference/fast19),[2020](https://www.usenix.org/conference/fast20)]
+
+April - June
+* European Conference on Computer Systems (EuroSys) [[2019](https://2019.eurosys.org),[2020](https://www.eurosys2020.org)]
+* IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
+* ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) [[website](https://spaa.acm.org),[2019](https://spaa.acm.org/2019/)]
+* ACM SIGMOD/PODS Conference [[2019](https://sigmod2019.org),[2020](https://sigmod2020.org)]
+* ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/)]
+* ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org),[2020](https://conf.researchr.org/home/pldi-2020)]
+* ACM Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/),[2020](http://acm-stoc.org/stoc2020/)]
+
+July - September
+* ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
+* IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/)]
+* USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19)]
+* ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference),[2019](http://conferences.sigcomm.org/sigcomm/2019/)]
+* International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/)]
+
+October - December
 * USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18)]
   * Biennial evens only
+* International Symposium on Reliable Distributed Systems (SRDS) [[2019](https://srds2019.projet.liris.cnrs.fr)]
+* International Symposium on Distributed Computing (DISC) [[2019](http://www.disc-conference.org/wp/disc2019/)]
+* International Conference on Principles of Distributed Systems (OPODIS) [[2019](https://opodis2019.unine.ch)]
 * ACM Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)]
   * Biennial odds only
-* USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19)]
-* European Conference on Computer Systems (EuroSys) [[2019](https://2019.eurosys.org)]
-* ACM SIGMOD/PODS Conference [[2019](https://sigmod2019.org)]
-* ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/)]
-* ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference)]
-* USENIX Conference on File and Storage Technologies (FAST) [[2019](https://www.usenix.org/conference/fast19),[2020](https://www.usenix.org/conference/fast20)]
-* ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org)]
-* International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/)]
 * ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
-* ACM Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/)]
+
 
 ### Academic Workshops
 * Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [[2019](https://novasys.di.fct.unl.pt/conferences/papoc19/)]
