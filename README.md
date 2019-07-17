@@ -274,6 +274,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/) by [Andrey Satarin](https://twitter.com/asatarin)
 * [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
 * [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/) by [Henry Robinson](https://twitter.com/henryr)
+* [Collective works of Leslie Lamport](http://lamport.azurewebsites.net/pubs/pubs.html)
 
 ### Academic conferences & symposiums
 January - March
