@@ -1,5 +1,8 @@
-This file contains a list of academic papers (and other works) in the field of distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section.
-Key: acmdl=ACM Digital Library, tmp=the morning paper
+## Distributed consensus reading list
+
+This markdown file contains a list of academic papers (and other works) in the field of distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions are welcome.
+
+Key: acmdl = [ACM Digital Library](https://dl.acm.org), tmp = [the morning paper](https://blog.acolyer.org)
 
 The sections are as follows:
 * [Theoretical results](#theoretical-results)
