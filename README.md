@@ -1,5 +1,27 @@
-This file contains a list of academic papers (and other works) in the field of distributed consensus. Many of the papers listed below fit into more than one section, however, for simplicity, each paper is listed only in the most relevant section.
+This file contains a list of academic papers (and other works) in the field of distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section.
 Key: acmdl=ACM Digital Library, tmp=the morning paper
+
+The sections are as follows:
+* [Theoretical results](#theoretical-results)
+* [Surveys](#surveys)
+* [Algorithms for consensus](#algorithms-for-consensus)
+* [Consensus for specialist hardware](#consensus-for-specialist-hardware)
+* [Consensus for geo-distributed systems](#consensus-for-geo-distributed-systems)
+* [Consensus in production](#consensus-in-production)
+* [Implementations of consensus](#implementations-of-consensus)
+* [Evaluations of consensus](#evaluations-of-consensus)
+* [State machine replication](#state-machine-replication)
+* [Weaker consistency models](#weaker-consistency-models)
+* [Failures](#failures)
+* [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
+* [Quorum systems](#quorum-systems)
+* [Misc](#misc)
+* [Future reading list](#future-reading-list)
+  * [Blogroll](#blogroll)
+  * [Reading lists](#reading-lists)
+  * [Academic conferences & symposiums](#academic-conferences--symposiums)
+  * [Academic workshops](#academic-workshops)
+  * [Academic journals & magazines](#academic-journals--magazines)
 
 ### Theoretical results
 This section lists theoretical results relating to distributed consensus.
@@ -30,7 +52,7 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
 * Paxos Made Moderately Complex, CSUR 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2673577),[pdf](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)]
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Book 2017 [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
 
-### Algorithms for distributed consensus
+### Algorithms for consensus
 This section lists papers describing algorithms for distributed consensus.
 * Reliable communication in the presence of failures, TOCS 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7478),[pdf](https://pdos.csail.mit.edu/archive/6.824-2006/papers/isis87.pdf)]
 * Consensus in the Presence of Partial Synchrony, JACM 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=42283),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)]
@@ -58,7 +80,7 @@ This section lists papers describing algorithms for distributed consensus.
 * CASPaxos: Replicated State Machines without logs, Unpublished 2018 [[pdf](https://arxiv.org/pdf/1802.07000.pdf)]
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 
-### Distributed consensus on specialist hardware
+### Consensus for specialist hardware
 This section lists papers describing consensus algorithms using specialist hardware such as SDN, IP-multicast or RDMA.
 * Ring Paxos: A high-throughput atomic broadcast protocol, DSN 2010 [[pdf](https://ieeexplore.ieee.org/document/5544272),[code](http://libpaxos.sourceforge.net/paxos_projects.php#ringpaxos)]
 * Multi-Ring Paxos, DSN 2012 [[acmdl](https://dl.acm.org/citation.cfm?id=2354410.2355144),[pdf](https://ieeexplore.ieee.org/document/6263916)]
@@ -80,7 +102,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * Partitioned Paxos via the Network Data Plane, Tech Report 2019 [[pdf](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)]
 * The Impact of RDMA on Agreement, PODC 2019 [[pdf](https://arxiv.org/abs/1905.12143)]
 
-### Implementing consensus for geo-distributed systems
+### Consensus for geo-distributed systems
 This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
 * Mencius: Building Efficient Replicated State Machines for WANs, OSDI 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1855767),[pdf](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao.pdf)]
 * Scalable Consistency in Scatter, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043559),[pdf](https://homes.cs.washington.edu/~tom/pubs/scatter.pdf)]
@@ -98,7 +120,7 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines, SoCC 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3267837),[pdf](https://www.microsoft.com/en-us/research/publication/sdpaxos-building-efficient-semi-decentralized-geo-replicated-state-machines/)]
 * FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases, Tech report 2018 [[pdf](https://cse.buffalo.edu/tech-reports/2018-02.pdf)]
 
-### Distributed consensus in production
+### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
 * The Chubby lock service for loosely-coupled distributed systems, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298487),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf),[tmp](https://blog.acolyer.org/2015/02/13/the-chubby-lock-service-for-loosely-coupled-distributed-systems/)]
 * Paxos Made Live - An Engineering Perspective, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281103),[pdf](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf),[tmp](https://blog.acolyer.org/2015/03/05/paxos-made-live/)]
@@ -158,15 +180,15 @@ This section lists papers describing implementations of distributed consensus al
 * Azure Data Lake Store: A Hyperscale Distributed File Service for Big Data Analytics, SIGMOD 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3056100),[pdf](http://www.cs.ucf.edu/~kienhua/classes/COP5711/Papers/MSazure2017.pdf),[tmp](https://blog.acolyer.org/2017/07/04/azure-data-lake-store-a-hyperscale-distributed-file-service-for-big-data-analytics/)]
 * Protocol-Aware Recovery for Consensus-Based Storage, FAST 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3241062),[pdf](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[tmp](https://blog.acolyer.org/2018/02/27/protocol-aware-recovery-for-consensus-based-storage/)]
 
-### Evaluations of consensus algorithms
+### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
 * The Performance of Paxos in the Cloud, SRDS 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2707675.2707801),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)]
 * Consensus in the Cloud: Paxos Systems Demystified, Tech report 2016 [[pdf](https://cse.buffalo.edu/tech-reports/2016-02.pdf)]
 * Spectrum: A Framework for Adapting Consensus Protocols, Unpublished 2019 [[pdf](https://arxiv.org/abs/1902.05873)]
 * Dissecting the Performance of Strongly-Consistent Replication Protocols, SIGMOD 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319893)]
 
-### State Machine Replication
-This section lists papers the application of consensus to State Machine Replication (SMR) and Linearizability.
+### State machine replication
+This section lists papers the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
 * Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial, CSUR 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=98167),[pdf](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)]
 * Linearizability: A Correctness Condition for Concurrent Objects, TOPLAS 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=78972),[pdf](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)]
 * Implementing Linearizability at Large Scale and Low Latency, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815416),[pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf)]
@@ -207,7 +229,7 @@ This section lists papers which discuss alternative consistency models to Linear
 * Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf),[tmp](https://blog.acolyer.org/2019/03/15/exploiting-commutativity-for-practical-fast-replication/)]
 
 ### Failures
-This section lists papers which analyse real-world failures of distributed systems.
+This section lists papers which analyze real-world failures of distributed systems.
 * Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications, SIGCOMM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2018477),[pdf](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)]
 * The Network is Reliable: An informal survey of real-world communications failures, ACM Queue 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2655736),[pdf](https://queue.acm.org/detail.cfm?id=2655736)]
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2670986),[pdf](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)]
@@ -308,7 +330,7 @@ October - December
 * ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
 
 
-### Academic Workshops
+### Academic workshops
 * Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [[2019](https://novasys.di.fct.unl.pt/conferences/papoc19/)]
 * ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS) [[website](http://ladisworkshop.org)]
 * USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage) [[2019](https://www.usenix.org/conference/hotstorage19)]
@@ -317,7 +339,7 @@ October - December
 * USENIX Workshop on Hot Topics in Cloud Computing (HotCloud) [[2019](https://www.usenix.org/conference/hotcloud19)]
 * USENIX Workshop on Hot Topics in Edge Computing (HotEdge) [[2019](https://www.usenix.org/conference/hotedge19)]
 
-### Academic Journals & Magazines
+### Academic journals & magazines
 * ACM Transactions on Computer Systems (TOCS) [[website](https://tocs.acm.org)]
 * Journal of the ACM (JACM) [[website](https://jacm.acm.org)]
 * Communications of the ACM (CACM) [[website](https://cacm.acm.org)]
