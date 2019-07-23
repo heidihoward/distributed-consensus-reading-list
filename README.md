@@ -300,6 +300,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [An introduction to distributed systems](https://github.com/aphyr/distsys-class) by Kyle Kingsbury
 * [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/) by [Henry Robinson](https://twitter.com/henryr)
 * [Collective works of Leslie Lamport](http://lamport.azurewebsites.net/pubs/pubs.html)
+* [Paxosmon: Gotta Consensus Them All](https://vadosware.io/post/paxosmon-gotta-concensus-them-all/)
 
 ### Academic conferences & symposiums
 January - March
