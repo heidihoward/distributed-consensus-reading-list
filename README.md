@@ -189,7 +189,8 @@ This section lists papers describing standalone evaluations of consensus algorit
 * The Performance of Paxos in the Cloud, SRDS 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2707675.2707801),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SRDS14.pdf)]
 * Consensus in the Cloud: Paxos Systems Demystified, Tech report 2016 [[pdf](https://cse.buffalo.edu/tech-reports/2016-02.pdf)]
 * Spectrum: A Framework for Adapting Consensus Protocols, Unpublished 2019 [[pdf](https://arxiv.org/abs/1902.05873)]
-* Dissecting the Performance of Strongly-Consistent Replication Protocols, SIGMOD 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319893)]
+* Dissecting the Performance of Strongly-Consistent Replication Protocols, SIGMOD 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319893),[pdf](https://dl.acm.org/ft_gateway.cfm?id=3319893&type=pdf)]
+  * [author's blog post](http://muratbuffalo.blogspot.com/2019/07/dissecting-performance-bottlenecks-of.html)
 
 ### State machine replication
 This section lists papers the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
