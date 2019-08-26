@@ -18,6 +18,7 @@ The sections are as follows:
 * [Failures](#failures)
 * [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
 * [Quorum systems](#quorum-systems)
+* [Byzantine fault tolerance](#byzantine-fault-tolerance)
 * [Misc](#misc)
 * [Future reading list](#future-reading-list)
   * [Blogroll](#blogroll)
@@ -269,6 +270,15 @@ This section lists papers on quorum systems.
 * The Load, Capacity, and Availability of Quorum Systems, SIAM 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279082.279096),[pdf](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232),[tmp](https://blog.acolyer.org/2016/10/03/the-load-capacity-and-availability-of-quorum-systems/)]
 * Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
+
+### Byzantine fault tolerance
+This section lists paper on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
+* Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
+* Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
+* Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
+* HotStuff: BFT Consensus with Linearity and Responsiveness, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331591),[arxiv](https://arxiv.org/abs/1803.05069)]
+* The latest gossip on BFT consensus, Unpublished 2018 [[arxiv](https://arxiv.org/abs/1807.04938)]
+  * describes [Tendermint](https://tendermint.com)
 
 ### Misc
 * FaunaDB: An Architectural Overview [[pdf](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)]
