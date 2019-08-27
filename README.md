@@ -115,6 +115,7 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * There Is More Consensus in Egalitarian Parliaments, SOSP 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2517350),[pdf](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)]
 * Geo-replicated storage with scalable deferred update replication, DSN 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2515164),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.724.1706&rep=rep1&type=pdf)]
 * Low-Latency Multi-Datacenter Databases using Replicated Commit, VLDB 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2536366),[pdf](http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf)]
+* Be General and Don’t Give Up Consistency in Geo-Replicated Transactional Systems, OPODIS 2014 [[pdf](https://www.ssrg.ece.vt.edu/papers/opodis14-alvin.pdf)]
 * CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems, FAST 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2750482.2750483),[pdf](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)]
 * GlobalFS: A Strongly Consistent Multi-Site File System, SRDS 2016 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7794339)]
 * Canopus: A Scalable and Massively Parallel Consensus Protocol, CoNEXT 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3143394),[pdf](https://cs.uwaterloo.ca/~bernard/Canopus.pdf)]
