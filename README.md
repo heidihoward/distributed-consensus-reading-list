@@ -224,6 +224,7 @@ This section lists papers which discuss alternative consistency models to Linear
 * Eventual Consistency Today: Limitations, Extensions, and Beyond, ACM Queue 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2462076),[pdf](https://queue.acm.org/detail.cfm?id=2462076)]
 * Quantifying eventual consistency with PBS, CACM 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2632792),[pdf](http://www.bailis.org/papers/pbs-vldbj2014.pdf)]
 * Existential Consistency: Measuring and Understanding Consistency at Facebook, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815426),[pdf](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/240-lu.pdf)]
+* Minimizing coordination in replicated systems, PaPoC 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2745955),[pdf](http://staff.ustc.edu.cn/~chengli7/papers/a8-Li.pdf)]
 * Consistency in Non-Transactional Distributed Storage Systems, CSUR 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2926965),[pdf](http://www.vukolic.com/consistency-survey.pdf)]
 * Just say NO to Paxos Overhead: Replacing Consensus with Network Ordering, OSDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026914),[pdf](https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf),[tmp](https://blog.acolyer.org/2016/12/08/just-say-no-to-paxos-overhead-replacing-consensus-with-network-ordering/)]
 * The many faces of consistency, DE 2016 [[pdf](http://sites.computer.org/debull/A16mar/p3.pdf)]
