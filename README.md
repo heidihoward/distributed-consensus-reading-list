@@ -245,6 +245,7 @@ This section lists papers which analyze real-world failures of distributed syste
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
 * Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers, Book 2002 [[acmdl](https://dl.acm.org/citation.cfm?id=579617),[pdf](https://lamport.azurewebsites.net/tla/book-02-08-08.pdf),[website](https://lamport.azurewebsites.net/tla/book.html),[amazon](https://www.amazon.com/Specifying-Systems-Language-Hardware-Engineers/dp/032114306X)]
+  * directory of TLA+ specs, including many for consensus algorithms [TLA+ Examples](https://github.com/tlaplus/Examples)
 * A Proof of Correctness for Egalitarian Paxos, Tech report 2013 [[pdf](http://www.cs.cmu.edu/~imoraru/epaxos/tr.pdf)]
 * Verdi: A framework for implementing and formally verifying distributed systems, PLDI 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2737958),[pdf](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf)]
 * IronFleet: Proving Practical Distributed Systems Correct, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815428),[pdf](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/250-hawblitzel.pdf),[tmp](https://blog.acolyer.org/2015/10/15/ironfleet-proving-practical-distributed-systems-correc/)]
