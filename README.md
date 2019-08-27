@@ -258,6 +258,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Paxos Made EPR: Decidable Reasoning about Distributed Protocols, OOPSLA 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3152284.3140568),[pdf](https://www.cs.tau.ac.il/~odedp/paxos-made-epr-oopsla17.pdf)]
 * Growing a protocol, HotCloud 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3154593),[pdf](https://www.usenix.org/conference/hotcloud17/program/presentation/ramasubramanian),[tmp](https://blog.acolyer.org/2017/08/23/growing-a-protocol/)]
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf),[tmp](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)]
+* FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems, Eurosys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303986),[pdf](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf)]  
 
 ### Quorum systems
 This section lists papers on quorum systems.
@@ -277,7 +278,8 @@ This section lists papers on quorum systems.
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
 
 ### Byzantine fault tolerance
-This section lists paper on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
+This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
+* The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
 * Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
 * Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
 * Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
