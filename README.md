@@ -280,6 +280,7 @@ This section lists paper on Byzantine Fault Tolerance (BFT), often used as the b
 * Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
 * Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
 * Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
+  * also see: [Mechanically Checked Safety Proof of a Byzantine Paxos Algorithm](https://lamport.azurewebsites.net/tla/byzpaxos.html)
 * HotStuff: BFT Consensus with Linearity and Responsiveness, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331591),[arxiv](https://arxiv.org/abs/1803.05069)]
 * The latest gossip on BFT consensus, Unpublished 2018 [[arxiv](https://arxiv.org/abs/1807.04938)]
   * describes [Tendermint](https://tendermint.com)
