@@ -280,6 +280,7 @@ This section lists papers on quorum systems.
 ### Byzantine fault tolerance
 This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
 * The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
+* Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134),[pdf](https://zoo.cs.yale.edu/classes/cs426/2013/bib/bracha85asynchronous.pdf)]
 * Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
 * Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
 * Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
