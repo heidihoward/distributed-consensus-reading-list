@@ -81,6 +81,7 @@ This section lists papers describing algorithms for distributed consensus.
   * extends the idea of master read leases to allow the master to promise to use a specified subset of acceptors in every majority quorum. Acceptors in this quorum can then serve reads locally.
   * similar to master read leases, it relies on clock synchrony.
 * Flexible Paxos: Quorum Intersection Revisited, OPODIS 2016 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2017/7094/pdf/LIPIcs-OPODIS-2016-25.pdf),[tmp](https://blog.acolyer.org/2016/09/27/flexible-paxos-quorum-intersection-revisited/)]
+* Unbounded Pipelining in Dynamically Reconfigurable Paxos Clusters, Unpublished 2016 [[pdf](http://tessanddave.com/paxos-reconf-902f8b7.pdf)]
 * CASPaxos: Replicated State Machines without logs, Unpublished 2018 [[pdf](https://arxiv.org/pdf/1802.07000.pdf)]
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 
