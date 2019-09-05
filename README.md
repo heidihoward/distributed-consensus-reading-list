@@ -77,6 +77,7 @@ This section lists papers describing algorithms for distributed consensus.
 * Vertical Paxos and Primary-Backup Replication, PODC 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1582783),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)]
 * Reconfiguring a State Machine, SIGACT News 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1753191),[pdf](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)]
 * Dynamic atomic storage without consensus, JACM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1944348),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/dynastore-podc2009.pdf)]
+* Fast Genuine Generalized Consensus, SRDS 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2085374),[pdf](https://pages.lip6.fr/Marc.Shapiro/papers/FGGC-SRDS-2011.pdf)]
 * Viewstamped Replication Revisited, Tech Report 2012 [[pdf](http://pmg.csail.mit.edu/papers/vr-revisited.pdf),[tmp](https://blog.acolyer.org/2015/03/06/viewstamped-replication-revisited/)]
 * On Collision-fast Atomic Broadcast, AINA 2014 [[pdf](https://infoscience.epfl.ch/record/100857/files/CFAbcastTR.pdf)]
 * Paxos Quorum Leases: Fast Reads Without Sacrificing Writes, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2671001),[pdf](https://www.cs.cmu.edu/~dga/papers/leases-socc2014.pdf)]
