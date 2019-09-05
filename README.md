@@ -48,6 +48,7 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
 * The ABCD’s of Paxos, PODC 2001 [[acmdl](https://dl.acm.org/citation.cfm?id=383969),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)]
 * Paxos Made Simple, SIGACT News 2001 [[pdf](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf),[tmp](https://blog.acolyer.org/2015/03/04/paxos-made-simple/)]
   * describes single-degree Paxos as well as Multi-Paxos for SMR
+* Deconstructing paxos, SIGACT News 2003 [[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/deconstr_paxos.pdf),[acmdl](https://dl.acm.org/citation.cfm?id=637447)]
 * Total order broadcast and multicast algorithms: Taxonomy and survey, CSUR 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1041682),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.110.6701&rep=rep1&type=pdf)]
 * Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab, TDSC 2005 [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf),[tmp](https://blog.acolyer.org/2015/03/11/vive-la-difference-paxos-vs-viewstamped-replication-vs-zab/)]
 * Classic Paxos vs. Fast Paxos: Caveat Emptor, HotDep 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1323158),[pdf](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)]
