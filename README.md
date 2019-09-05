@@ -267,6 +267,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Growing a protocol, HotCloud 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3154593),[pdf](https://www.usenix.org/conference/hotcloud17/program/presentation/ramasubramanian),[tmp](https://blog.acolyer.org/2017/08/23/growing-a-protocol/)]
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf),[tmp](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)]
 * FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems, Eurosys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303986),[pdf](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf)]  
+* Proving the Correctness of Disk Paxos in Isabelle/HOL, Unpublished 2019 [[pdf](https://www.isa-afp.org/browser_info/current/AFP/DiskPaxos/outline.pdf)]
 
 ### Quorum systems
 This section lists papers on quorum systems.
