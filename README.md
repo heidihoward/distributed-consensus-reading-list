@@ -150,6 +150,7 @@ This section lists papers describing experiences of deploying distributed consen
 * Large-scale cluster management at Google with Borg, Eurosys 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2741964),[pdf](https://pdos.csail.mit.edu/6.824/papers/borg.pdf),[tmp](https://blog.acolyer.org/2015/05/07/large-scale-cluster-management-at-google-with-borg/)]
 * PaxosStore: High-availability Storage Made Practical in WeChat, VLDB 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3137778),[pdf](http://www.vldb.org/pvldb/vol10/p1730-lin.pdf)]
 * Bizur: A Key-value Consensus Algorithm for Scalable File-systems, Unpublished 2017 [[pdf](https://arxiv.org/pdf/1702.04242.pdf)]
+* SLOG: Serializable, Low-latency, Geo-replicated Transactions, VLDB 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3360377),[pdf](http://www.vldb.org/pvldb/vol12/p1747-ren.pdf),[tmp](https://blog.acolyer.org/2019/09/04/slog/)]
 
 ### Implementations of consensus
 This section lists papers describing implementations of distributed consensus algorithms.
