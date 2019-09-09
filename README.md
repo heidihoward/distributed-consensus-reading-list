@@ -379,6 +379,7 @@ October - December
 * ACM Workshop on Hot Topics in Networks (HotNets) [[2019](https://conferences.sigcomm.org/hotnets/2019/)]
 * USENIX Workshop on Hot Topics in Cloud Computing (HotCloud) [[2019](https://www.usenix.org/conference/hotcloud19)]
 * USENIX Workshop on Hot Topics in Edge Computing (HotEdge) [[2019](https://www.usenix.org/conference/hotedge19)]
+* International Workshop on Distributed Cloud Computing (DCC) [[2019](http://www.disc-conference.org/wp/dcc2019/)]
 
 ### Academic journals & magazines
 * ACM Transactions on Computer Systems (TOCS) [[website](https://tocs.acm.org)]
