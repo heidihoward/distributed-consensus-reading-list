@@ -304,7 +304,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * The latest gossip on BFT consensus, Unpublished 2018 [[arxiv](https://arxiv.org/abs/1807.04938)]
   * describes [Tendermint](https://tendermint.com)
 * SBFT: a Scalable and Decentralized Trust Infrastructure, Unpublished 2019 [[arxiv](https://arxiv.org/abs/1804.01626)]
-  * source available on github, [Concord](https://github.com/vmware/concord-bft)
+  * now open source, [Concord](https://github.com/vmware/concord-bft)
 
 ### Misc
 Blog posts, talks etc...
@@ -313,6 +313,7 @@ Blog posts, talks etc...
 * Communication Costs in Real-world Networks [[html](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)]
 * Modeling Paxos and Flexible Paxos in Pluscal and TLA+ [[html](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)]
 * Waltz: A Distributed Write-Ahead Log [[html](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)]
+* Open-sourcing LogDevice, a distributed data store for sequential data [[html](https://logdevice.io/blog/)]
 
 ## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
