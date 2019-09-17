@@ -281,10 +281,12 @@ This section lists paper on Byzantine Fault Tolerance (BFT), often used as the b
   * describes [Tendermint](https://tendermint.com)
 
 ### Misc
+Blog posts, talks etc...
 * FaunaDB: An Architectural Overview [[pdf](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)]
 * Distributed Coordination Engine (DConE) [[pdf](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)]
 * Communication Costs in Real-world Networks [[html](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)]
 * Modeling Paxos and Flexible Paxos in Pluscal and TLA+ [[html](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)]
+* Waltz: A Distributed Write-Ahead Log [[html](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)]
 
 ## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
