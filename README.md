@@ -305,6 +305,8 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
   * describes [Tendermint](https://tendermint.com)
 * SBFT: a Scalable and Decentralized Trust Infrastructure, Unpublished 2019 [[arxiv](https://arxiv.org/abs/1804.01626)]
   * now open source, [Concord](https://github.com/vmware/concord-bft)
+* Stellar Consensus by Instantiation, DISC 2019 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2019/11334/pdf/LIPIcs-DISC-2019-27.pdf)]
+  * Includes Isabelle/HOl proof in [AFP](https://www.isa-afp.org/entries/Stellar_Quorums.html)
 
 ### Misc
 Blog posts, talks etc...
