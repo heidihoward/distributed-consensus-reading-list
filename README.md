@@ -202,6 +202,8 @@ This section lists papers describing standalone evaluations of consensus algorit
 * Spectrum: A Framework for Adapting Consensus Protocols, Unpublished 2019 [[pdf](https://arxiv.org/abs/1902.05873)]
 * Dissecting the Performance of Strongly-Consistent Replication Protocols, SIGMOD 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319893),[pdf](https://dl.acm.org/ft_gateway.cfm?id=3319893&type=pdf)]
   * [author's blog post](http://muratbuffalo.blogspot.com/2019/07/dissecting-performance-bottlenecks-of.html)
+* Blockchains and Distributed Databases: a Twin Study [[arxiv](https://arxiv.org/abs/1910.01310)]
+  * performance anaylsis of 5 consensus systems, 3 non-byzantine algorithms (including etcd) and 2 byzantine consensus algorithms
 
 ### State machine replication
 This section lists papers the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
