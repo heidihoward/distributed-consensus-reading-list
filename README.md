@@ -190,10 +190,6 @@ This section lists papers describing implementations of distributed consensus al
   * geo-distributed performance is evaluated
 * Making Fast Consensus Generally Faster, DSN 2016 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7579738)]
 * Azure Data Lake Store: A Hyperscale Distributed File Service for Big Data Analytics, SIGMOD 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3056100),[pdf](http://www.cs.ucf.edu/~kienhua/classes/COP5711/Papers/MSazure2017.pdf),[tmp](https://blog.acolyer.org/2017/07/04/azure-data-lake-store-a-hyperscale-distributed-file-service-for-big-data-analytics/)]
-* Protocol-Aware Recovery for Consensus-Based Storage, FAST 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3241062),[pdf](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[tmp](https://blog.acolyer.org/2018/02/27/protocol-aware-recovery-for-consensus-based-storage/)]
-  * Enabling nodes who lose persistent storage (e.g. due to corruption) to rejoin consensus systems without reconfiguration.
-  * Implemented & evaluated in LogCabin and Zookeeper
-  * Best paper award at FAST 2018
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
@@ -289,7 +285,14 @@ This section lists papers on quorum systems.
 * Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
 
-### Byzantine fault tolerance
+### Corruption fault tolerance in distributed consensus
+* Practical Hardening of Crash-Tolerant Systems, ATC 2012 [[acmdl](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final190.pdf)]
+* Protocol-Aware Recovery for Consensus-Based Storage, FAST 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3241062),[pdf](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[tmp](https://blog.acolyer.org/2018/02/27/protocol-aware-recovery-for-consensus-based-storage/)]
+  * Enabling nodes who lose persistent storage (e.g. due to corruption) to rejoin consensus systems without reconfiguration.
+  * Implemented & evaluated in LogCabin and Zookeeper
+  * Best paper award at FAST 2018
+
+### Byzantine fault tolerance in distributed consensus
 This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
 * The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
 * Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134),[pdf](https://zoo.cs.yale.edu/classes/cs426/2013/bib/bracha85asynchronous.pdf)]
