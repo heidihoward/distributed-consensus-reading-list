@@ -18,8 +18,8 @@ The sections are as follows:
 * [Failures](#failures)
 * [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
 * [Quorum systems](#quorum-systems)
-* [Corruption fault tolerance in distributed consensus](#corruption-fault-tolerance-in-distributed-consensus)
 * [Byzantine fault tolerance in distributed consensus](#byzantine-fault-tolerance-in-distributed-consensus)
+* [Alternative fault models in distributed consensus](#alternative-fault-models-in-distributed-consensus)
 * [Misc](#misc)
 * [Future reading list](#future-reading-list)
   * [Blogroll](#blogroll)
@@ -249,6 +249,8 @@ This section lists papers which analyze real-world failures of distributed syste
 * Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications, SIGCOMM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2018477),[pdf](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)]
 * The Network is Reliable: An informal survey of real-world communications failures, ACM Queue 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2655736),[pdf](https://queue.acm.org/detail.cfm?id=2655736)]
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2670986),[pdf](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)]
+* All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications, OSDI 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2685082),[pdf](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-pillai.pdf)]
+* Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to Single Errors and Corruptions, FAST 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3129648),[pdf](https://www.usenix.org/system/files/conference/fast17/fast17-ganesan.pdf),[tmp](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)]
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
@@ -286,13 +288,6 @@ This section lists papers on quorum systems.
 * Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
 
-### Corruption fault tolerance in distributed consensus
-* Practical Hardening of Crash-Tolerant Systems, ATC 2012 [[acmdl](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final190.pdf)]
-* Protocol-Aware Recovery for Consensus-Based Storage, FAST 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3241062),[pdf](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[tmp](https://blog.acolyer.org/2018/02/27/protocol-aware-recovery-for-consensus-based-storage/)]
-  * Enabling nodes who lose persistent storage (e.g. due to corruption) to rejoin consensus systems without reconfiguration.
-  * Implemented & evaluated in LogCabin and Zookeeper, but no source code is available
-  * Best paper award at FAST 2018
-  * author's claim to have model checked with TLA+ but no spec is available
 
 ### Byzantine fault tolerance in distributed consensus
 This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
@@ -316,6 +311,17 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
   * now open source, [Concord](https://github.com/vmware/concord-bft)
 * Stellar Consensus by Instantiation, DISC 2019 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2019/11334/pdf/LIPIcs-DISC-2019-27.pdf)]
   * Includes Isabelle/HOl proof in [AFP](https://www.isa-afp.org/entries/Stellar_Quorums.html)
+
+### Alternative fault models in distributed consensus
+Most of these paper handle crash faults. The previous section considers byzantine faults. This section considers the fault models between crash and byzantine.
+* Practical Hardening of Crash-Tolerant Systems, ATC 2012 [[acmdl](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final190.pdf)]
+* Visigoth Fault Tolerance, EuroSys 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2741979),[pdf](http://staff.ustc.edu.cn/~chengli7/papers/a8-porto.pdf)]
+* Protocol-Aware Recovery for Consensus-Based Storage, FAST 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3241062),[pdf](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[tmp](https://blog.acolyer.org/2018/02/27/protocol-aware-recovery-for-consensus-based-storage/)]
+  * Enabling nodes who lose persistent storage (e.g. due to corruption) to rejoin consensus systems without reconfiguration.
+  * Implemented & evaluated in LogCabin and Zookeeper, but no source code is available
+  * Best paper award at FAST 2018
+  * author's claim to have model checked with TLA+ but no spec is available
+* XFT: Practical Fault Tolerance beyond Crashes, OSDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026877.3026915),[pdf](https://www.usenix.org/system/files/conference/osdi16/osdi16-liu.pdf)]
 
 ### Misc
 Blog posts, talks etc...
