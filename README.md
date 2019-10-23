@@ -298,8 +298,11 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Separating agreement from execution for byzantine fault tolerant services, SOSP 2003 [[acmdl](https://dl.acm.org/citation.cfm?id=945470),[pdf](http://www.cs.cornell.edu/lorenzo/papers/sosp03.pdf)]
 * Byzantine disk paxos: optimal resilience with byzantine shared memory, PODC 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1011801),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzdp-dc2006.pdf)]
 * Fast Byzantine Consensus, IEEE TDSC 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1159374),[pdf](http://www.cs.cornell.edu/lorenzo/papers/Martin06Fast.pdf)]
+* Zyzzyva: speculative byzantine fault tolerance, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294267),[pdf](http://www.cs.cornell.edu/lorenzo/papers/kotla07Zyzzyva.pdf)]
 * Bosco: One-Step Byzantine Asynchronous Consensus, DISC 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1432322),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/52180438.pdf)]
 * Upright cluster services, SOSP 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1629602),[pdf](http://www.cs.albany.edu/~jhh/courses/readings/clement.sosp09.upright.pdf)]
+  * develops a BFT fork of Zookeeper and HDFS, source code is [available](https://github.com/amiller/upright) but does not seem to be used/maintained
+* Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults, NSDI 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1558988),[pdf](http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf)]
 * Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
   * also see: [Mechanically Checked Safety Proof of a Byzantine Paxos Algorithm](https://lamport.azurewebsites.net/tla/byzpaxos.html)
 * Consensus in the Age of Blockchains, Unpublished 2017 [[arxiv](https://arxiv.org/abs/1711.03936),[tmp](https://blog.acolyer.org/2018/02/12/sok-consensus-in-the-age-of-blockchains/)]
