@@ -53,6 +53,7 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
 * Total order broadcast and multicast algorithms: Taxonomy and survey, CSUR 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1041682),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.110.6701&rep=rep1&type=pdf)]
 * Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab, TDSC 2005 [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf),[tmp](https://blog.acolyer.org/2015/03/11/vive-la-difference-paxos-vs-viewstamped-replication-vs-zab/)]
 * The Alpha of Indulgent Consensus, Comp Journal 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1188295),[pdf](https://infoscience.epfl.ch/record/89695/files/bxl046.pdf)]
+* The Paxos Register, SRDS 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1308227),[pdf](http://www.cs.cornell.edu/lorenzo/papers/li07Paxos.pdf)]
 * Classic Paxos vs. Fast Paxos: Caveat Emptor, HotDep 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1323158),[pdf](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)]
 * Introduction to Reliable and Secure Distributed Programming, Book 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
 * Tutorial Summary: Paxos Explained from Scratch, OPODIS 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2696603),[pdf](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)]
