@@ -192,6 +192,8 @@ This section lists papers describing implementations of distributed consensus al
   * geo-distributed performance is evaluated
 * Making Fast Consensus Generally Faster, DSN 2016 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7579738)]
 * Azure Data Lake Store: A Hyperscale Distributed File Service for Big Data Analytics, SIGMOD 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3056100),[pdf](http://www.cs.ucf.edu/~kienhua/classes/COP5711/Papers/MSazure2017.pdf),[tmp](https://blog.acolyer.org/2017/07/04/azure-data-lake-store-a-hyperscale-distributed-file-service-for-big-data-analytics/)]
+* Aegean: Replication beyond the client-server model, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359663)]
+  * also supports BFT
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
@@ -252,6 +254,8 @@ This section lists papers which analyze real-world failures of distributed syste
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2670986),[pdf](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)]
 * All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications, OSDI 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2685082),[pdf](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-pillai.pdf)]
 * Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to Single Errors and Corruptions, FAST 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3129648),[pdf](https://www.usenix.org/system/files/conference/fast17/fast17-ganesan.pdf),[tmp](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)]
+* CrashTuner: Detecting Crash-Recovery Bugs in Cloud Systems via Meta-Info Analysis, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359645)]
+* The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359650)]
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
@@ -271,6 +275,9 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf),[tmp](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)]
 * FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems, Eurosys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303986),[pdf](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf)]  
 * Proving the Correctness of Disk Paxos in Isabelle/HOL, Unpublished 2019 [[pdf](https://www.isa-afp.org/browser_info/current/AFP/DiskPaxos/outline.pdf)]
+* I4: Incremental Inference of Inductive Invariants for Verification of Distributed Protocols, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359651)]
+  * [source code online](https://github.com/GLaDOS-Michigan/I4)
+* Scaling symbolic evaluation for automated verification of systems code with Serval, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359641)]
 
 ### Quorum systems
 This section lists papers on quorum systems.
@@ -315,7 +322,9 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * SBFT: a Scalable and Decentralized Trust Infrastructure, Unpublished 2019 [[arxiv](https://arxiv.org/abs/1804.01626)]
   * now open source, [Concord](https://github.com/vmware/concord-bft)
 * Stellar Consensus by Instantiation, DISC 2019 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2019/11334/pdf/LIPIcs-DISC-2019-27.pdf)]
-  * Includes Isabelle/HOl proof in [AFP](https://www.isa-afp.org/entries/Stellar_Quorums.html)
+  * Includes Isabelle/HOL proof in [AFP](https://www.isa-afp.org/entries/Stellar_Quorums.html)
+* Fast and secure global payments with Stellar, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359636)]
+  * Formal verification in Ivy and Isabelle/HOL
 
 ### Alternative fault models in distributed consensus
 Most of these paper handle crash faults. The previous section considers byzantine faults. This section considers the fault models between crash and byzantine.
