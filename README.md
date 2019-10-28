@@ -306,6 +306,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Separating agreement from execution for byzantine fault tolerant services, SOSP 2003 [[acmdl](https://dl.acm.org/citation.cfm?id=945470),[pdf](http://www.cs.cornell.edu/lorenzo/papers/sosp03.pdf)]
 * Byzantine disk paxos: optimal resilience with byzantine shared memory, PODC 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1011801),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzdp-dc2006.pdf)]
 * Fast Byzantine Consensus, IEEE TDSC 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1159374),[pdf](http://www.cs.cornell.edu/lorenzo/papers/Martin06Fast.pdf)]
+  * aka FaB
 * Zyzzyva: speculative byzantine fault tolerance, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294267),[pdf](http://www.cs.cornell.edu/lorenzo/papers/kotla07Zyzzyva.pdf)]
 * Bosco: One-Step Byzantine Asynchronous Consensus, DISC 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1432322),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/52180438.pdf)]
   * byzantine consensus in 1 round (instead the usual three) using quorums of 4f+1 from 5f+1
@@ -314,6 +315,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults, NSDI 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1558988),[pdf](http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf)]
 * Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
   * also see: [Mechanically Checked Safety Proof of a Byzantine Paxos Algorithm](https://lamport.azurewebsites.net/tla/byzpaxos.html)
+* Byzantine Chain Replication, OPODIS 2012 [[pdf](http://www.cs.cornell.edu/home/rvr/newpapers/opodis2012.pdf)]
 * Consensus in the Age of Blockchains, Unpublished 2017 [[arxiv](https://arxiv.org/abs/1711.03936),[tmp](https://blog.acolyer.org/2018/02/12/sok-consensus-in-the-age-of-blockchains/)]
 * Hardening Cassandra Against Byzantine Failures, OPODIS 2017 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2018/8642/pdf/LIPIcs-OPODIS-2017-27.pdf)]
 * HotStuff: BFT Consensus with Linearity and Responsiveness, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331591),[arxiv](https://arxiv.org/abs/1803.05069)]
