@@ -1,6 +1,6 @@
 ## Distributed consensus reading list
 
-This markdown file contains a list of academic papers (and other works) in the field of distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions are welcome.
+Since its inception in the 1980s, distributed consensus and the related areas of atomic broadcast, state machine replication and byzantine fault tolerance have been the subjects of extensive academic research. This file contains a list of academic papers (and other works) relating the field of distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions are welcome.
 
 Key: acmdl = [ACM Digital Library](https://dl.acm.org), tmp = [the morning paper](https://blog.acolyer.org)
 
@@ -33,7 +33,7 @@ This section lists theoretical results relating to distributed consensus.
 * Time, Clocks, and the Ordering of Events in a Distributed System, CACM 1978 [[acmdl](https://dl.acm.org/citation.cfm?id=359563),[pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)]
 * The implementation of reliable distributed multiprocess systems, Computer Networks 1978 [[pdf](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)]
 * Impossibility of Distributed Consensus with One Faulty Process, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214121),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
-  * aka the FLP result
+  * as known as the FLP result
 * On the Minimal Synchronism Needed for Distributed Consensus, JACM 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7533),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)]  
 * Unreliable Failure Detectors for Reliable Distributed Systems, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=226647),[pdf](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)]
 * The Weakest Failure Detector for Solving Consensus, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=234549),[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)]
@@ -327,6 +327,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
   * Includes Isabelle/HOL proof in [AFP](https://www.isa-afp.org/entries/Stellar_Quorums.html)
 * Fast and secure global payments with Stellar, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359636)]
   * Formal verification in Ivy and Isabelle/HOL
+* Flexible Byzantine Fault Tolerance, CCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319535.3354225),[pdf](https://dahliamalkhi.files.wordpress.com/2019/09/flex-bft-ccs19.pdf)]
 
 ### Alternative fault models in distributed consensus
 Most of these paper handle crash faults. The previous section considers byzantine faults. This section considers the fault models between crash and byzantine.
