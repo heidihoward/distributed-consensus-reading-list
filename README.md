@@ -49,6 +49,7 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
 * The ABCD’s of Paxos, PODC 2001 [[acmdl](https://dl.acm.org/citation.cfm?id=383969),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.595.4829&rep=rep1&type=pdf)]
 * Paxos Made Simple, SIGACT News 2001 [[pdf](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf),[tmp](https://blog.acolyer.org/2015/03/04/paxos-made-simple/)]
   * describes single-degree Paxos as well as Multi-Paxos for SMR
+  * much more readable than the original paper
 * Deconstructing paxos, SIGACT News 2003 [[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/deconstr_paxos.pdf),[acmdl](https://dl.acm.org/citation.cfm?id=637447)]
 * Total order broadcast and multicast algorithms: Taxonomy and survey, CSUR 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1041682),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.110.6701&rep=rep1&type=pdf)]
 * Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab, TDSC 2005 [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf),[tmp](https://blog.acolyer.org/2015/03/11/vive-la-difference-paxos-vs-viewstamped-replication-vs-zab/)]
@@ -67,12 +68,16 @@ This section lists papers describing algorithms for distributed consensus.
 * Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems, PODC 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=62549),[pdf](http://pmg.csail.mit.edu/papers/vr.pdf),[tmp](https://blog.acolyer.org/2015/03/02/viewstamped-replication-a-new-primary-copy-method-to-support-highly-available-distributed-systems/)]
 * Efficient Message Ordering in Dynamic Networks, PODC 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=248062),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=A396429A7FB80EE184CC3AFC78347A86?doi=10.1.1.27.6092&rep=rep1&type=pdf)]
 * The Part-Time Parliament, TOCS 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279229),[pdf](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf),[tmp](https://blog.acolyer.org/2015/03/03/the-part-time-parliament/)]
+  * the original paper introducing Paxos
 * Disk Paxos, DISC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=675967),[pdf](https://lamport.azurewebsites.net/pubs/disk-paxos.pdf)]
 * Specifying and Using a Partitionable Group Communication Service, TOCS 2001 [[acmdl](https://dl.acm.org/citation.cfm?id=377776&dl=ACM&coll=DL),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)]
 * Active Disk Paxos with infinitely many processes, PODC 2002 [[acmdl](https://dl.acm.org/citation.cfm?id=1146169),[pdf](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)]
 * Cheap Paxos, DSN 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1009745),[pdf](https://lamport.azurewebsites.net/pubs/web-dsn-submission.pdf)]
 * Generalized Consensus and Paxos, Tech Report 2005 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf)]
+  * introduces the idea of deciding a partial ordering of operations for SMR instead of a total ordering
 * Fast Paxos, Distributed Computing 2006 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)]
+  * proposers can bypassing leader by allowing multiple values to be proposed in the same ballot
+  * requires stronger quorums intersection, e.g. fast paxos of 3/4 for a same liveness guarantees as classic Paxos
 * Consensus on Transaction Commit, TODS 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1132867),[pdf](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf),[tmp](https://blog.acolyer.org/2016/01/13/consensus-on-transaction-commit/)]
 * Multicoordinated Paxos, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281150),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.8831&rep=rep1&type=pdf)]
 * Stoppable Paxos, Tech Report 2008 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)]
@@ -129,6 +134,8 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * Multileader WAN Paxos: Ruling the Archipelago with Fast Consensus, Tech report 2017 [[pdf](https://cse.buffalo.edu/tech-reports/2017-01.pdf)]
 * WPaxos: Wide Area Network Flexible Consensus, Unpublished 2017 [[pdf](https://arxiv.org/abs/1703.08905)]
   * Related blog post, [Modelling Paxos performance in wide area](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
+* Speeding up Consensus by Chasing Fast Decisions, DSN 2017 [[pdf](https://arxiv.org/pdf/1704.03319.pdf)]  
+  * implements an optimization to EPaxos
 * DPaxos: Managing Data Closer to Users for Low-Latency and Mobile Applications, SIGMOD 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3196928),[pdf](https://nawab.me/Uploads/Nawab_DPaxos_SIGMOD2018.pdf)]
 * SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines, SoCC 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3267837),[pdf](https://www.microsoft.com/en-us/research/publication/sdpaxos-building-efficient-semi-decentralized-geo-replicated-state-machines/)]
 * FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases, Tech report 2018 [[pdf](https://cse.buffalo.edu/tech-reports/2018-02.pdf)]
