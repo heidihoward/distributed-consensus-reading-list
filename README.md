@@ -387,11 +387,8 @@ The following lists contain places to watch for new writings in the field of dis
 * [Paxosmon: Gotta Consensus Them All](https://vadosware.io/post/paxosmon-gotta-concensus-them-all/)
 
 ### Academic conferences & symposiums
-January - March
 * USENIX Symposium on Networked Systems Design and Implementation (NSDI) [[2019](https://www.usenix.org/conference/nsdi19),[2020](https://www.usenix.org/conference/nsdi20)]
 * USENIX Conference on File and Storage Technologies (FAST) [[2019](https://www.usenix.org/conference/fast19),[2020](https://www.usenix.org/conference/fast20)]
-
-April - June
 * European Conference on Computer Systems (EuroSys) [[2019](https://2019.eurosys.org),[2020](https://www.eurosys2020.org)]
 * IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
 * ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) [[website](https://spaa.acm.org),[2019](https://spaa.acm.org/2019/)]
@@ -399,15 +396,11 @@ April - June
 * ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/)]
 * ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org),[2020](https://conf.researchr.org/home/pldi-2020)]
 * ACM Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/),[2020](http://acm-stoc.org/stoc2020/)]
-
-July - September
 * ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
 * IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/)]
 * USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19)]
 * ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference),[2019](http://conferences.sigcomm.org/sigcomm/2019/)]
 * International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/)]
-
-October - December
 * USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18)]
   * Biennial evens only
 * International Symposium on Reliable Distributed Systems (SRDS) [[2019](https://srds2019.projet.liris.cnrs.fr)]
