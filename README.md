@@ -282,6 +282,7 @@ This section lists papers which discuss alternative consistency models to Linear
   * featured in [the morning paper](https://blog.acolyer.org/2019/03/27/amazon-aurora-on-avoiding-distributed-consensus-for-i-os-commits-and-membership-changes/)
 * Sharding the Shards: Managing Datastore Locality at Scale with Akkio, OSDI 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3291201),[pdf](https://www.usenix.org/system/files/osdi18-annamalai.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2018/11/05/sharding-the-shards-managing-datastore-locality-at-scale-with-akkio/)
+* On mixing eventual and strong consistency: Bayou revisited, PODC 2019 [[arxiv](https://arxiv.org/abs/1905.11762),[pdf](https://dl.acm.org/citation.cfm?id=3331583)]
 
 ### Failures
 This section lists papers which analyze real-world failures of distributed systems.
