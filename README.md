@@ -354,8 +354,11 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
 * Separating agreement from execution for byzantine fault tolerant services, SOSP 2003 [[acmdl](https://dl.acm.org/citation.cfm?id=945470),[pdf](http://www.cs.cornell.edu/lorenzo/papers/sosp03.pdf)]
 * Byzantine disk paxos: optimal resilience with byzantine shared memory, PODC 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1011801),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzdp-dc2006.pdf)]
+* Fault-Scalable Byzantine Fault-Tolerant Services, SOSP 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1095817)]
+  * requires 5f+1 instead of 3f+1
 * Fast Byzantine Consensus, IEEE TDSC 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1159374),[pdf](http://www.cs.cornell.edu/lorenzo/papers/Martin06Fast.pdf)]
   * aka FaB
+* HQ Replication: A Hybrid Quorum Protocol for Byzantine Fault Tolerance, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298473),[pdf](http://pmg.csail.mit.edu/papers/hq/hq-osdi06.pdf)]
 * Zyzzyva: speculative byzantine fault tolerance, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294267),[pdf](http://www.cs.cornell.edu/lorenzo/papers/kotla07Zyzzyva.pdf)]
 * Bosco: One-Step Byzantine Asynchronous Consensus, DISC 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1432322),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/52180438.pdf)]
   * byzantine consensus in 1 round (instead the usual three) using quorums of 4f+1 from 5f+1
