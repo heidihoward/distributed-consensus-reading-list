@@ -251,7 +251,7 @@ This section lists papers the application of consensus to State Machine Replicat
 * Cheap and Available State Machine Replication, ATC 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026984),[pdf](https://www.usenix.org/system/files/conference/atc16/atc16_paper-shi.pdf)]
 
 ### Weaker consistency models
-This section lists papers which discuss alternative consistency models to Linearizability.
+This section lists papers which discuss alternative consistency models to linearizability or systems which depend upon clocks for correctness.
 * Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency, SOSP 1989 [[acmdl](https://dl.acm.org/citation.cfm?id=74870),[pdf](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)]
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases.
 * Towards Robust Distributed Systems, PODC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=343502),[pdf](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)]
@@ -288,6 +288,9 @@ This section lists papers which discuss alternative consistency models to Linear
 * Sharding the Shards: Managing Datastore Locality at Scale with Akkio, OSDI 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3291201),[pdf](https://www.usenix.org/system/files/osdi18-annamalai.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2018/11/05/sharding-the-shards-managing-datastore-locality-at-scale-with-akkio/)
 * On mixing eventual and strong consistency: Bayou revisited, PODC 2019 [[arxiv](https://arxiv.org/abs/1905.11762),[pdf](https://dl.acm.org/citation.cfm?id=3331583)]
+* Harmonia: Near-Linear Scalability for Replicated Storage with In-Network Conflict Detection, VLDB 2020 [[pdf](https://drkp.net/papers/harmonia-vldb20.pdf)]
+  * implemented on programmable switches
+  * comes with TLA+ spec in [tech report](https://arxiv.org/pdf/1904.08964.pdf)
 
 ### Failures
 This section lists papers which analyze real-world failures of distributed systems.
@@ -392,7 +395,7 @@ Most of these paper handle crash faults. The previous section considers byzantin
   * Enabling nodes who lose persistent storage (e.g. due to corruption) to rejoin consensus systems without reconfiguration.
   * Implemented & evaluated in LogCabin and Zookeeper, but no source code is available
   * Best paper award at FAST 2018
-  * authors' claim to have model checked zwith TLA+ but no spec is available
+  * authors' claim to have model checked with TLA+ but no spec is available
 * XFT: Practical Fault Tolerance beyond Crashes, OSDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026877.3026915),[pdf](https://www.usenix.org/system/files/conference/osdi16/osdi16-liu.pdf)]
 
 ### Misc
