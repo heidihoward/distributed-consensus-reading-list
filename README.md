@@ -169,7 +169,8 @@ This section lists papers describing experiences of deploying distributed consen
   * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
     * [Apache Kafka](https://kafka.apache.org) uses Zookeeper, as well as its own replication protocol, by described [here](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka/)
   * Architecture is similar to Google's Chubby but unlike Chubby is described in detail and is open source
-  * Writes are linearizable, reads may be stale unless sync is called first
+  * Writes are linearizable, reads may be stale
+  * Note: calling sync before a write doesn't make it linearizable
   * Clients may have multiple outstanding requests, they will be handled FIFO
   * Uses primary-backup replication instead of state machine replication
 * Large-scale cluster management at Google with Borg, Eurosys 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2741964),[pdf](https://pdos.csail.mit.edu/6.824/papers/borg.pdf)]
@@ -228,6 +229,9 @@ This section lists papers describing implementations of distributed consensus al
 * Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf)]  
   * more details in [author's thesis](https://web.stanford.edu/~ouster/cgi-bin/papers/ParkPhD.pdf)
   * featured in [the morning paper](https://blog.acolyer.org/2019/03/15/exploiting-commutativity-for-practical-fast-replication/)
+* Linearizable Quorum Reads in Paxos, HotStorage 2019 [[pdf](https://www.usenix.org/system/files/hotstorage19-paper-charapko.pdf),[slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage19_slides_charapko.pdf)]
+  * two phase quourm read algorithm which does not require the leader
+  * does not rely on bounded clock drift like leases
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
