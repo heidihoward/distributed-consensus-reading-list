@@ -41,6 +41,7 @@ This section lists theoretical results relating to distributed consensus.
 * Lower Bounds for Asynchronous Consensus, Distributed Computing 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=3271328),[pdf](https://lamport.azurewebsites.net/pubs/lower-bound.pdf)]
 * The Heard-Of Model: Computing in Distributed Systems with Benign Failures, Distributed Computing 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=3271165),[pdf](https://infoscience.epfl.ch/record/109375/files/HO-TR-2007.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2016/02/09/the-heard-of-model/)
+* Virtually Synchronous Methodology for Dynamic Service Replication, MS Tech report 2010 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/11/vs-submit.pdf)]
 
 ### Surveys
 This section lists surveys, tutorials, book chapters and systemisation of knowledge papers covering distributed consensus algorithms.
