@@ -256,10 +256,11 @@ This section lists papers which discuss alternative consistency models to linear
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases.
 * Towards Robust Distributed Systems, PODC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=343502),[pdf](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)]
   * PODC keynote in which Eric Brewer proposed the now infamous CAP theorem
-* What consistency does your key-value store actually provide?, HotDep 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1924919),[pdf](https://www.usenix.net/legacy/events/hotdep10/tech/full_papers/Anderson.pdf)]
-  * offline consistency checking of key-value traces
+* Chain replication for supporting high throughput and availability, OSDI 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1251261),[pdf](https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf)]
 * Dynamo: Amazon’s Highly Available Key-value Store, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294281),[pdf](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)]
 * Bigtable: A Distributed Storage System for Structured Data, TOCS 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1365816),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)]
+* What consistency does your key-value store actually provide?, HotDep 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1924919),[pdf](https://www.usenix.net/legacy/events/hotdep10/tech/full_papers/Anderson.pdf)]
+  * offline consistency checking of key-value traces
 * Cassandra - A Decentralized Structured Storage System, OSR 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1773922),[pdf](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)]
   * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
 * Benchmarking Cloud Serving Systems with YCSB, SoCC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1807152),[pdf](https://www2.cs.duke.edu/courses/fall13/compsci590.4/838-CloudPapers/ycsb.pdf)]
