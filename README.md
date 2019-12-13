@@ -445,18 +445,18 @@ The following lists contain places to watch for new writings in the field of dis
 * IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
 * ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) [[website](https://spaa.acm.org),[2019](https://spaa.acm.org/2019/)]
 * ACM SIGMOD/PODS Conference [[2019](https://sigmod2019.org),[2020](https://sigmod2020.org)]
-* ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/)]
+* ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/),[2020](http://www.sigmetrics.org/sigmetrics2020/)]
 * ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org),[2020](https://conf.researchr.org/home/pldi-2020)]
 * ACM Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/),[2020](http://acm-stoc.org/stoc2020/)]
 * ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
-* IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/)]
-* USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19)]
-* ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference),[2019](http://conferences.sigcomm.org/sigcomm/2019/)]
-* International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/)]
-* USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18)]
+* IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/),[2020](https://icdcs2020.sg)]
+* USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19),[2020](https://www.usenix.org/conference/atc20)]
+* ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference),[2019](http://conferences.sigcomm.org/sigcomm/2019/),[2020](https://conferences.sigcomm.org/sigcomm/2020/)]
+* International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/),[2020](https://vldb2020.org)]
+* USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18),[2020](https://www.usenix.org/conference/osdi20)]
   * Biennial evens only
-* International Symposium on Reliable Distributed Systems (SRDS) [[2019](https://srds2019.projet.liris.cnrs.fr)]
-* International Symposium on Distributed Computing (DISC) [[2019](http://www.disc-conference.org/wp/disc2019/)]
+* International Symposium on Reliable Distributed Systems (SRDS) [[website](https://srds-conference.org),[2019](https://srds2019.projet.liris.cnrs.fr)]
+* International Symposium on Distributed Computing (DISC) [[website](http://www.disc-conference.org/wp/),[2019](http://www.disc-conference.org/wp/disc2019/)]
 * International Conference on Principles of Distributed Systems (OPODIS) [[2019](https://opodis2019.unine.ch)]
 * ACM Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)]
   * Biennial odds only
@@ -474,7 +474,8 @@ The following lists contain places to watch for new writings in the field of dis
 * International Workshop on Distributed Cloud Computing (DCC) [[2019](http://www.disc-conference.org/wp/dcc2019/)]
 
 ### Academic journals & magazines
-* ACM Transactions on Computer Systems (TOCS) [[website](https://tocs.acm.org)]
+* ACM Transactions on Computer
+ Systems (TOCS) [[website](https://tocs.acm.org)]
 * Journal of the ACM (JACM) [[website](https://jacm.acm.org)]
 * Communications of the ACM (CACM) [[website](https://cacm.acm.org)]
 * SIGOPS Operating Systems Review (OSR) [[website](https://www.sigops.org/osr.html)]
