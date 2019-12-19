@@ -462,6 +462,7 @@ The following lists contain places to watch for new writings in the field of dis
   * Biennial odds only
 * ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
 
+[Dan Tsafrir](http://www.cs.technion.ac.il/~dan/index.html) maintains a useful list of [systems conferences by deadline](http://www.cs.technion.ac.il/~dan/index_sysvenues_deadline.html).
 
 ### Academic workshops
 * Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [[2019](https://novasys.di.fct.unl.pt/conferences/papoc19/)]
