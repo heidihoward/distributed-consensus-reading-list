@@ -233,6 +233,7 @@ This section lists papers describing implementations of distributed consensus al
 * Linearizable Quorum Reads in Paxos, HotStorage 2019 [[pdf](https://www.usenix.org/system/files/hotstorage19-paper-charapko.pdf),[slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage19_slides_charapko.pdf)]
   * two phase quourm read algorithm which does not require the leader
   * does not rely on bounded clock drift like leases
+* RMWPaxos: Fault-Tolerant In-Place Consensus Sequences, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.03362)]
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
