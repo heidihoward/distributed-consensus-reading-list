@@ -1,6 +1,8 @@
 ## Distributed consensus reading list
 
-Since its inception in the 1980s, distributed consensus and the related areas of atomic broadcast, state machine replication and byzantine fault tolerance have been the subjects of extensive academic research. This file contains a list of academic papers (and other works) relating the field of distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions are welcome.
+Since its inception in the 1980s, distributed consensus and the related areas of atomic broadcast, state machine replication and byzantine fault tolerance have been the subjects of extensive academic research. This file contains a list of papers (and other works) relating to distributed consensus.
+
+Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions are welcome.
 
 Key: acmdl = [ACM Digital Library](https://dl.acm.org)
 
@@ -14,6 +16,7 @@ The sections are as follows:
 * [Implementations of consensus](#implementations-of-consensus)
 * [Evaluations of consensus](#evaluations-of-consensus)
 * [State machine replication](#state-machine-replication)
+* [Reconfiguration](#reconfiguration)
 * [Weaker consistency models](#weaker-consistency-models)
 * [Failures](#failures)
 * [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
@@ -89,8 +92,6 @@ This section lists papers describing algorithms for distributed consensus.
   * featured in [the morning paper](https://blog.acolyer.org/2016/01/13/consensus-on-transaction-commit/)
 * Multicoordinated Paxos, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281150),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.8831&rep=rep1&type=pdf)]
 * Stoppable Paxos, Tech Report 2008 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)]
-* Vertical Paxos and Primary-Backup Replication, PODC 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1582783),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)]
-* Reconfiguring a State Machine, SIGACT News 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1753191),[pdf](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)]
 * Dynamic atomic storage without consensus, JACM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1944348),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/dynastore-podc2009.pdf)]
 * Fast Genuine Generalized Consensus, SRDS 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2085374),[pdf](https://pages.lip6.fr/Marc.Shapiro/papers/FGGC-SRDS-2011.pdf)]
 * Viewstamped Replication Revisited, Tech Report 2012 [[pdf](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)]
@@ -101,8 +102,6 @@ This section lists papers describing algorithms for distributed consensus.
   * similar to master read leases, it relies on clock synchrony.
 * Flexible Paxos: Quorum Intersection Revisited, OPODIS 2016 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2017/7094/pdf/LIPIcs-OPODIS-2016-25.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2016/09/27/flexible-paxos-quorum-intersection-revisited/)
-* Unbounded Pipelining in Dynamically Reconfigurable Paxos Clusters, Unpublished 2016 [[pdf](http://tessanddave.com/paxos-reconf-902f8b7.pdf)]
-  * related blog post, [UPaxos and primary-backup replication](https://davecturner.github.io/2017/09/18/upaxos-primary-backup.html)
 * CASPaxos: Replicated State Machines without logs, Unpublished 2018 [[pdf](https://arxiv.org/pdf/1802.07000.pdf)]
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 
@@ -187,7 +186,6 @@ This section lists papers describing implementations of distributed consensus al
 * The ISIS project: real experience with a fault tolerant programming system, OSR 1991 [[acmdl](https://dl.acm.org/citation.cfm?id=122133),[pdf](http://web.eecs.utk.edu/~mbeck/classes/Fall04-distrsys/p103-birman.pdf)]
 * Replication in the Harp File System, SOSP 1991 [[acmdl](https://dl.acm.org/citation.cfm?id=121169),[pdf](http://www.pmg.csail.mit.edu/papers/harp.pdf)]
 * Boxwood: Abstractions as the Foundation for Storage Infrastructure, OSDI 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1251262),[pdf](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/maccormick/maccormick.pdf)]
-* The SMART Way to Migrate Replicated Stateful Services, EuroSys 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1217946),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/eurosys2006.pdf)]
 * The Farsite Project: A Retrospective, OSR 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1243422),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2007/04/OSR2007-4aa.pdf)]
 * Paxos for System Builders: An Overview, LADIS 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1529979),[pdf](http://www.cnds.jhu.edu/pub/papers/psb_ladis_08.pdf)]
 * Using Paxos to Build a Scalable, Consistent, and Highly Available Datastore, VLDB 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1938549),[pdf](https://arxiv.org/pdf/1103.2408.pdf)]
@@ -251,6 +249,15 @@ This section lists papers the application of consensus to State Machine Replicat
 * Linearizability: A Correctness Condition for Concurrent Objects, TOPLAS 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=78972),[pdf](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)]
 * Implementing Linearizability at Large Scale and Low Latency, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815416),[pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf)]
 * Cheap and Available State Machine Replication, ATC 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026984),[pdf](https://www.usenix.org/system/files/conference/atc16/atc16_paper-shi.pdf)]
+
+### Reconfiguration
+This section lists papers on reconfiguration.
+* The SMART Way to Migrate Replicated Stateful Services, EuroSys 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1217946),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/eurosys2006.pdf)]
+* Vertical Paxos and Primary-Backup Replication, PODC 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1582783),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)]
+* Reconfiguring a State Machine, SIGACT News 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1753191),[pdf](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)]
+* Dynamic Reconfiguration of Primary/Backup Clusters, ATC 2012 [[acmdl](https://dl.acm.org/doi/10.5555/2342821.2342860),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final74.pdf)]
+* Unbounded Pipelining in Dynamically Reconfigurable Paxos Clusters, Unpublished 2016 [[pdf](http://tessanddave.com/paxos-reconf-902f8b7.pdf)]
+  * related blog post, [UPaxos and primary-backup replication](https://davecturner.github.io/2017/09/18/upaxos-primary-backup.html)
 
 ### Weaker consistency models
 This section lists papers which discuss alternative consistency models to linearizability or systems which depend upon clocks for correctness.
