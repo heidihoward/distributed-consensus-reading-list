@@ -233,6 +233,7 @@ This section lists papers describing implementations of distributed consensus al
   * two phase quourm read algorithm which does not require the leader
   * does not rely on bounded clock drift like leases
 * RMWPaxos: Fault-Tolerant In-Place Consensus Sequences, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.03362)]
+* Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
@@ -250,6 +251,7 @@ This section lists papers the application of consensus to State Machine Replicat
 * Linearizability: A Correctness Condition for Concurrent Objects, TOPLAS 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=78972),[pdf](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)]
 * Implementing Linearizability at Large Scale and Low Latency, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815416),[pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf)]
 * Cheap and Available State Machine Replication, ATC 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026984),[pdf](https://www.usenix.org/system/files/conference/atc16/atc16_paper-shi.pdf)]
+* Fine-Grained Replicated State Machines for a Cluster Storage System, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20spring_liu-ming_prepub_0.pdf)]
 
 ### Reconfiguration
 This section lists papers on reconfiguration.
