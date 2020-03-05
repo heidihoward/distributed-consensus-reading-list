@@ -234,6 +234,7 @@ This section lists papers describing implementations of distributed consensus al
   * does not rely on bounded clock drift like leases
 * RMWPaxos: Fault-Tolerant In-Place Consensus Sequences, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.03362)]
 * Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
+* Millions of Tiny Databases, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-brooker.pdf)]
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
