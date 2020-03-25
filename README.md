@@ -235,6 +235,7 @@ This section lists papers describing implementations of distributed consensus al
 * RMWPaxos: Fault-Tolerant In-Place Consensus Sequences, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.03362)]
 * Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
 * Millions of Tiny Databases, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-brooker.pdf)]
+* Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol, ASPLOS 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3373376.3378496),[arxiv](https://arxiv.org/abs/2001.09804)]
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
