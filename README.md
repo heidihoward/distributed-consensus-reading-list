@@ -230,6 +230,7 @@ This section lists papers describing implementations of distributed consensus al
 * Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf)]  
   * more details in [author's thesis](https://web.stanford.edu/~ouster/cgi-bin/papers/ParkPhD.pdf)
   * featured in [the morning paper](https://blog.acolyer.org/2019/03/15/exploiting-commutativity-for-practical-fast-replication/)
+* Unifying Consensus and Atomic Commitment for Effective Cloud Data Management, VLDB 2019 [[acmdl](https://dl.acm.org/doi/10.14778/3303753.3303765),[pdf](http://www.vldb.org/pvldb/vol12/p611-maiyya.pdf)]
 * Linearizable Quorum Reads in Paxos, HotStorage 2019 [[pdf](https://www.usenix.org/system/files/hotstorage19-paper-charapko.pdf),[slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage19_slides_charapko.pdf)]
   * two phase quourm read algorithm which does not require the leader
   * does not rely on bounded clock drift like leases
