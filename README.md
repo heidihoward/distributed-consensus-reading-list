@@ -346,6 +346,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * I4: Incremental Inference of Inductive Invariants for Verification of Distributed Protocols, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359651)]
   * [source code online](https://github.com/GLaDOS-Michigan/I4)
 * Scaling symbolic evaluation for automated verification of systems code with Serval, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359641)]
+* WormSpace: A Modular Foundation for Simple, Verifiable Distributed Systems, SoCC 2019 [[acmdl](https://dl.acm.org/doi/10.1145/3357223.3362739)]
 
 ### Quorum systems
 This section lists papers on quorum systems.
