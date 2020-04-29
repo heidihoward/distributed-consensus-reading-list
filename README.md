@@ -131,6 +131,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * Kernel Paxos, SRDS 2018 [[pdf](https://www.inf.usi.ch/faculty/pedone/Paper/2018/2018SRDSa.pdf)]
 * Partitioned Paxos via the Network Data Plane, Tech Report 2019 [[pdf](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)]
 * The Impact of RDMA on Agreement, PODC 2019 [[pdf](https://arxiv.org/abs/1905.12143)]
+* HovercRaft: Achieving Scalability and Fault-tolerance for microsecond-scale Datacenter Services, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387545)] 
 
 ### Consensus for geo-distributed systems
 This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
@@ -153,7 +154,7 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines, SoCC 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3267837),[pdf](https://www.microsoft.com/en-us/research/publication/sdpaxos-building-efficient-semi-decentralized-geo-replicated-state-machines/)]
 * FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases, Tech report 2018 [[pdf](https://cse.buffalo.edu/tech-reports/2018-02.pdf)]
 * Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-uluyol.pdf)]
-* State-Machine Replication for Planet-Scale Systems, Eurosys 2020 [[arxiv](https://arxiv.org/abs/2003.11789)]
+* State-Machine Replication for Planet-Scale Systems, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387543),[arxiv](https://arxiv.org/abs/2003.11789)]
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
