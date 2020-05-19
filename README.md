@@ -156,6 +156,7 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases, Tech report 2018 [[pdf](https://cse.buffalo.edu/tech-reports/2018-02.pdf)]
 * Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-uluyol.pdf)]
 * State-Machine Replication for Planet-Scale Systems, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387543),[arxiv](https://arxiv.org/abs/2003.11789)]
+* Low-Latency Geo-Replicated State Machines with Guaranteed Writes, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393686)]
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
