@@ -155,6 +155,7 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * DPaxos: Managing Data Closer to Users for Low-Latency and Mobile Applications, SIGMOD 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3196928),[pdf](https://nawab.me/Uploads/Nawab_DPaxos_SIGMOD2018.pdf)]
 * SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines, SoCC 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3267837),[pdf](https://www.microsoft.com/en-us/research/publication/sdpaxos-building-efficient-semi-decentralized-geo-replicated-state-machines/)]
 * FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases, Tech report 2018 [[pdf](https://cse.buffalo.edu/tech-reports/2018-02.pdf)]
+* Session Guarantees with Raft and Hybrid Logical Clocks, ICDCN 2019 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3288599.3288619)]
 * Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-uluyol.pdf)]
 * State-Machine Replication for Planet-Scale Systems, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387543),[arxiv](https://arxiv.org/abs/2003.11789)]
 * Low-Latency Geo-Replicated State Machines with Guaranteed Writes, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393686)]
