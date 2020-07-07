@@ -187,6 +187,7 @@ This section lists papers describing experiences of deploying distributed consen
 * Bizur: A Key-value Consensus Algorithm for Scalable File-systems, Unpublished 2017 [[pdf](https://arxiv.org/pdf/1702.04242.pdf)]
 * SLOG: Serializable, Low-latency, Geo-replicated Transactions, VLDB 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3360377),[pdf](http://www.vldb.org/pvldb/vol12/p1747-ren.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2019/09/04/slog/)
+* CockroachDB: The Resilient Geo-Distributed SQL Database, ICMD 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3318464.3386134)]
 
 ### Implementations of consensus
 This section lists papers describing implementations of distributed consensus algorithms.
