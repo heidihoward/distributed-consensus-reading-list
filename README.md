@@ -73,6 +73,8 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
 
 ### Algorithms for consensus
 This section lists papers describing algorithms for distributed consensus.
+*  Another Advantage of Free Choice: Completely Asynchronous Agreement Protocols, PODC 1983 [[acmdl](https://dl.acm.org/doi/10.1145/800221.806707)]
+  * aka Ben-Or algorithm
 * Reliable communication in the presence of failures, TOCS 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7478),[pdf](https://pdos.csail.mit.edu/archive/6.824-2006/papers/isis87.pdf)]
 * Consensus in the Presence of Partial Synchrony, JACM 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=42283),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)]
 * Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems, PODC 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=62549),[pdf](http://pmg.csail.mit.edu/papers/vr.pdf)]
