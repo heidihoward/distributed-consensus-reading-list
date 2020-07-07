@@ -69,6 +69,7 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Book 2017 [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
 * On the Parallels between Paxos and Raft, and how to Port Optimizations, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331595),[pdf](http://mpaxos.com/pub/raft-paxos.pdf)]
 * Paxos vs Raft: Have we reached consensus on distributed consensus?, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393681),[arxiv](https://arxiv.org/abs/2004.05074)]
+* 60 Years of Mastering Concurrent Computing through Sequential Thinking, SIGACT News 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3406678.3406690)]
 
 ### Algorithms for consensus
 This section lists papers describing algorithms for distributed consensus.
