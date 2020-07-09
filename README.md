@@ -319,6 +319,8 @@ This section lists papers which discuss alternative consistency models to linear
 * Harmonia: Near-Linear Scalability for Replicated Storage with In-Network Conflict Detection, VLDB 2020 [[pdf](https://drkp.net/papers/harmonia-vldb20.pdf)]
   * implemented on programmable switches
   * comes with TLA+ spec in [tech report](https://arxiv.org/pdf/1904.08964.pdf)
+* Strong and Efficient Consistency with Consistency-Aware Durability, FAST 2020 [[pdf](http://pages.cs.wisc.edu/~ag/cad.pdf)]
+  * [talk/slides](https://www.usenix.org/conference/fast20/presentation/ganesan)
 
 ### Failures
 This section lists papers which analyze real-world failures of distributed systems.
