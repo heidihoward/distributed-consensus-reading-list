@@ -418,6 +418,8 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Consensus in the Age of Blockchains, Unpublished 2017 [[arxiv](https://arxiv.org/abs/1711.03936)]
   * featured in [the morning paper](https://blog.acolyer.org/2018/02/12/sok-consensus-in-the-age-of-blockchains/)
 * Hardening Cassandra Against Byzantine Failures, OPODIS 2017 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2018/8642/pdf/LIPIcs-OPODIS-2017-27.pdf)]
+* Revisiting Fast Practical Byzantine Fault Tolerance, Unpublished 2017 [[arxiv](https://arxiv.org/abs/1712.01367)]
+  * describes bugs in Zyzzyva and FaB
 * HotStuff: BFT Consensus with Linearity and Responsiveness, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331591),[arxiv](https://arxiv.org/abs/1803.05069)]
 * The latest gossip on BFT consensus, Unpublished 2018 [[arxiv](https://arxiv.org/abs/1807.04938)]
   * describes [Tendermint](https://tendermint.com)
