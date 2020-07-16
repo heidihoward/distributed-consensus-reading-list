@@ -276,6 +276,7 @@ This section lists papers on reconfiguration.
 * Dynamic Reconfiguration of Primary/Backup Clusters, ATC 2012 [[acmdl](https://dl.acm.org/doi/10.5555/2342821.2342860),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final74.pdf)]
 * Unbounded Pipelining in Dynamically Reconfigurable Paxos Clusters, Unpublished 2016 [[pdf](http://tessanddave.com/paxos-reconf-902f8b7.pdf)]
   * related blog post, [UPaxos and primary-backup replication](https://davecturner.github.io/2017/09/18/upaxos-primary-backup.html)
+* Matchmaker Paxos: A Reconfigurable Consensus Protocol, Unpublished [[pdf](https://mwhittaker.github.io/publications/matchmaker_paxos.pdf)]
 
 ### Weaker consistency models
 This section lists papers which discuss alternative consistency models to linearizability or systems which depend upon clocks for correctness.
