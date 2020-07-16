@@ -191,6 +191,8 @@ This section lists papers describing experiences of deploying distributed consen
 * SLOG: Serializable, Low-latency, Geo-replicated Transactions, VLDB 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3360377),[pdf](http://www.vldb.org/pvldb/vol12/p1747-ren.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2019/09/04/slog/)
 * CockroachDB: The Resilient Geo-Distributed SQL Database, ICMD 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3318464.3386134)]
+* Millions of Tiny Databases, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-brooker.pdf)]
+  * covered by [the morning paper](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/)
 
 ### Implementations of consensus
 This section lists papers describing implementations of distributed consensus algorithms.
@@ -246,8 +248,6 @@ This section lists papers describing implementations of distributed consensus al
   * does not rely on bounded clock drift like leases
 * RMWPaxos: Fault-Tolerant In-Place Consensus Sequences, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.03362)]
 * Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
-* Millions of Tiny Databases, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-brooker.pdf)]
-  * covered by [the morning paper](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/)
 * Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol, ASPLOS 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3373376.3378496),[arxiv](https://arxiv.org/abs/2001.09804)]
 
 ### Evaluations of consensus
