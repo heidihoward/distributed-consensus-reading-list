@@ -239,6 +239,7 @@ This section lists papers describing implementations of distributed consensus al
 * Leader or Majority: Why have one when you can have both? Improving Read Scalability in Raft-like consensus protocols, HotCloud 2017 [[pdf](https://www.usenix.org/system/files/conference/hotcloud17/hotcloud17-paper-arora.pdf),[acmdl](https://dl.acm.org/citation.cfm?id=3154594),[slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotcloud17_slides_arora.pdf)]
 * Stable and Consistent Membership at Scale with Rapid, ATC 2018 [[pdf](https://www.usenix.org/system/files/conference/atc18/atc18-suresh.pdf)]
   * uses Fast Paxos to decide on membership changes. Conflicts are rare as the proposed value is the output of a membership algorithm so proposers usually propose the same proposal.
+  * Fast Paxos implementation is [here](https://github.com/lalithsuresh/rapid/blob/master/rapid/src/main/java/com/vrg/rapid/FastPaxos.java) and [here](https://github.com/lalithsuresh/rapid/blob/master/rapid/src/main/java/com/vrg/rapid/Paxos.java)
 * Aegean: Replication beyond the client-server model, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359663)]
   * also supports BFT
 * Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf)]  
