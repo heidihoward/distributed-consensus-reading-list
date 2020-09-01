@@ -373,6 +373,7 @@ This section lists papers on quorum systems.
 * Weighted Voting for Replicated Data, SOSP 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=806583),[pdf](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)]
 * How to Assign Votes in a Distributed System, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=4223),[pdf](https://www.cs.purdue.edu/homes/bb/cs542-17Spr/How%20to%20assign%20Votes-JACM-garcia-molina.pdf)]
 * A √N algorithm for mutual exclusion in decentralized systems, TOCS 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214445),[pdf](https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf)]
+* A Quorum-Consensus Replication Method for Abstract Data Types, TOCS 1984 [[acmdl](https://dl.acm.org/doi/10.1145/6306.6308)]
 * The Reliability of Voting Mechanisms, TC 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=32406),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)]
 * The Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data, VLDB 1990 [[pdf](http://www.vldb.org/conf/1990/P243.PDF)]
 * An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion, TOCS 1991 [[acmdl](https://dl.acm.org/citation.cfm?doid=103727.103728),[pdf](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)]
