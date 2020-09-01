@@ -383,6 +383,7 @@ This section lists papers on quorum systems.
 * Enhancing concurrency and availability for database systems, Thesis [[acmdl](https://dl.acm.org/doi/10.5555/143912)]
 * The Availability of Quorum Systems, Tech report 1993 [[acmdl](https://dl.acm.org/citation.cfm?id=903705),[pdf](https://pdfs.semanticscholar.org/ab7d/30f7a808173bc305d679262f9838869cb681.pdf)]
 * Crumbling Walls: A Class of Practical and Efficient Quorum Systems, PODC 1995 [[acmdl](https://dl.acm.org/citation.cfm?id=224978),[pdf](https://link.springer.com/article/10.1007/s004460050027)]
+* Evaluating quorum systems over the Internet, PODC 1996 [[acmdl](https://dl.acm.org/doi/10.1145/248052.248125)]
 * An Adaptive Data Replication Algorithm, TODC 1997 [[acmdl](https://dl.acm.org/doi/10.1145/249978.249982)]
 * The Load, Capacity, and Availability of Quorum Systems, SIAM 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279082.279096),[pdf](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232)]
   * featured in [the morning paper](https://blog.acolyer.org/2016/10/03/the-load-capacity-and-availability-of-quorum-systems/)
