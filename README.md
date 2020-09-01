@@ -374,6 +374,7 @@ This section lists papers on quorum systems.
 * How to Assign Votes in a Distributed System, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=4223),[pdf](https://www.cs.purdue.edu/homes/bb/cs542-17Spr/How%20to%20assign%20Votes-JACM-garcia-molina.pdf)]
 * A √N algorithm for mutual exclusion in decentralized systems, TOCS 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214445),[pdf](https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf)]
 * The Reliability of Voting Mechanisms, TC 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=32406),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1676860)]
+* The Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data, VLDB 1990 [[pdf](http://www.vldb.org/conf/1990/P243.PDF)]
 * An Efficient and Fault-tolerant Solution for Distributed Mutual Exclusion, TOCS 1991 [[acmdl](https://dl.acm.org/citation.cfm?doid=103727.103728),[pdf](https://users.soe.ucsc.edu/~scott/courses/Fall11/221/Papers/Sync/agrawal-tocs91.pdf)]
 * Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data, TC 1991 [[acmdl](https://dl.acm.org/citation.cfm?id=126154),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83661)]
 * The Generalized Tree Quorum Protocol: An Efficient Approach for Managing Replicated Data, TODS 1992 [[acmdl](https://dl.acm.org/citation.cfm?id=146935),[pdf](https://www.cs.rice.edu/~alc/old/comp520/papers/generalized-tree.pdf)]
