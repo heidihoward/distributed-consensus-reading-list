@@ -386,6 +386,7 @@ This section lists papers on quorum systems.
 * An Adaptive Data Replication Algorithm, TODC 1997 [[acmdl](https://dl.acm.org/doi/10.1145/249978.249982)]
 * The Load, Capacity, and Availability of Quorum Systems, SIAM 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279082.279096),[pdf](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232)]
   * featured in [the morning paper](https://blog.acolyer.org/2016/10/03/the-load-capacity-and-availability-of-quorum-systems/)
+* Optimal availability quorum systems: Theory and practice, IPL 1998 [[pdf](https://www.eng.tau.ac.il/~yash/ipl98.pdf)]
 * Are Quorums an Alternative for Data Replication?, TODS 2003 [[acmdl](https://dl.acm.org/doi/10.1145/937598.937601)]
 * Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
