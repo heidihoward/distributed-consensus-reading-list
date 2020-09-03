@@ -84,8 +84,13 @@ This section lists papers describing algorithms for distributed consensus.
   * the original paper introducing Paxos
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/03/the-part-time-parliament/)
 * Disk Paxos, DISC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=675967),[pdf](https://lamport.azurewebsites.net/pubs/disk-paxos.pdf)]
+  * This paper describes how to replace acceptors in Paxos with disks
+  * Each disk is divided into blocks, one for each proposer. Each proposer may only write to its own block and read from other blocks, which they do in each of the two usual Paxos phases
+  * Each block contains the rough equivalent to last promised ballot number and last accepted proposal for the assigned proposer
 * Specifying and Using a Partitionable Group Communication Service, TOCS 2001 [[acmdl](https://dl.acm.org/citation.cfm?id=377776&dl=ACM&coll=DL),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/TOCS.pdf)]
 * Active Disk Paxos with infinitely many processes, PODC 2002 [[acmdl](https://dl.acm.org/citation.cfm?id=1146169),[pdf](https://groups.csail.mit.edu/tds/papers/Chockler/podc-02.pdf)]
+  * This paper makes Disk Paxos more “Paxos like” by assuming the disks support more operations e.g. conditional write
+  * ADP claims that Disk Paxos requires a fixed set of proposers and that ADP fixes this.
 * Cheap Paxos, DSN 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1009745),[pdf](https://lamport.azurewebsites.net/pubs/web-dsn-submission.pdf)]
 * Generalized Consensus and Paxos, Tech Report 2005 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf)]
   * introduces the idea of deciding a partial ordering of operations for SMR instead of a total ordering
