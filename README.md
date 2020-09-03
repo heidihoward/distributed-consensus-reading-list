@@ -238,6 +238,7 @@ This section lists papers describing implementations of distributed consensus al
   * Useful related blog post [Lessons learned from TAPIR(s)](https://irenezhang.net/blog/2015/04/02/tapir.html)
   * featured in [the morning paper](https://blog.acolyer.org/2015/10/21/building-consistent-transactions-with-inconsistent-replication/)
   * geo-distributed performance is evaluated
+* MetaSync: File Synchronization Across Multiple Untrusted Storage Services, ATC 2015 [[pdf](https://www.usenix.org/system/files/conference/atc15/atc15-paper-han.pdf),[acmdl](https://dl.acm.org/doi/10.5555/2813767.2813774)]
 * Making Fast Consensus Generally Faster, DSN 2016 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7579738)]
 * Azure Data Lake Store: A Hyperscale Distributed File Service for Big Data Analytics, SIGMOD 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3056100),[pdf](http://www.cs.ucf.edu/~kienhua/classes/COP5711/Papers/MSazure2017.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2017/07/04/azure-data-lake-store-a-hyperscale-distributed-file-service-for-big-data-analytics/)
