@@ -143,6 +143,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * Partitioned Paxos via the Network Data Plane, Tech Report 2019 [[pdf](https://www.inf.usi.ch/faculty/soule/pubs/usi-tr-2019-01.pdf)]
 * The Impact of RDMA on Agreement, PODC 2019 [[pdf](https://arxiv.org/abs/1905.12143)]
 * HovercRaft: Achieving Scalability and Fault-tolerance for microsecond-scale Datacenter Services, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387545)]
+* Microsecond Consensus for Microsecond Applications, OSDI 2020 [[arxiv](https://arxiv.org/abs/2010.06288)]
 
 ### Consensus for geo-distributed systems
 This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
