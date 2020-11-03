@@ -346,6 +346,7 @@ This section lists papers which analyze real-world failures of distributed syste
 * All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications, OSDI 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2685082),[pdf](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-pillai.pdf)]
 * Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to Single Errors and Corruptions, FAST 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3129648),[pdf](https://www.usenix.org/system/files/conference/fast17/fast17-ganesan.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)
+* An Analysis of Network-Partitioning Failures in Cloud Systems, OSDI 2018 [[acmdl](https://dl.acm.org/doi/10.5555/3291168.3291173),[pdf](https://cs.uwaterloo.ca/~amsalqur/neat/NEAT-OSDI18.pdf)]
 * CrashTuner: Detecting Crash-Recovery Bugs in Cloud Systems via Meta-Info Analysis, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359645)]
 * The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359650)]
 
