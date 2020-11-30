@@ -349,6 +349,7 @@ This section lists papers which analyze real-world failures of distributed syste
 * An Analysis of Network-Partitioning Failures in Cloud Systems, OSDI 2018 [[acmdl](https://dl.acm.org/doi/10.5555/3291168.3291173),[pdf](https://cs.uwaterloo.ca/~amsalqur/neat/NEAT-OSDI18.pdf)]
 * CrashTuner: Detecting Crash-Recovery Bugs in Cloud Systems via Meta-Info Analysis, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359645)]
 * The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359650)]
+* Toward a Generic Fault Tolerance Technique for Partial Network Partitioning, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-alfatafta.pdf)]
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
