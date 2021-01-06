@@ -435,6 +435,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
   * also see: [Mechanically Checked Safety Proof of a Byzantine Paxos Algorithm](https://lamport.azurewebsites.net/tla/byzpaxos.html)
 * Byzantine Chain Replication, OPODIS 2012 [[pdf](http://www.cs.cornell.edu/home/rvr/newpapers/opodis2012.pdf)]
 * Automatic Reconfiguration for Large-Scale Reliable Storage Systems, TDSC 2012 [[pdf](http://www.pmg.csail.mit.edu/papers/tdsc12.pdf)]
+  * describes an approach to reconfigure BFT systems
 * The Next 700 BFT Protocols, TOCS 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2658994),[pdf](http://www.vukolic.com/700-Eurosys.pdf)]
 * Consensus in the Age of Blockchains, Unpublished 2017 [[arxiv](https://arxiv.org/abs/1711.03936)]
   * featured in [the morning paper](https://blog.acolyer.org/2018/02/12/sok-consensus-in-the-age-of-blockchains/)
