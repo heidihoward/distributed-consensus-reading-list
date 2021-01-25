@@ -489,6 +489,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [Slash dev slash null](https://simbo1905.blog)
 * [David Turner](https://davecturner.github.io)
 * [Aleksey Charapko](http://charap.co)
+* [Marc Brooker](http://brooker.co.za/blog/)
 * [The Morning Paper](https://blog.acolyer.org/about/) by [Adrian Colyer](https://twitter.com/adriancolyer)
 * [Hacking, Distributed](http://hackingdistributed.com) by Emin Gün Sirer
 * [All Things Distributed](https://www.allthingsdistributed.com) by [Werner Vogels](https://twitter.com/Werner)
