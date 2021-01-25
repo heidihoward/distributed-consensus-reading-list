@@ -525,6 +525,7 @@ The following lists contain places to watch for new writings in the field of dis
 * ACM Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)]
   * Biennial odds only
 * ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
+* Conference on Innovative Data Systems Research (CIDR) [[2021](http://cidrdb.org/cidr2021/cfp.html)]
 
 [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/index.html) maintains a useful list of [systems conferences by deadline](http://www.cs.technion.ac.il/~dan/index_sysvenues_deadline.html).
 
@@ -552,3 +553,4 @@ The following lists contain places to watch for new writings in the field of dis
 * IEEE Transactions on Parallel and Distributed Systems (TPDS) [[website](https://www.computer.org/csdl/journal/td)]
 * IEEE Transactions on Computers (TC) [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)]
 * IEEE Transactions on Software Engineering [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)]
+* Journal of Systems Research (JSys) [[website](http://jsys.org/)]
