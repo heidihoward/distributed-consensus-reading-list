@@ -221,6 +221,7 @@ This section lists papers describing implementations of distributed consensus al
 * CORFU: A Distributed Shared Log, TOCS 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2535930),[pdf](http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2017/05/02/corfu-a-distributed-shared-log/)
 * Scalable State-Machine Replication, DSN 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2672426),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)]
+* When Paxos Meets Erasure Code: Reduce Network and Storage Cost in State Machine Replication, HPDC 2014 [[acmdl](https://dl.acm.org/doi/10.1145/2600212.2600218)]
 * In Search of an Understandable Consensus Algorithm (Extended Version), ATC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2643666),[pdf](https://raft.github.io/raft.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/12/in-search-of-an-understandable-consensus-algorithm/)
   * aka the RAFT consensus paper
