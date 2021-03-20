@@ -19,6 +19,7 @@ The sections are as follows:
 * [Reconfiguration](#reconfiguration)
 * [Weaker consistency models](#weaker-consistency-models)
 * [Failures](#failures)
+* [Clocks](#clocks)
 * [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
 * [Quorum systems](#quorum-systems)
 * [Byzantine fault tolerance in distributed consensus](#byzantine-fault-tolerance-in-distributed-consensus)
@@ -352,6 +353,14 @@ This section lists papers which analyze real-world failures of distributed syste
 * CrashTuner: Detecting Crash-Recovery Bugs in Cloud Systems via Meta-Info Analysis, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359645)]
 * The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359650)]
 * Toward a Generic Fault Tolerance Technique for Partial Network Partitioning, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-alfatafta.pdf)]
+
+### Clocks
+The liveness of distributed consensus depends on some degree of clock synchronization. The following section lists papers on the topic of clock synchronization.
+*  IEEE Standard for a Precision Clock Synchronization Protocol for Networked Measurement and Control Systems, Standard 1588-2008 [[ieee](https://ieeexplore.ieee.org/document/4579760)]
+* Globally Synchronized Time via Datacenter Networks, SIGCOMM 2016 [[acmdl](https://dl.acm.org/doi/10.1145/2934872.2934885),[pdf](http://fireless.cs.cornell.edu/publications/dtp_sigcomm16.pdf)]
+* Exploiting a Natural Network Effect for Scalable, Fine-grained Clock Synchronization, NSDI 2018 [[acmdl](https://dl.acm.org/doi/10.5555/3307441.3307449),[pdf](https://www.usenix.org/conference/nsdi18/presentation/geng)]
+* Sundial: Fault-tolerant Clock Synchronization for Datacenters, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-li_yuliang.pdf)]
+  * [Useful write up by Aleksey Charapko](http://charap.co/reading-group-sundial-fault-tolerant-clock-synchronization-for-datacenters/)
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
