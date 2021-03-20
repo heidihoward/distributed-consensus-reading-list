@@ -513,6 +513,7 @@ The following lists contain places to watch for new writings in the field of dis
 * [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/) by [Henry Robinson](https://twitter.com/henryr)
 * [Collective works of Leslie Lamport](http://lamport.azurewebsites.net/pubs/pubs.html)
 * [Paxosmon: Gotta Consensus Them All](https://vadosware.io/post/paxosmon-gotta-concensus-them-all/)
+* [Foundational distributed systems papers](http://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html)
 
 ### Academic conferences & symposiums
 * USENIX Symposium on Networked Systems Design and Implementation (NSDI) [[2019](https://www.usenix.org/conference/nsdi19),[2020](https://www.usenix.org/conference/nsdi20)]
