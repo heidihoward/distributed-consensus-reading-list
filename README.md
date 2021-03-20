@@ -38,6 +38,7 @@ This section lists theoretical results relating to distributed consensus.
 * The implementation of reliable distributed multiprocess systems, Computer Networks 1978 [[pdf](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)]
 * Impossibility of Distributed Consensus with One Faulty Process, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214121),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
   * as known as the FLP result
+* The Byzantine Generals Problem, TPLS 1982 [[acmdl](https://dl.acm.org/doi/10.1145/357172.357176),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Byzantine-Generals-Problem.pdf)]
 * On the Minimal Synchronism Needed for Distributed Consensus, JACM 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7533),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)]  
 * Unreliable Failure Detectors for Reliable Distributed Systems, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=226647),[pdf](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)]
 * The Weakest Failure Detector for Solving Consensus, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=234549),[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)]
