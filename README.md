@@ -62,6 +62,7 @@ This section lists surveys, tutorials, book chapters and systemisation of knowle
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/04/paxos-made-simple/)
 * Deconstructing paxos, SIGACT News 2003 [[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/deconstr_paxos.pdf),[acmdl](https://dl.acm.org/citation.cfm?id=637447)]
 * Total order broadcast and multicast algorithms: Taxonomy and survey, CSUR 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1041682),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.110.6701&rep=rep1&type=pdf)]
+* Readings in Database Systems (5th Edition), Book 2015 [[pdf](http://www.redbook.io/pdf/redbook-5th-edition.pdf)]
 * Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab, TDSC 2005 [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/11/vive-la-difference-paxos-vs-viewstamped-replication-vs-zab/)
 * The Alpha of Indulgent Consensus, Comp Journal 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1188295),[pdf](https://infoscience.epfl.ch/record/89695/files/bxl046.pdf)]
