@@ -108,6 +108,7 @@ This section lists papers describing algorithms for distributed consensus.
 * Multicoordinated Paxos, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281150),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.8831&rep=rep1&type=pdf)]
   * Instead of having one leader, have a group of leaders. Client send operations to all leaders and they all propose values to the acceptors. Acceptors only accept a value if they have received proposals from a quorum of leaders. Similar to non-equivocation phase in BFT. Liveness now does not depend on the leader.
 * Stoppable Paxos, Tech Report 2008 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)]
+* Yet Another Visit to Paxos, Tech report 2009 [[pdf](https://dominoweb.draco.res.ibm.com/reports/rz3754.pdf)]
 * Dynamic atomic storage without consensus, JACM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1944348),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/dynastore-podc2009.pdf)]
 * Fast Genuine Generalized Consensus, SRDS 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2085374),[pdf](https://pages.lip6.fr/Marc.Shapiro/papers/FGGC-SRDS-2011.pdf)]
 * Viewstamped Replication Revisited, Tech Report 2012 [[pdf](http://pmg.csail.mit.edu/papers/vr-revisited.pdf)]
