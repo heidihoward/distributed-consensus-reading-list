@@ -208,6 +208,7 @@ This section lists papers describing experiences of deploying distributed consen
 * CockroachDB: The Resilient Geo-Distributed SQL Database, ICMD 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3318464.3386134)]
 * Millions of Tiny Databases, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-brooker.pdf)]
   * covered by [the morning paper](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/)
+* Virtual Consensus in Delos, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-balakrishnan.pdf)]
 
 ### Implementations of consensus
 This section lists papers describing implementations of distributed consensus algorithms.
