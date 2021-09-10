@@ -422,6 +422,7 @@ This section lists papers on quorum systems.
 * Are Quorums an Alternative for Data Replication?, TODS 2003 [[acmdl](https://dl.acm.org/doi/10.1145/937598.937601)]
 * Coterie Availability in Sites, DISC 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=2162323),[pdf](https://link.springer.com/chapter/10.1007/11561927_3)]
 * The virtue of dependent failures in multi-site systems, HotDep 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1973401),[pdf](https://pdfs.semanticscholar.org/720c/1b5222bc91e8238b1ced2991232b9742dedc.pdf)]
+* Read-Write Quorum Systems Made Practical, PaPoC 2021 [[pdf](https://arxiv.org/abs/2104.04102)]
 
 
 ### Byzantine fault tolerance in distributed consensus
