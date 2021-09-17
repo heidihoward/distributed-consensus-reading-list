@@ -1,8 +1,8 @@
 ## Distributed consensus reading list
 
-Since its inception in the 1980s, distributed consensus and the related areas of atomic broadcast, state machine replication and byzantine fault tolerance have been the subjects of extensive academic research. This file contains a list of papers (and other works) relating to distributed consensus.
+Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (and the related areas of [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast), [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication), and [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) have been the subjects of extensive academic research. This is a very list of papers relating to distributed consensus.
 
-Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions are welcome.
+Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions via pull requests are welcome.
 
 Key: acmdl = [ACM Digital Library](https://dl.acm.org)
 
@@ -51,7 +51,7 @@ This section lists theoretical results relating to distributed consensus.
 
 
 ### Surveys
-This section lists surveys, tutorials, book chapters and systemisation of knowledge papers covering distributed consensus algorithms.
+This section lists surveys, tutorials, book chapters, and systemization of knowledge papers covering distributed consensus algorithms.
 * A Modular Approach to Fault-Tolerant Broadcasts and Related Problems, Tech Report 1994 [[acmdl](https://dl.acm.org/citation.cfm?id=866693),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)]
 * How to Build a Highly Available System Using Consensus, WDAG 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=675640),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)]
 * Revisiting the PAXOS algorithm, WDAG 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=675657),[pdf](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)]
@@ -101,12 +101,11 @@ This section lists papers describing algorithms for distributed consensus. This 
 * Generalized Consensus and Paxos, Tech Report 2005 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf)]
   * introduces the idea of deciding a partial ordering of operations for SMR instead of a total ordering
 * Fast Paxos, Distributed Computing 2006 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)]
-  * proposers can bypassing leader by allowing multiple values to be proposed in the same ballot
-  * requires stronger quorums intersection, e.g. fast paxos of 3/4 for a same liveness guarantees as classic Paxos
+  * Variant of Paxos where proposers can bypass the leader by allowing multiple values to be proposed in the same ballot. This requires stronger quorums intersection, e.g. fast paxos needs 3/4 of acceptors (instead of a simple majority) to provide the same liveness guarantees as classic Paxos.
 * Consensus on Transaction Commit, TODS 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1132867),[pdf](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2016/01/13/consensus-on-transaction-commit/)
 * Multicoordinated Paxos, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281150),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.8831&rep=rep1&type=pdf)]
-  * Instead of having one leader, have a group of leaders. Client send operations to all leaders and they all propose values to the acceptors. Acceptors only accept a value if they have received proposals from a quorum of leaders. Similar to non-equivocation phase in BFT. Liveness now does not depend on the leader.
+  * Variant of Paxos which replaces the one leader with a group of leaders. Clients send operations to all leaders and they all propose values to the acceptors. Acceptors only accept a value if they have received proposals from a quorum of leaders. Similar to the non-equivocation phase in BFT. Liveness now does not depend on the leader.
 * Stoppable Paxos, Tech Report 2008 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/stoppableV9.pdf)]
 * Yet Another Visit to Paxos, Tech report 2009 [[pdf](https://dominoweb.draco.res.ibm.com/reports/rz3754.pdf)]
 * Dynamic atomic storage without consensus, JACM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1944348),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/dynastore-podc2009.pdf)]
@@ -127,7 +126,7 @@ This section lists papers describing algorithms for distributed consensus. This 
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 
 ### Consensus for specialist hardware
-This section lists papers describing consensus algorithms using specialist hardware such as SDN, IP-multicast or RDMA.
+This section lists papers describing consensus algorithms using specialist hardware such as [SDN](https://en.wikipedia.org/wiki/Software-defined_networking), [IP-multicast](https://en.wikipedia.org/wiki/IP_multicast), or [RDMA](https://en.wikipedia.org/wiki/Remote_direct_memory_access).
 * Ring Paxos: A high-throughput atomic broadcast protocol, DSN 2010 [[pdf](https://ieeexplore.ieee.org/document/5544272),[code](http://libpaxos.sourceforge.net/paxos_projects.php#ringpaxos)]
 * Multi-Ring Paxos, DSN 2012 [[acmdl](https://dl.acm.org/citation.cfm?id=2354410.2355144),[pdf](https://ieeexplore.ieee.org/document/6263916)]
 * NetPaxos: consensus at network speed, SOSR 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2774999),[pdf](https://mcanini.github.io/papers/netpaxos.sosr15.pdf)]
@@ -190,8 +189,7 @@ This section lists papers describing experiences of deploying distributed consen
     * featured in [the morning paper](https://blog.acolyer.org/2015/01/27/zookeeper-wait-free-coordination-for-internet-scale-systems/)
 * Windows Azure Storage: a highly available cloud storage service with strong consistency, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043571),[pdf](https://webcourse.cs.technion.ac.il/236802/Spring2018/ho/WCFiles/Azure_Cloud_Storage.pdf)]
 * Megastore: Providing Scalable, Highly Available Storage for Interactive Services, CIDR 2011 [[pdf](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf)]
-  * seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for i-1  
-  * uses SMR with witnesses, replicas which participate in log replication but do not run a state machine and read-only replicas which only run a state machine.
+  * Megastore uses SMR with witnesses, replicas that participate in log replication but do not run a state machine and read-only replicas that only run a state machine. This paper seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for slot i-1.  
 * Zab: High-performance broadcast for primary-backup systems, DSN 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2056409),[pdf](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/09/zab-high-performance-broadcast-for-primary-backup-systems/)
   * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
@@ -268,8 +266,7 @@ This section lists papers describing implementations of distributed consensus al
   * featured in [the morning paper](https://blog.acolyer.org/2019/03/15/exploiting-commutativity-for-practical-fast-replication/)
 * Unifying Consensus and Atomic Commitment for Effective Cloud Data Management, VLDB 2019 [[acmdl](https://dl.acm.org/doi/10.14778/3303753.3303765),[pdf](http://www.vldb.org/pvldb/vol12/p611-maiyya.pdf)]
 * Linearizable Quorum Reads in Paxos, HotStorage 2019 [[pdf](https://www.usenix.org/system/files/hotstorage19-paper-charapko.pdf),[slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage19_slides_charapko.pdf)]
-  * two phase quourm read algorithm which does not require the leader
-  * does not rely on bounded clock drift like leases
+  * A two phase quorum read algorithm which does not require the leader and does not rely on bounded clock drift like read leases.
 * RMWPaxos: Fault-Tolerant In-Place Consensus Sequences, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.03362)]
 * Bipartisan Paxos: A Modular State Machine Replication Protocol, Unpublished [[pdf](https://mwhittaker.github.io/publications/compartmentalized_bipartisan_paxos.pdf)]
 * Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
@@ -291,7 +288,7 @@ This section lists papers describing standalone evaluations of consensus algorit
   * Study of the efficiency (CPU utilization) of Multi-Paxos vs EPaxos, finding that EPaxos provides better throughput than Multi-Paxos at the cost of much worse efficiency.
 
 ### State machine replication
-This section lists papers the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
+This section lists papers about the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
 * Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial, CSUR 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=98167),[pdf](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)]
 * Linearizability: A Correctness Condition for Concurrent Objects, TOPLAS 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=78972),[pdf](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)]
 * Implementing Linearizability at Large Scale and Low Latency, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815416),[pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf)]
@@ -309,25 +306,25 @@ This section lists papers on reconfiguration.
 * Matchmaker Paxos: A Reconfigurable Consensus Protocol, JSys 2021 [[pdf](https://mwhittaker.github.io/publications/matchmaker_paxos.pdf),[arxiv](https://arxiv.org/abs/2007.09468)]
 
 ### Weaker consistency models
-This section lists papers which discuss alternative consistency models to linearizability or systems which depend upon clocks for correctness.
+This section lists papers that discuss alternative consistency models to [linearizability](https://en.wikipedia.org/wiki/Linearizability) or systems which depend upon clocks for correctness.
 * Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency, SOSP 1989 [[acmdl](https://dl.acm.org/citation.cfm?id=74870),[pdf](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)]
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases.
 * Towards Robust Distributed Systems, PODC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=343502),[pdf](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)]
-  * PODC keynote in which Eric Brewer proposed the now infamous CAP theorem
+  * PODC keynote in which [Eric Brewer](https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)) proposed the now infamous [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem).
 * Chain replication for supporting high throughput and availability, OSDI 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1251261),[pdf](https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf)]
 * Dynamo: Amazon’s Highly Available Key-value Store, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294281),[pdf](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)]
 * Bigtable: A Distributed Storage System for Structured Data, TOCS 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1365816),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)]
 * What consistency does your key-value store actually provide?, HotDep 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1924919),[pdf](https://www.usenix.net/legacy/events/hotdep10/tech/full_papers/Anderson.pdf)]
   * offline consistency checking of key-value traces
 * Cassandra - A Decentralized Structured Storage System, OSR 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1773922),[pdf](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)]
-  * not discussion in paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
+  * not discussion in the paper but Cassandra now uses Paxos for [lightweight transactions](https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/dml/dmlLtwtTransactions.html).
 * Benchmarking Cloud Serving Systems with YCSB, SoCC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1807152),[pdf](https://www2.cs.duke.edu/courses/fall13/compsci590.4/838-CloudPapers/ycsb.pdf)]
   * Popular benchmarking tool for key-values stores
   * Actively maintained [open source project](https://github.com/brianfrankcooper/YCSB/wiki) with support for various data stores
 * Spanner: Google’s Globally-Distributed Database, OSDI 2012 [[acmdl](https://dl.acm.org/citation.cfm?id=2387880.2387905),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)]
   * Provides linearizability but it assumes a bounded clock drift
-  * Google implement this using Truetime, GPS and atomic clocks in their data centers instead of NTP
-  * Closed source but now available as a cloud service, [Cloud Spanner](https://cloud.google.com/spanner/)
+  * Google implement this using Truetime, GPS, and atomic clocks in their data centers instead of [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol).
+  * Closed source but now available as a cloud service called [Cloud Spanner](https://cloud.google.com/spanner/).
 * TAO: Facebook’s Distributed Data Store for the Social Graph, ATC 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2535468),[pdf](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)]
 * Eventual Consistency Today: Limitations, Extensions, and Beyond, ACM Queue 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2462076),[pdf](https://queue.acm.org/detail.cfm?id=2462076)]
 * Quantifying eventual consistency with PBS, CACM 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2632792),[pdf](http://www.bailis.org/papers/pbs-vldbj2014.pdf)]
@@ -354,7 +351,7 @@ This section lists papers which discuss alternative consistency models to linear
   * [talk/slides](https://www.usenix.org/conference/fast20/presentation/ganesan)
 
 ### Failures
-This section lists papers which analyze real-world failures of distributed systems.
+This section lists papers that analyze real-world failures of distributed systems.
 * Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications, SIGCOMM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2018477),[pdf](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)]
 * The Network is Reliable: An informal survey of real-world communications failures, ACM Queue 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2655736),[pdf](https://queue.acm.org/detail.cfm?id=2655736)]
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2670986),[pdf](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)]
@@ -453,7 +450,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Attested Append-Only Memory: Making Adversaries Stick to their Word, SOSP 2007 [[acmdl](https://dl.acm.org/doi/10.1145/1294261.1294280),[pdf](http://www.sosp2007.org/papers/sosp134-chun.pdf)]
 * Tolerating Byzantine Faults in Transaction Processing Systems using Commit Barrier Scheduling, OSR 2007 [[pdf](http://db.csail.mit.edu/pubs/hrdb.pdf),[acmdl](https://dl.acm.org/doi/10.1145/1323293.1294268)]
 * Bosco: One-Step Byzantine Asynchronous Consensus, DISC 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1432322),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/52180438.pdf)]
-  * byzantine consensus in 1 round (instead the usual three) using quorums of 4f+1 from 5f+1
+  * Byzantine consensus in 1 round trip (instead of the usual three) using quorums of 4f+1 from 5f+1 nodes.
 * Matrix Signatures: From MACs to Digital Signatures in Distributed Systems, DISC 2008 [[pdf](http://www.cs.cornell.edu/lorenzo/papers/Aiyer08Matrix.pdf)]
 * Upright cluster services, SOSP 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1629602),[pdf](http://www.cs.albany.edu/~jhh/courses/readings/clement.sosp09.upright.pdf)]
   * develops a BFT fork of Zookeeper and HDFS, source code is [available](https://github.com/amiller/upright) but does not seem to be used/maintained
@@ -484,7 +481,7 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Flexible Byzantine Fault Tolerance, CCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319535.3354225),[pdf](https://dahliamalkhi.files.wordpress.com/2019/09/flex-bft-ccs19.pdf)]
 
 ### Alternative fault models in distributed consensus
-Most of these paper handle crash faults. The previous section considers byzantine faults. This section considers the fault models between crash and byzantine.
+Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
 * Practical Hardening of Crash-Tolerant Systems, ATC 2012 [[acmdl](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final190.pdf)]
 * Visigoth Fault Tolerance, EuroSys 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2741979),[pdf](http://staff.ustc.edu.cn/~chengli7/papers/a8-porto.pdf)]
 * Protocol-Aware Recovery for Consensus-Based Storage, FAST 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3241062),[pdf](https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf)]
@@ -496,7 +493,7 @@ Most of these paper handle crash faults. The previous section considers byzantin
 * XFT: Practical Fault Tolerance beyond Crashes, OSDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026877.3026915),[pdf](https://www.usenix.org/system/files/conference/osdi16/osdi16-liu.pdf)]
 
 ### Misc
-Blog posts, talks etc...
+Blog posts, talks, etc...
 * FaunaDB: An Architectural Overview [[pdf](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)]
 * Distributed Coordination Engine (DConE) [[pdf](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)]
 * Communication Costs in Real-world Networks [[html](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)]
