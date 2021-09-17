@@ -1,4 +1,4 @@
-## Distributed consensus reading list
+# Distributed Consensus Reading List
 
 Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (and the related areas of [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast), [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication), and [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) have been the subjects of extensive academic research. This is a very list of papers relating to distributed consensus.
 
@@ -37,7 +37,7 @@ This section lists theoretical results relating to distributed consensus.
 * Time, Clocks, and the Ordering of Events in a Distributed System, CACM 1978 [[acmdl](https://dl.acm.org/citation.cfm?id=359563),[pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)]
 * The implementation of reliable distributed multiprocess systems, Computer Networks 1978 [[pdf](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)]
 * Impossibility of Distributed Consensus with One Faulty Process, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214121),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
-  * as known as the FLP result
+  * The FLP result
 * The Byzantine Generals Problem, TPLS 1982 [[acmdl](https://dl.acm.org/doi/10.1145/357172.357176),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Byzantine-Generals-Problem.pdf)]
 * On the Minimal Synchronism Needed for Distributed Consensus, JACM 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7533),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)]  
 * Unreliable Failure Detectors for Reliable Distributed Systems, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=226647),[pdf](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)]
@@ -271,7 +271,7 @@ This section lists papers describing implementations of distributed consensus al
 * Bipartisan Paxos: A Modular State Machine Replication Protocol, Unpublished [[pdf](https://mwhittaker.github.io/publications/compartmentalized_bipartisan_paxos.pdf)]
 * Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
 * Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol, ASPLOS 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3373376.3378496),[arxiv](https://arxiv.org/abs/2001.09804)]
-* PigPaxos: Devouring the communication bottlenecks in distributed consensus, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2003.07760)]
+* PigPaxos: Devouring the communication bottlenecks in distributed consensus, ICMD 2020 [[arxiv](https://arxiv.org/abs/2003.07760),[acmdl](https://dl.acm.org/doi/10.1145/3448016.3452834)]
 * CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost, FAST 2020 [[pdf](https://www.usenix.org/conference/fast20/presentation/wang-zizhong)]
 * Scaling Replicated State Machines with Compartmentalization, VLDB 2021 [[pdf](https://mwhittaker.github.io/publications/compartmentalized_consensus.pdf)]
 
@@ -362,6 +362,7 @@ This section lists papers that analyze real-world failures of distributed system
 * CrashTuner: Detecting Crash-Recovery Bugs in Cloud Systems via Meta-Info Analysis, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359645)]
 * The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359650)]
 * Toward a Generic Fault Tolerance Technique for Partial Network Partitioning, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-alfatafta.pdf)]
+* Metastable Failures in Distributed Systems, HotOS 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3458336.3465286)]
 
 ### Clocks
 The liveness of distributed consensus depends on some degree of clock synchronization. The following section lists papers on the topic of clock synchronization.
@@ -493,13 +494,13 @@ Most of these papers handle crash faults or byzantine faults. This section consi
 * XFT: Practical Fault Tolerance beyond Crashes, OSDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026877.3026915),[pdf](https://www.usenix.org/system/files/conference/osdi16/osdi16-liu.pdf)]
 
 ### Misc
-Blog posts, talks, etc...
-* FaunaDB: An Architectural Overview [[pdf](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)]
-* Distributed Coordination Engine (DConE) [[pdf](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)]
-* Communication Costs in Real-world Networks [[html](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)]
-* Modeling Paxos and Flexible Paxos in Pluscal and TLA+ [[html](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)]
-* Waltz: A Distributed Write-Ahead Log [[html](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)]
-* Open-sourcing LogDevice, a distributed data store for sequential data [[html](https://logdevice.io/blog/)]
+Blog posts, talks, dissertations, etc...
+* [FaunaDB: An Architectural Overview](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)
+* [Distributed Coordination Engine (DConE)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
+* [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
+* [Modeling Paxos and Flexible Paxos in Pluscal and TLA+](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)
+* [Waltz: A Distributed Write-Ahead Log](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
+* [Open-sourcing LogDevice, a distributed data store for sequential data](https://logdevice.io/blog/)
 
 ## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
@@ -570,17 +571,18 @@ The following lists contain places to watch for new writings in the field of dis
 * International Workshop on Distributed Cloud Computing (DCC) [[2019](http://www.disc-conference.org/wp/dcc2019/)]
 
 ### Academic journals & magazines
-* ACM Transactions on Computer
- Systems (TOCS) [[website](https://tocs.acm.org)]
-* Journal of the ACM (JACM) [[website](https://jacm.acm.org)]
-* Communications of the ACM (CACM) [[website](https://cacm.acm.org)]
-* SIGOPS Operating Systems Review (OSR) [[website](https://www.sigops.org/osr.html)]
-* ACM Computing Surveys (CSUR) [[website](https://csur.acm.org)]
-* ACM Transactions on Database Systems (TODS) [[website](https://tods.acm.org)]
-* ACM Queue [[website](https://queue.acm.org)]
-* ACM SIGACT News [[website](https://dl.acm.org/citation.cfm?id=J697)]
-* IEEE Transactions on Dependable and Secure Computing (TDSC) [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)]
-* IEEE Transactions on Parallel and Distributed Systems (TPDS) [[website](https://www.computer.org/csdl/journal/td)]
-* IEEE Transactions on Computers (TC) [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)]
-* IEEE Transactions on Software Engineering [[website](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)]
-* Journal of Systems Research (JSys) [[website](http://jsys.org/)]
+* ACM
+  * [Transactions on Computer Systems (TOCS)](https://tocs.acm.org)
+  * [Journal of the ACM (JACM)](https://jacm.acm.org)
+  * [Communications of the ACM (CACM)](https://cacm.acm.org)
+  * [SIGOPS Operating Systems Review (OSR)](https://www.sigops.org/osr.html)
+  * [Computing Surveys (CSUR)](https://csur.acm.org)
+  * [Transactions on Database Systems (TODS)](https://tods.acm.org)
+  * [ACM Queue](https://queue.acm.org)
+  * [SIGACT News](https://dl.acm.org/citation.cfm?id=J697)
+* IEEE
+  * [Transactions on Dependable and Secure Computing (TDSC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)
+  * [Transactions on Parallel and Distributed Systems (TPDS)](https://www.computer.org/csdl/journal/td)
+  * [Transactions on Computers (TC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)
+  * [Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)
+* [Journal of Systems Research (JSys)](http://jsys.org/)
