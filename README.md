@@ -400,6 +400,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Scaling symbolic evaluation for automated verification of systems code with Serval, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359641)]
 * WormSpace: A Modular Foundation for Simple, Verifiable Distributed Systems, SoCC 2019 [[acmdl](https://dl.acm.org/doi/10.1145/3357223.3362739)]
 * Towards an Automatic Proof of Lamport’s Paxos, FMCAD 2021 [[arxiv](https://arxiv.org/abs/2108.08796)]
+  * Automatic inference of Paxos's inductive invariants
 
 ### Quorum systems
 This section lists papers on quorum systems.
