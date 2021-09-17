@@ -287,6 +287,8 @@ This section lists papers describing standalone evaluations of consensus algorit
   * [author's blog post](http://muratbuffalo.blogspot.com/2019/07/dissecting-performance-bottlenecks-of.html)
 * Blockchains and Distributed Databases: a Twin Study [[arxiv](https://arxiv.org/abs/1910.01310)]
   * performance anaylsis of 5 consensus systems, 3 non-byzantine algorithms (including etcd) and 2 byzantine consensus algorithms
+* Scalable but Wasteful: Current State of Replication in the Cloud, HotStorage 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3465332.3470882)]
+  * Study of the efficiency (CPU utilization) of Multi-Paxos vs EPaxos, finding that EPaxos provides better throughput than Multi-Paxos at the cost of much worse efficiency.
 
 ### State machine replication
 This section lists papers the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
