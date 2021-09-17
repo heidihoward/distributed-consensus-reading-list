@@ -122,6 +122,8 @@ This section lists papers describing algorithms for distributed consensus. This 
   * featured in [the morning paper](https://blog.acolyer.org/2016/09/27/flexible-paxos-quorum-intersection-revisited/)
 * CASPaxos: Replicated State Machines without logs, Unpublished 2018 [[pdf](https://arxiv.org/pdf/1802.07000.pdf)]
 * Fast Flexible Paxos: Relaxing Quorum Intersection for Fast Paxos, ICDCN 2021 [[arxiv](https://arxiv.org/abs/2008.02671)]
+* Spire: A Cooperative, Phase-Symmetric Solution to Distributed Consensus, IEEE Access 2021 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9481103)]
+  * Consensus algorithm which permits multiple proposals in the same round (similar to Fast Paxos) but uses two phases instead of larger quorums.
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 
 ### Consensus for specialist hardware
