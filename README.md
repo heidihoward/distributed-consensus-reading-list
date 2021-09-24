@@ -155,7 +155,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * Odyssey: The Impact of Modern Hardware on Strongly-Consistent Replication Protocols, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3447786.3456240), [pdf](https://homepages.inf.ed.ac.uk/vnagaraj/papers/eurosys21.pdf),[techreport](https://arxiv.org/abs/2103.14701)]
 
 ### Consensus for geo-distributed systems
-This section lists papers describing consensus algorithms for WANs and/or geo-replicated systems.
+This section covers papers describing consensus algorithms for WANs and/or geo-replicated systems. Many of these algorithm (such as [EPaxos](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)) are leaderless and decide a partial-ordering over values instead of the more tradition total-ordering approach.
 * Mencius: Building Efficient Replicated State Machines for WANs, OSDI 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1855767),[pdf](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao.pdf)]
 * Scalable Consistency in Scatter, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043559),[pdf](https://homes.cs.washington.edu/~tom/pubs/scatter.pdf)]
 * MDCC: Multi-Data Center Consistency, Eurosys 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2465363),[pdf](http://mdcc.cs.berkeley.edu/mdcc.pdf)]
@@ -178,6 +178,7 @@ This section lists papers describing consensus algorithms for WANs and/or geo-re
 * Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-uluyol.pdf)]
 * State-Machine Replication for Planet-Scale Systems, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387543),[arxiv](https://arxiv.org/abs/2003.11789)]
 * Low-Latency Geo-Replicated State Machines with Guaranteed Writes, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393686)]
+* EPaxos Revisited, NSDI 2021 [[pdf](https://www.usenix.org/system/files/nsdi21-tollman.pdf)]
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
