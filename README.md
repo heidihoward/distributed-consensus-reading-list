@@ -480,6 +480,8 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
 * Fast and secure global payments with Stellar, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359636)]
   * Formal verification in Ivy and Isabelle/HOL
 * Flexible Byzantine Fault Tolerance, CCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319535.3354225),[pdf](https://dahliamalkhi.files.wordpress.com/2019/09/flex-bft-ccs19.pdf)]
+* Making Reads in BFT State Machine Replication Fast, Linearizable, and Live, SRDS 2021 [[arxiv](https://arxiv.org/abs/2107.11144)]
+  * Identifies and fixes a liveness issue in [PBFT](http://pmg.csail.mit.edu/papers/osdi99.pdf)'s fast path for non-linearizable read-only operations
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
