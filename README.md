@@ -405,6 +405,8 @@ This section lists papers on proving or testing the correctness of consensus alg
   * Automatic inference of Paxos's inductive invariants
 * DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols, OSDI 2021 [[pdf](https://www.usenix.org/system/files/osdi21-yao.pdf)]
   * Next step in the inference of inductive invariants for distributed protocols, following on from Ivy and I4. Still does not support Paxos.
+* Much ADO about Failures: A Fault-Aware Model for Compositional Verification of Strongly Consistent Distributed Systems, OOPSLA 2021 [[pdf](https://flint.cs.yale.edu/flint/publications/ado-tr.pdf)]
+  * Formal proofs of distributed protocols in Coq including Multi-Paxos, produces verified C executables.
 
 ### Quorum systems
 This section lists papers on quorum systems.
