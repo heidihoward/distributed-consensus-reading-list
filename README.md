@@ -350,6 +350,8 @@ This section lists papers that discuss alternative consistency models to [linear
   * comes with TLA+ spec in [tech report](https://arxiv.org/pdf/1904.08964.pdf)
 * Strong and Efficient Consistency with Consistency-Aware Durability, FAST 2020 [[pdf](http://pages.cs.wisc.edu/~ag/cad.pdf)]
   * [talk/slides](https://www.usenix.org/conference/fast20/presentation/ganesan)
+* Regular Sequential Serializability and Regular Sequential Consistency, SOSP 2021 [[pdf](https://arxiv.org/pdf/2109.08930.pdf)]
+  * New consistency models which are invariant equivalent to linearizability.
 
 ### Failures
 This section lists papers that analyze real-world failures of distributed systems.
