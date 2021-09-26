@@ -152,7 +152,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * The Impact of RDMA on Agreement, PODC 2019 [[pdf](https://arxiv.org/abs/1905.12143)]
 * HovercRaft: Achieving Scalability and Fault-tolerance for microsecond-scale Datacenter Services, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387545)]
 * Microsecond Consensus for Microsecond Applications, OSDI 2020 [[arxiv](https://arxiv.org/abs/2010.06288)]
-* Odyssey: The Impact of Modern Hardware on Strongly-Consistent Replication Protocols, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3447786.3456240), [pdf](https://homepages.inf.ed.ac.uk/vnagaraj/papers/eurosys21.pdf),[techreport](https://arxiv.org/abs/2103.14701)]
+* Odyssey: The Impact of Modern Hardware on Strongly-Consistent Replication Protocols, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3447786.3456240), [pdf](https://homepages.inf.ed.ac.uk/vnagaraj/papers/eurosys21.pdf),[techreport](https://arxiv.org/abs/2103.14701),[thesis](https://vasigavr1.github.io/files/thesis.pdf)]
 
 ### Consensus for geo-distributed systems
 This section covers papers describing consensus algorithms for WANs and/or geo-replicated systems. Many of these algorithm (such as [EPaxos](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)) are leaderless and decide a partial-ordering over values instead of the more tradition total-ordering approach.
