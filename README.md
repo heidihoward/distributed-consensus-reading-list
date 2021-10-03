@@ -22,7 +22,7 @@ The sections are as follows:
 * [Clocks](#clocks)
 * [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
 * [Quorum systems](#quorum-systems)
-* [Byzantine fault tolerance in distributed consensus](#byzantine-fault-tolerance-in-distributed-consensus)
+* [Byzantine fault tolerance](#byzantine-fault-tolerance-in-distributed-consensus)
 * [Alternative fault models in distributed consensus](#alternative-fault-models-in-distributed-consensus)
 * [Misc](#misc)
 * [Future reading list](#future-reading-list)
@@ -210,6 +210,7 @@ This section lists papers describing experiences of deploying distributed consen
 * Millions of Tiny Databases, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-brooker.pdf)]
   * covered by [the morning paper](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/)
 * Virtual Consensus in Delos, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-balakrishnan.pdf)]
+* Log-structured Protocols in Delos, SOSP 2021 [[pdf](https://maheshba.bitbucket.io/papers/delos-sosp2021.pdf)]
 
 ### Implementations of consensus
 This section lists papers describing implementations of distributed consensus algorithms.
@@ -275,6 +276,7 @@ This section lists papers describing implementations of distributed consensus al
 * PigPaxos: Devouring the communication bottlenecks in distributed consensus, ICMD 2020 [[arxiv](https://arxiv.org/abs/2003.07760),[acmdl](https://dl.acm.org/doi/10.1145/3448016.3452834)]
 * CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost, FAST 2020 [[pdf](https://www.usenix.org/conference/fast20/presentation/wang-zizhong)]
 * Scaling Replicated State Machines with Compartmentalization, VLDB 2021 [[pdf](https://mwhittaker.github.io/publications/compartmentalized_consensus.pdf)]
+* Rabia: Simplifying State-Machine Replication Through Randomization, SOSP 2021 [[arxiv](https://arxiv.org/pdf/2109.12616.pdf)]
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
@@ -438,7 +440,7 @@ This section lists papers on quorum systems.
 * Read-Write Quorum Systems Made Practical, PaPoC 2021 [[pdf](https://arxiv.org/abs/2104.04102)]
 
 
-### Byzantine fault tolerance in distributed consensus
+### Byzantine fault tolerance
 This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
 * The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
 * Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134),[pdf](https://zoo.cs.yale.edu/classes/cs426/2013/bib/bracha85asynchronous.pdf)]
@@ -489,6 +491,8 @@ This section lists papers on Byzantine Fault Tolerance (BFT), often used as the 
   * Identifies and fixes a liveness issue in [PBFT](http://pmg.csail.mit.edu/papers/osdi99.pdf)'s fast path for non-linearizable read-only operations
 * Be Aware of Your Leaders, Unpublished 2021 [[pdf](https://sonnino.com/papers/leader-reputation.pdf)]
   * Reputation-based leader rotation algorithm as an alternative to simple round robin.
+* Basil: Breaking up BFT with ACID (transactions), SOSP 2021 [[arxiv](https://arxiv.org/pdf/2109.12443.pdf)]
+* BigBFT: A Multileader Byzantine Fault Tolerance Protocol for High Throughput, 2021 [[arxiv](https://arxiv.org/abs/2109.12664)]
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
