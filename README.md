@@ -7,30 +7,34 @@ Many of the papers listed below fit into more than one section. However, for sim
 Key: acmdl = [ACM Digital Library](https://dl.acm.org)
 
 The sections are as follows:
-* [Theoretical results](#theoretical-results)
-* [Surveys](#surveys)
-* [Algorithms for consensus](#algorithms-for-consensus)
-* [Consensus for specialist hardware](#consensus-for-specialist-hardware)
-* [Consensus for geo-distributed systems](#consensus-for-geo-distributed-systems)
-* [Consensus in production](#consensus-in-production)
-* [Implementations of consensus](#implementations-of-consensus)
-* [Evaluations of consensus](#evaluations-of-consensus)
-* [State machine replication](#state-machine-replication)
-* [Reconfiguration](#reconfiguration)
-* [Weaker consistency models](#weaker-consistency-models)
-* [Failures](#failures)
-* [Clocks](#clocks)
-* [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
-* [Quorum systems](#quorum-systems)
-* [Byzantine fault tolerance](#byzantine-fault-tolerance-in-distributed-consensus)
-* [Alternative fault models in distributed consensus](#alternative-fault-models-in-distributed-consensus)
-* [Misc](#misc)
+* [Distributed consensus](#distributed-consensus)
+  * [Theoretical results](#theoretical-results)
+  * [Surveys](#surveys)
+  * [Algorithms for consensus](#algorithms-for-consensus)
+  * [Consensus for specialist hardware](#consensus-for-specialist-hardware)
+  * [Consensus for geo-distributed systems](#consensus-for-geo-distributed-systems)
+  * [Consensus in production](#consensus-in-production)
+  * [Implementations of consensus](#implementations-of-consensus)
+  * [Evaluations of consensus](#evaluations-of-consensus)
+  * [State machine replication](#state-machine-replication)
+  * [Reconfiguration](#reconfiguration)
+* [Related Topics](#relatec-topics)
+  * [Weaker consistency models](#weaker-consistency-models)
+  * [Failures](#failures)
+  * [Clocks](#clocks)
+  * [Correctness of consensus algorithms](#correctness-of-consensus-algorithms)
+  * [Quorum systems](#quorum-systems)
+  * [Byzantine fault tolerance](#byzantine-fault-tolerance-in-distributed-consensus)
+  * [Alternative fault models in distributed consensus](#alternative-fault-models-in-distributed-consensus)
+  * [Misc](#misc)
 * [Future reading list](#future-reading-list)
   * [Blogroll](#blogroll)
   * [Reading lists](#reading-lists)
   * [Academic conferences & symposiums](#academic-conferences--symposiums)
   * [Academic workshops](#academic-workshops)
   * [Academic journals & magazines](#academic-journals--magazines)
+
+## Distributed Consensus
 
 ### Theoretical results
 This section lists theoretical results relating to distributed consensus.
@@ -307,6 +311,8 @@ This section lists papers on reconfiguration.
 * Unbounded Pipelining in Dynamically Reconfigurable Paxos Clusters, Unpublished 2016 [[pdf](http://tessanddave.com/paxos-reconf-902f8b7.pdf)]
   * related blog post, [UPaxos and primary-backup replication](https://davecturner.github.io/2017/09/18/upaxos-primary-backup.html)
 * Matchmaker Paxos: A Reconfigurable Consensus Protocol, JSys 2021 [[pdf](https://mwhittaker.github.io/publications/matchmaker_paxos.pdf),[arxiv](https://arxiv.org/abs/2007.09468)]
+
+## Related Topics
 
 ### Weaker consistency models
 This section lists papers that discuss alternative consistency models to [linearizability](https://en.wikipedia.org/wiki/Linearizability) or systems which depend upon clocks for correctness.
