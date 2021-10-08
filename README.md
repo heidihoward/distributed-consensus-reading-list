@@ -1,4 +1,4 @@
-# Distributed Consensus Reading List
+# Distributed Consensus Reading List 📚
 
 Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (and the related areas of [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast), [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication), and [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) have been the subjects of extensive academic research. This is a very list of papers relating to distributed consensus.
 
