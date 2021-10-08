@@ -308,6 +308,7 @@ This section lists papers on reconfiguration.
 * Vertical Paxos and Primary-Backup Replication, PODC 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1582783),[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/05/podc09v6.pdf)]
 * Reconfiguring a State Machine, SIGACT News 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1753191),[pdf](https://lamport.azurewebsites.net/pubs/reconfiguration-tutorial.pdf)]
 * Dynamic Reconfiguration of Primary/Backup Clusters, ATC 2012 [[acmdl](https://dl.acm.org/doi/10.5555/2342821.2342860),[pdf](https://www.usenix.org/system/files/conference/atc12/atc12-final74.pdf)]
+  * Describes [Zookeeper's approach to reconfiguration](https://zookeeper.apache.org/doc/r3.5.3-beta/zookeeperReconfig.html).
 * Unbounded Pipelining in Dynamically Reconfigurable Paxos Clusters, Unpublished 2016 [[pdf](http://tessanddave.com/paxos-reconf-902f8b7.pdf)]
   * related blog post, [UPaxos and primary-backup replication](https://davecturner.github.io/2017/09/18/upaxos-primary-backup.html)
 * Matchmaker Paxos: A Reconfigurable Consensus Protocol, JSys 2021 [[pdf](https://mwhittaker.github.io/publications/matchmaker_paxos.pdf),[arxiv](https://arxiv.org/abs/2007.09468)]
