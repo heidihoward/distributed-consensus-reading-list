@@ -46,9 +46,10 @@ The sections are as follows:
 This section lists theoretical results relating to distributed consensus.
 * ⭐️ Time, Clocks, and the Ordering of Events in a Distributed System, CACM 1978 [[acmdl](https://dl.acm.org/citation.cfm?id=359563),[pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)]
 * The implementation of reliable distributed multiprocess systems, Computer Networks 1978 [[pdf](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)]
+* Reaching Agreement in the Presence of Faults, JACM 1980 [[pdf](https://lamport.azurewebsites.net/pubs/reaching.pdf)]
 * ⭐️ Impossibility of Distributed Consensus with One Faulty Process, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214121),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
   * The famous FLP result
-* The Byzantine Generals Problem, TPLS 1982 [[acmdl](https://dl.acm.org/doi/10.1145/357172.357176),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Byzantine-Generals-Problem.pdf)]
+* ⭐️ The Byzantine Generals Problem, TPLS 1982 [[acmdl](https://dl.acm.org/doi/10.1145/357172.357176),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Byzantine-Generals-Problem.pdf)]
 * On the Minimal Synchronism Needed for Distributed Consensus, JACM 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7533),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)]  
 * Unreliable Failure Detectors for Reliable Distributed Systems, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=226647),[pdf](https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf)]
 * The Weakest Failure Detector for Solving Consensus, JACM 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=234549),[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/weakestfd.pdf)]
@@ -61,7 +62,7 @@ This section lists theoretical results relating to distributed consensus.
 
 
 ### Surveys
-This section lists surveys, tutorials, book chapters, and systemization of knowledge papers covering distributed consensus algorithms.
+This section lists surveys, tutorials, and systemization of knowledge papers covering distributed consensus algorithms.
 * A Modular Approach to Fault-Tolerant Broadcasts and Related Problems, Tech Report 1994 [[acmdl](https://dl.acm.org/citation.cfm?id=866693),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/hadzilacos_ps.ps)]
 * How to Build a Highly Available System Using Consensus, WDAG 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=675640),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.5429&rep=rep1&type=pdf)]
 * Revisiting the PAXOS algorithm, WDAG 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=675657),[pdf](https://groups.csail.mit.edu/tds/papers/DePrisco/paxos-tcs.pdf)]
@@ -72,20 +73,18 @@ This section lists surveys, tutorials, book chapters, and systemization of knowl
   * Featured in [the morning paper](https://blog.acolyer.org/2015/03/04/paxos-made-simple/)
 * Deconstructing paxos, SIGACT News 2003 [[pdf](http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/deconstr_paxos.pdf),[acmdl](https://dl.acm.org/citation.cfm?id=637447)]
 * Total order broadcast and multicast algorithms: Taxonomy and survey, CSUR 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1041682),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.110.6701&rep=rep1&type=pdf)]
-* Readings in Database Systems (5th Edition), Book 2015 [[pdf](http://www.redbook.io/pdf/redbook-5th-edition.pdf)]
 * 💎 Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab, TDSC 2005 [[pdf](https://www.cs.cornell.edu/fbs/publications/vivaLaDifference.pdf)]
   * Featured in [the morning paper](https://blog.acolyer.org/2015/03/11/vive-la-difference-paxos-vs-viewstamped-replication-vs-zab/)
 * The Alpha of Indulgent Consensus, Comp Journal 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1188295),[pdf](https://infoscience.epfl.ch/record/89695/files/bxl046.pdf)]
 * The Paxos Register, SRDS 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1308227),[pdf](http://www.cs.cornell.edu/lorenzo/papers/li07Paxos.pdf)]
 * Classic Paxos vs. Fast Paxos: Caveat Emptor, HotDep 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1323158),[pdf](http://www.sysnet.ucsd.edu/sysnet/miscpapers/hotdep07.pdf)]
-* Introduction to Reliable and Secure Distributed Programming, Book 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
 * Tutorial Summary: Paxos Explained from Scratch, OPODIS 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2696603),[pdf](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf)]
 * 💎 Paxos Made Moderately Complex, CSUR 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2673577),[pdf](http://www.cs.cornell.edu/courses/cs7412/2011sp/paxos.pdf)]
-* Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Book 2017 [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
 * On the Parallels between Paxos and Raft, and how to Port Optimizations, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331595),[pdf](http://mpaxos.com/pub/raft-paxos.pdf)]
 * Paxos vs Raft: Have we reached consensus on distributed consensus?, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393681),[arxiv](https://arxiv.org/abs/2004.05074)]
 * 60 Years of Mastering Concurrent Computing through Sequential Thinking, SIGACT News 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3406678.3406690)]
 * What's Live? Understanding Distributed Consensus, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.04787)]
+* A Generalized Multi-Leader State Machine Replication Tutorial, JSys 2021 [[pdf](https://mwhittaker.github.io/publications/bipartisan_paxos.pdf)]
 
 ### Algorithms for consensus
 This section lists papers describing algorithms for distributed consensus. These papers tend to be theory papers (venues such as PODC, DISC, OPODIS) whereas the [Implementations of consensus](#implementations-of-consensus) section focuses on systems papers.
@@ -451,7 +450,6 @@ This section lists papers on quorum systems.
 
 ### Byzantine fault tolerance
 This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
-* ⭐️ The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
 * Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134),[pdf](https://zoo.cs.yale.edu/classes/cs426/2013/bib/bracha85asynchronous.pdf)]
 * Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
 * The load and availability of Byzantine quorum systems, PODC 1997 [[acmdl](https://dl.acm.org/doi/abs/10.1145/259380.259450)]
@@ -516,7 +514,10 @@ Most of these papers handle crash faults or byzantine faults. This section consi
   * Featured in [the morning paper](https://blog.acolyer.org/2018/02/27/protocol-aware-recovery-for-consensus-based-storage/)
 
 ### Misc
-Blog posts, talks, dissertations, etc...
+Blog posts, books, talks, dissertations, etc...
+* Readings in Database Systems (5th Edition), Book 2015 [[pdf](http://www.redbook.io/pdf/redbook-5th-edition.pdf)]
+* Introduction to Reliable and Secure Distributed Programming, Book 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
+* Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Book 2017 [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
 * [FaunaDB: An Architectural Overview](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)
 * [Distributed Coordination Engine (DConE)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
 * [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
