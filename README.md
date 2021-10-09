@@ -1,8 +1,12 @@
 # Distributed Consensus Reading List 📚
 
-Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (and the related areas of [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast), [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication), and [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) have been the subjects of extensive academic research. This is a very list of papers relating to distributed consensus.
+Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (and the related areas of [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast), [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication), and [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) have been the subjects of extensive academic research. This is a long list of papers relating to distributed consensus.
 
-Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions via pull requests are welcome.
+Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. 
+
+⭐️ If you are looking for a starting point, a subset of the most influential papers on distributed consensus are highlighted using a yellow star. ⭐️
+
+Contributions via pull requests are welcome. 
 
 Key: acmdl = [ACM Digital Library](https://dl.acm.org)
 
@@ -38,9 +42,9 @@ The sections are as follows:
 
 ### Theoretical results
 This section lists theoretical results relating to distributed consensus.
-* Time, Clocks, and the Ordering of Events in a Distributed System, CACM 1978 [[acmdl](https://dl.acm.org/citation.cfm?id=359563),[pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)]
+* ⭐️ Time, Clocks, and the Ordering of Events in a Distributed System, CACM 1978 [[acmdl](https://dl.acm.org/citation.cfm?id=359563),[pdf](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)]
 * The implementation of reliable distributed multiprocess systems, Computer Networks 1978 [[pdf](https://www.microsoft.com/en-us/research/publication/implementation-reliable-distributed-multiprocess-systems/)]
-* Impossibility of Distributed Consensus with One Faulty Process, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214121),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
+* ⭐️ Impossibility of Distributed Consensus with One Faulty Process, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214121),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)]
   * The FLP result
 * The Byzantine Generals Problem, TPLS 1982 [[acmdl](https://dl.acm.org/doi/10.1145/357172.357176),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Byzantine-Generals-Problem.pdf)]
 * On the Minimal Synchronism Needed for Distributed Consensus, JACM 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7533),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.4362&rep=rep1&type=pdf)]  
@@ -86,11 +90,11 @@ This section lists papers describing algorithms for distributed consensus. This 
 *  Another Advantage of Free Choice: Completely Asynchronous Agreement Protocols, PODC 1983 [[acmdl](https://dl.acm.org/doi/10.1145/800221.806707)]
     * aka Ben-Or algorithm
 * Reliable communication in the presence of failures, TOCS 1987 [[acmdl](https://dl.acm.org/citation.cfm?id=7478),[pdf](https://pdos.csail.mit.edu/archive/6.824-2006/papers/isis87.pdf)]
-* Consensus in the Presence of Partial Synchrony, JACM 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=42283),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)]
+* ⭐️ Consensus in the Presence of Partial Synchrony, JACM 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=42283),[pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)]
 * Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems, PODC 1988 [[acmdl](https://dl.acm.org/citation.cfm?id=62549),[pdf](http://pmg.csail.mit.edu/papers/vr.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/02/viewstamped-replication-a-new-primary-copy-method-to-support-highly-available-distributed-systems/)
 * Efficient Message Ordering in Dynamic Networks, PODC 1996 [[acmdl](https://dl.acm.org/citation.cfm?id=248062),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=A396429A7FB80EE184CC3AFC78347A86?doi=10.1.1.27.6092&rep=rep1&type=pdf)]
-* The Part-Time Parliament, TOCS 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279229),[pdf](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)]
+* ⭐️ The Part-Time Parliament, TOCS 1998 [[acmdl](https://dl.acm.org/citation.cfm?id=279229),[pdf](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)]
   * the original paper introducing Paxos
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/03/the-part-time-parliament/)
 * Disk Paxos, DISC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=675967),[pdf](https://lamport.azurewebsites.net/pubs/disk-paxos.pdf)]
@@ -186,11 +190,11 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
-* The Chubby lock service for loosely-coupled distributed systems, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298487),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf)]
+* ⭐️ The Chubby lock service for loosely-coupled distributed systems, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298487),[pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/02/13/the-chubby-lock-service-for-loosely-coupled-distributed-systems/)
-* Paxos Made Live - An Engineering Perspective, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281103),[pdf](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)]
+* ⭐️ Paxos Made Live - An Engineering Perspective, PODC 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1281103),[pdf](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/05/paxos-made-live/)
-* ZooKeeper: Wait-free coordination for Internet-scale systems, ATC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1855840.1855851),[pdf](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)]
+* ⭐️ ZooKeeper: Wait-free coordination for Internet-scale systems, ATC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1855840.1855851),[pdf](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)]
     * featured in [the morning paper](https://blog.acolyer.org/2015/01/27/zookeeper-wait-free-coordination-for-internet-scale-systems/)
 * Windows Azure Storage: a highly available cloud storage service with strong consistency, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043571),[pdf](https://webcourse.cs.technion.ac.il/236802/Spring2018/ho/WCFiles/Azure_Cloud_Storage.pdf)]
 * Megastore: Providing Scalable, Highly Available Storage for Interactive Services, CIDR 2011 [[pdf](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf)]
@@ -237,7 +241,7 @@ This section lists papers describing implementations of distributed consensus al
   * featured in [the morning paper](https://blog.acolyer.org/2017/05/02/corfu-a-distributed-shared-log/)
 * Scalable State-Machine Replication, DSN 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2672426),[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6903591)]
 * When Paxos Meets Erasure Code: Reduce Network and Storage Cost in State Machine Replication, HPDC 2014 [[acmdl](https://dl.acm.org/doi/10.1145/2600212.2600218)]
-* In Search of an Understandable Consensus Algorithm (Extended Version), ATC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2643666),[pdf](https://raft.github.io/raft.pdf)]
+* ⭐️ In Search of an Understandable Consensus Algorithm (Extended Version), ATC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2643666),[pdf](https://raft.github.io/raft.pdf)]
   * featured in [the morning paper](https://blog.acolyer.org/2015/03/12/in-search-of-an-understandable-consensus-algorithm/)
   * aka the RAFT consensus paper
   * implemented in [etcd](https://etcd.io)
@@ -296,8 +300,8 @@ This section lists papers describing standalone evaluations of consensus algorit
 
 ### State machine replication
 This section lists papers about the application of consensus to State Machine Replication (SMR/RSMs) and Linearizability.
-* Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial, CSUR 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=98167),[pdf](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)]
-* Linearizability: A Correctness Condition for Concurrent Objects, TOPLAS 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=78972),[pdf](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)]
+* ⭐️ Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial, CSUR 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=98167),[pdf](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)]
+* ⭐️ Linearizability: A Correctness Condition for Concurrent Objects, TOPLAS 1990 [[acmdl](https://dl.acm.org/citation.cfm?id=78972),[pdf](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)]
 * Implementing Linearizability at Large Scale and Low Latency, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815416),[pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/rifl.pdf)]
 * Cheap and Available State Machine Replication, ATC 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=3026984),[pdf](https://www.usenix.org/system/files/conference/atc16/atc16_paper-shi.pdf)]
 * Fine-Grained Replicated State Machines for a Cluster Storage System, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20spring_liu-ming_prepub_0.pdf)]
@@ -319,7 +323,7 @@ This section lists papers on reconfiguration.
 This section lists papers that discuss alternative consistency models to [linearizability](https://en.wikipedia.org/wiki/Linearizability) or systems which depend upon clocks for correctness.
 * Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency, SOSP 1989 [[acmdl](https://dl.acm.org/citation.cfm?id=74870),[pdf](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)]
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases.
-* Towards Robust Distributed Systems, PODC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=343502),[pdf](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)]
+* ⭐️ Towards Robust Distributed Systems, PODC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=343502),[pdf](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)]
   * PODC keynote in which [Eric Brewer](https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)) proposed the now infamous [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem).
 * Chain replication for supporting high throughput and availability, OSDI 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1251261),[pdf](https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf)]
 * Dynamo: Amazon’s Highly Available Key-value Store, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294281),[pdf](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)]
@@ -422,8 +426,8 @@ This section lists papers on proving or testing the correctness of consensus alg
 
 ### Quorum systems
 This section lists papers on quorum systems.
-* A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases, TODS 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=320076),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/p180-thomas.pdf)]
-* Weighted Voting for Replicated Data, SOSP 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=806583),[pdf](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)]
+* ⭐️ A Majority Consensus Approach to Concurrency Control for Multiple Copy Databases, TODS 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=320076),[pdf](http://csis.pace.edu/~marchese/CS865/Papers/p180-thomas.pdf)]
+* ⭐️ Weighted Voting for Replicated Data, SOSP 1979 [[acmdl](https://dl.acm.org/citation.cfm?id=806583),[pdf](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/gifford79.pdf)]
 * How to Assign Votes in a Distributed System, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=4223),[pdf](https://www.cs.purdue.edu/homes/bb/cs542-17Spr/How%20to%20assign%20Votes-JACM-garcia-molina.pdf)]
 * A √N algorithm for mutual exclusion in decentralized systems, TOCS 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214445),[pdf](https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf)]
 * A Quorum-Consensus Replication Method for Abstract Data Types, TOCS 1984 [[acmdl](https://dl.acm.org/doi/10.1145/6306.6308)]
@@ -449,11 +453,11 @@ This section lists papers on quorum systems.
 
 ### Byzantine fault tolerance
 This section lists papers on Byzantine Fault Tolerance (BFT), often used as the basis of permissioned blockchains.
-* The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
+* ⭐️ The Byzantine Generals Problem, ACM TPLS 1982 [[acmdl](https://dl.acm.org/citation.cfm?id=357176),[pdf](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)]
 * Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134),[pdf](https://zoo.cs.yale.edu/classes/cs426/2013/bib/bracha85asynchronous.pdf)]
 * Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
 * The load and availability of Byzantine quorum systems, PODC 1997 [[acmdl](https://dl.acm.org/doi/abs/10.1145/259380.259450)]
-* Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
+* ⭐️ Practical Byzantine Fault Tolerance, OSDI 1999 [[acmdl](https://dl.acm.org/citation.cfm?id=296824),[pdf](http://pmg.csail.mit.edu/papers/osdi99.pdf)]
 * Separating agreement from execution for byzantine fault tolerant services, SOSP 2003 [[acmdl](https://dl.acm.org/citation.cfm?id=945470),[pdf](http://www.cs.cornell.edu/lorenzo/papers/sosp03.pdf)]
 * Byzantine disk paxos: optimal resilience with byzantine shared memory, PODC 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1011801),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzdp-dc2006.pdf)]
 * Fault-Scalable Byzantine Fault-Tolerant Services, SOSP 2005 [[acmdl](https://dl.acm.org/citation.cfm?id=1095817)]
