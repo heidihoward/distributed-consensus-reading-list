@@ -108,7 +108,7 @@ This section lists papers describing algorithms for distributed consensus. These
   * ADP claims that Disk Paxos requires a fixed set of proposers and that ADP fixes this.
 * Cheap Paxos, DSN 2004 [[acmdl](https://dl.acm.org/citation.cfm?id=1009745),[pdf](https://lamport.azurewebsites.net/pubs/web-dsn-submission.pdf)]
 * Generalized Consensus and Paxos, Tech Report 2005 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf)]
-  * Introduces the idea of deciding a partial ordering of operations for SMR instead of a total ordering
+  * Introduces the idea of deciding a partial ordering of values instead of a total ordering
 * Fast Paxos, Distributed Computing 2006 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-112.pdf)]
   * Variant of Paxos where proposers can bypass the leader by allowing multiple values to be proposed in the same ballot. This requires stronger quorums intersection, e.g. fast paxos needs 3/4 of acceptors (instead of a simple majority) to provide the same liveness guarantees as classic Paxos.
 * Consensus on Transaction Commit, TODS 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1132867),[pdf](https://lamport.azurewebsites.net/video/consensus-on-transaction-commit.pdf)]
@@ -169,6 +169,7 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
 * Scalable Consistency in Scatter, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043559),[pdf](https://homes.cs.washington.edu/~tom/pubs/scatter.pdf)]
 * MDCC: Multi-Data Center Consistency, Eurosys 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2465363),[pdf](http://mdcc.cs.berkeley.edu/mdcc.pdf)]
 * There Is More Consensus in Egalitarian Parliaments, SOSP 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2517350),[pdf](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)]
+  * This paper describes EPaxos, which realizes [Generalized Paxos](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2005-33.pdf) and makes some further improvements (e.g. reducing the size of fast quorums by 1).
 * Geo-replicated storage with scalable deferred update replication, DSN 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2515164),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.724.1706&rep=rep1&type=pdf)]
 * Low-Latency Multi-Datacenter Databases using Replicated Commit, VLDB 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2536366),[pdf](http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf)]
 * Be General and Don’t Give Up Consistency in Geo-Replicated Transactional Systems, OPODIS 2014 [[pdf](https://www.ssrg.ece.vt.edu/papers/opodis14-alvin.pdf)]
@@ -188,6 +189,8 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
 * State-Machine Replication for Planet-Scale Systems, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387543),[arxiv](https://arxiv.org/abs/2003.11789)]
 * Low-Latency Geo-Replicated State Machines with Guaranteed Writes, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393686)]
 * EPaxos Revisited, NSDI 2021 [[pdf](https://www.usenix.org/system/files/nsdi21-tollman.pdf)]
+* Efficient Replication via Timestamp Stability, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3447786.3456236),[arxiv](https://arxiv.org/abs/2104.01142)]
+  * Describes Tempo, a leaderless partial ordering protocol which uses timestamp ordering.
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
