@@ -24,7 +24,7 @@ The sections are as follows:
   * [Evaluations of consensus](#evaluations-of-consensus)
   * [State machine replication](#state-machine-replication)
   * [Reconfiguration](#reconfiguration)
-* [Related Topics](#relatec-topics)
+* [Related Topics](#related-topics)
   * [Weaker consistency models](#weaker-consistency-models)
   * [Failures](#failures)
   * [Clocks](#clocks)
@@ -58,8 +58,6 @@ This section lists theoretical results relating to distributed consensus.
 * The Heard-Of Model: Computing in Distributed Systems with Benign Failures, Distributed Computing 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=3271165),[pdf](https://infoscience.epfl.ch/record/109375/files/HO-TR-2007.pdf)]
   * Featured in [the morning paper](https://blog.acolyer.org/2016/02/09/the-heard-of-model/)
 * Virtually Synchronous Methodology for Dynamic Service Replication, MS Tech report 2010 [[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/11/vs-submit.pdf)]
-* CAP Twelve Years Later: How the "Rules" Have Changed, Computer Magazine 2012 [[html](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)]
-
 
 ### Surveys
 This section lists surveys, tutorials, and systemization of knowledge papers covering distributed consensus algorithms.
@@ -83,7 +81,7 @@ This section lists surveys, tutorials, and systemization of knowledge papers cov
 * On the Parallels between Paxos and Raft, and how to Port Optimizations, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331595),[pdf](http://mpaxos.com/pub/raft-paxos.pdf)]
 * Paxos vs Raft: Have we reached consensus on distributed consensus?, PaPoC 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3380787.3393681),[arxiv](https://arxiv.org/abs/2004.05074)]
 * 60 Years of Mastering Concurrent Computing through Sequential Thinking, SIGACT News 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3406678.3406690)]
-* What's Live? Understanding Distributed Consensus, Unpublished 2020 [[arxiv](https://arxiv.org/abs/2001.04787)]
+* What's Live? Understanding Distributed Consensus, PODC 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3465084.3467947),[arxiv](https://arxiv.org/abs/2001.04787)]
 * A Generalized Multi-Leader State Machine Replication Tutorial, JSys 2021 [[pdf](https://mwhittaker.github.io/publications/bipartisan_paxos.pdf)]
 
 ### Algorithms for consensus
@@ -191,6 +189,7 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
 * EPaxos Revisited, NSDI 2021 [[pdf](https://www.usenix.org/system/files/nsdi21-tollman.pdf)]
 * Efficient Replication via Timestamp Stability, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3447786.3456236),[arxiv](https://arxiv.org/abs/2104.01142)]
   * Describes Tempo, a leaderless partial ordering protocol which uses timestamp ordering.
+* Reducing the Latency of Dependent Operations in Large-Scale Geo-Distributed Systems, PhD Thesis 2021 [[pdf](https://uwspace.uwaterloo.ca/bitstream/handle/10012/17639/Yan_Xinan.pdf?sequence=1&isAllowed=y)]
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
@@ -269,6 +268,7 @@ This section lists papers describing implementations of distributed consensus al
 * Stable and Consistent Membership at Scale with Rapid, ATC 2018 [[pdf](https://www.usenix.org/system/files/conference/atc18/atc18-suresh.pdf)]
   * Uses Fast Paxos to decide on membership changes. Conflicts are rare as the proposed value is the output of a membership algorithm so proposers usually propose the same proposal.
   * Fast Paxos implementation is [here](https://github.com/lalithsuresh/rapid/blob/master/rapid/src/main/java/com/vrg/rapid/FastPaxos.java) and [here](https://github.com/lalithsuresh/rapid/blob/master/rapid/src/main/java/com/vrg/rapid/Paxos.java)
+* The FuzzyLog: A Partially Ordered Shared Log, OSDI 2018 [[pdf](https://www.usenix.org/system/files/osdi18-lockerman.pdf)]
 * Aegean: Replication beyond the client-server model, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359663)]
   * Also supports BFT
 * Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf)]  
@@ -285,6 +285,8 @@ This section lists papers describing implementations of distributed consensus al
 * CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost, FAST 2020 [[pdf](https://www.usenix.org/conference/fast20/presentation/wang-zizhong)]
 * Scaling Replicated State Machines with Compartmentalization, VLDB 2021 [[pdf](https://mwhittaker.github.io/publications/compartmentalized_consensus.pdf)]
 * Rabia: Simplifying State-Machine Replication Through Randomization, SOSP 2021 [[arxiv](https://arxiv.org/pdf/2109.12616.pdf)]
+* Boki: Stateful Serverless Computing with Shared Logs, SOSP 2021 [[pdf](https://www.cs.utexas.edu/~zjia/boki-sosp21.pdf)]
+  * Latest edition in the line of papers on shared totally-ordered logs: Tango, Corfu, vCorfu, Scalog, Delos
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
@@ -410,6 +412,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Growing a protocol, HotCloud 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3154593),[pdf](https://www.usenix.org/conference/hotcloud17/program/presentation/ramasubramanian)]
   * Featured in [the morning paper](https://blog.acolyer.org/2017/08/23/growing-a-protocol/)
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf)]
+  * Describes DSLabs, an alternative to TLA+, for model checking distributed protocols.
   * Featured in [the morning paper](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)
 * FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems, Eurosys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303986),[pdf](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf)]  
 * Proving the Correctness of Disk Paxos in Isabelle/HOL, Unpublished 2019 [[pdf](https://www.isa-afp.org/browser_info/current/AFP/DiskPaxos/outline.pdf)]
@@ -521,6 +524,7 @@ Blog posts, books, talks, dissertations, etc...
 * Readings in Database Systems (5th Edition), Book 2015 [[pdf](http://www.redbook.io/pdf/redbook-5th-edition.pdf)]
 * Introduction to Reliable and Secure Distributed Programming, Book 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=1972495),[website](https://www.distributedprogramming.net)]
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Book 2017 [[website](https://dataintensive.net),[amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)]
+* CAP Twelve Years Later: How the "Rules" Have Changed, Computer Magazine 2012 [[html](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)]
 * [FaunaDB: An Architectural Overview](https://fauna-assets.s3.amazonaws.com/public/FaunaDB-Technical-Whitepaper.pdf)
 * [Distributed Coordination Engine (DConE)](https://www.wandisco.com/assets/blt1d792cb4d9252692/WANdisco_DConE_White_Paper.pdf)
 * [Communication Costs in Real-world Networks](http://www.bailis.org/blog/communication-costs-in-real-world-networks/)
