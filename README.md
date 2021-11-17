@@ -369,17 +369,20 @@ This section lists papers that discuss alternative consistency models to [linear
   * New consistency models which are invariant equivalent to linearizability.
 
 ### Failures
-This section lists papers that analyze real-world failures of distributed systems.
+This section lists papers that analyze and/or handle real-world failures of distributed systems.
 * Understanding Network Failures in Data Centers: Measurement, Analysis, and Implications, SIGCOMM 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2018477),[pdf](http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p350.pdf)]
 * The Network is Reliable: An informal survey of real-world communications failures, ACM Queue 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2655736),[pdf](https://queue.acm.org/detail.cfm?id=2655736)]
 * What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems, SOCC 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2670986),[pdf](https://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)]
 * All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications, OSDI 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2685082),[pdf](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-pillai.pdf)]
+* Gray Failure: The Achilles’ Heel of Cloud-Scale Systems, HotOS 2017 [[acmdl](https://dl.acm.org/doi/10.1145/3102980.3103005)]
+    * [Interested related talk by Jon Currey](https://www.hashicorp.com/resources/failure-detection-in-the-era-of-gray-failures)
 * Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to Single Errors and Corruptions, FAST 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3129648),[pdf](https://www.usenix.org/system/files/conference/fast17/fast17-ganesan.pdf)]
   * Featured in [the morning paper](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)
 * An Analysis of Network-Partitioning Failures in Cloud Systems, OSDI 2018 [[acmdl](https://dl.acm.org/doi/10.5555/3291168.3291173),[pdf](https://cs.uwaterloo.ca/~amsalqur/neat/NEAT-OSDI18.pdf)]
 * CrashTuner: Detecting Crash-Recovery Bugs in Cloud Systems via Meta-Info Analysis, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359645)]
 * The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359650)]
 * Toward a Generic Fault Tolerance Technique for Partial Network Partitioning, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-alfatafta.pdf)]
+* Tolerating Slowdowns in Replicated State Machines using Copilots, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-ngo.pdf)]
 * Metastable Failures in Distributed Systems, HotOS 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3458336.3465286)]
 
 ### Clocks
