@@ -384,6 +384,7 @@ This section lists papers that analyze and/or handle real-world failures of dist
 * Toward a Generic Fault Tolerance Technique for Partial Network Partitioning, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-alfatafta.pdf)]
 * Tolerating Slowdowns in Replicated State Machines using Copilots, OSDI 2020 [[pdf](https://www.usenix.org/system/files/osdi20-ngo.pdf)]
 * Metastable Failures in Distributed Systems, HotOS 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3458336.3465286)]
+* Immunizing Systems from Distant Failures by Limiting Lamport Exposure, HotNets 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3484266.3487387)]
 
 ### Clocks
 The liveness of distributed consensus depends on some degree of clock synchronization. The following section lists papers on the topic of clock synchronization.
