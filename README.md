@@ -1,14 +1,13 @@
 # Distributed Consensus Reading List 📚
 
-Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (and the related areas of [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast), [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication), and [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) have been the subjects of extensive academic research. This is a long list of papers relating to distributed consensus.
+Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) have been the subject of extensive academic research. Whilst definitions vary, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (or equivalently, [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast)) most often refers to the problem of how to decide an ordered sequence of values between a set of distributed nodes. This can be used to implement an append-only replicated log which can be utilized either directly or indirectly, to provide services such as primary backup replication or [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication). These abstractions can, in turn, form the building blocks of new abstractions, such as a distributed [key-value store](https://en.wikipedia.org/wiki/Key–value_database). Some consensus algorithms instead decide only a single value or a partially ordered sequence of values.
+What unifies distributed consensus algorithms is the fact that they are always safe, regardless of delays and crashes (though they are not necessarily [byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)), and are guaranteed to make progress provided sufficient liveness. 
 
-Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. 
+This is a long list of papers relating to distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. Contributions via pull requests are welcome. 
 
 ⭐️ Influential papers - If you are looking for a starting point, a subset of the most influential papers on distributed consensus are highlighted using a yellow star. ⭐️
 
 💎 Hidden gems - Papers which I personally love but are not as highly cited as the influential papers 💎
-
-Contributions via pull requests are welcome. 
 
 Key: acmdl = [ACM Digital Library](https://dl.acm.org)
 
