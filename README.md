@@ -193,6 +193,7 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
 * Efficient Replication via Timestamp Stability, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3447786.3456236),[arxiv](https://arxiv.org/abs/2104.01142)]
   * Describes Tempo, a leaderless partial ordering protocol that uses timestamp ordering.
 * Reducing the Latency of Dependent Operations in Large-Scale Geo-Distributed Systems, PhD Thesis 2021 [[pdf](https://uwspace.uwaterloo.ca/bitstream/handle/10012/17639/Yan_Xinan.pdf?sequence=1&isAllowed=y)]
+* LEGOStore: A Linearizable Geo-Distributed Store Combining Replication and Erasure Coding, Preprint 2021 [[arxiv](https://arxiv.org/abs/2111.12009)]
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
