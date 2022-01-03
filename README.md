@@ -558,6 +558,7 @@ Blog posts, books, talks, dissertations, etc...
 * [Modeling Paxos and Flexible Paxos in Pluscal and TLA+](http://muratbuffalo.blogspot.com/2016/11/modeling-paxos-and-flexible-paxos-in.html)
 * [Waltz: A Distributed Write-Ahead Log](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
 * [Open-sourcing LogDevice, a distributed data store for sequential data](https://logdevice.io/blog/)
+* [Apache BookKeeper Insights Part 1 — External Consensus and Dynamic Membership](https://medium.com/splunk-maas/apache-bookkeeper-insights-part-1-external-consensus-and-dynamic-membership-c259f388da21)
 
 ## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
