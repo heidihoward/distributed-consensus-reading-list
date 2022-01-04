@@ -160,6 +160,7 @@ This section lists papers describing consensus algorithms using specialist hardw
 * HovercRaft: Achieving Scalability and Fault-tolerance for microsecond-scale Datacenter Services, Eurosys 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3342195.3387545)]
 * FLAIR: Accelerating Reads with Consistency-Aware Network Routing, NSDI 2020 [[acmdl](https://dl.acm.org/doi/10.5555/3388242.3388295),[pdf](https://www.usenix.org/conference/nsdi20/presentation/takruri)]
 * Microsecond Consensus for Microsecond Applications, OSDI 2020 [[arxiv](https://arxiv.org/abs/2010.06288)]
+* High availability in cheap distributed key value storage, SoCC 2020 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3419111.3421290)]
 * Odyssey: The Impact of Modern Hardware on Strongly-Consistent Replication Protocols, Eurosys 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3447786.3456240), [pdf](https://homepages.inf.ed.ac.uk/vnagaraj/papers/eurosys21.pdf),[techreport](https://arxiv.org/abs/2103.14701),[thesis](https://vasigavr1.github.io/files/thesis.pdf)]
 
 ### Consensus for geo-distributed systems
@@ -285,6 +286,7 @@ This section lists papers describing implementations of distributed consensus al
 * Bipartisan Paxos: A Modular State Machine Replication Protocol, Unpublished [[pdf](https://mwhittaker.github.io/publications/compartmentalized_bipartisan_paxos.pdf)]
 * Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log, NSDI 2020 [[pdf](https://www.usenix.org/system/files/nsdi20-paper-ding.pdf)]
 * Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol, ASPLOS 2020 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3373376.3378496),[arxiv](https://arxiv.org/abs/2001.09804)]
+  * [author's thesis](https://arxiv.org/pdf/2112.02405.pdf)
 * PigPaxos: Devouring the communication bottlenecks in distributed consensus, ICMD 2020 [[arxiv](https://arxiv.org/abs/2003.07760),[acmdl](https://dl.acm.org/doi/10.1145/3448016.3452834)]
 * CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost, FAST 2020 [[pdf](https://www.usenix.org/conference/fast20/presentation/wang-zizhong)]
 * Scaling Replicated State Machines with Compartmentalization, VLDB 2021 [[pdf](https://mwhittaker.github.io/publications/compartmentalized_consensus.pdf)]
@@ -533,6 +535,8 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Basil: Breaking up BFT with ACID (transactions), SOSP 2021 [[arxiv](https://arxiv.org/pdf/2109.12443.pdf)]
 * BigBFT: A Multileader Byzantine Fault Tolerance Protocol for High Throughput, 2021 [[arxiv](https://arxiv.org/abs/2109.12664)]
 * Scaling Membership of Byzantine Consensus, TOCS 2021 [[acmdl](https://dl.acm.org/doi/full/10.1145/3473138)]
+* BFT in Blockchains: From Protocols to Use Cases, ACM Computing Surveys 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3503042)]
+  * New survey paper on BFT, more up-to-date than "Consensus in the Age of Blockchains".
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
