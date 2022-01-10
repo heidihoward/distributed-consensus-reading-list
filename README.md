@@ -581,10 +581,11 @@ The following lists contain places to watch for new writings in the field of dis
 * [David Turner](https://davecturner.github.io)
 * [Aleksey Charapko](http://charap.co)
 * [Marc Brooker](http://brooker.co.za/blog/)
-* [The Morning Paper](https://blog.acolyer.org/about/) by [Adrian Colyer](https://twitter.com/adriancolyer)
+* [The Morning Paper](https://blog.acolyer.org/about/) by [Adrian Colyer](https://twitter.com/adriancolyer) (No longer updated)
 * [Hacking, Distributed](http://hackingdistributed.com) by Emin Gün Sirer
 * [All Things Distributed](https://www.allthingsdistributed.com) by [Werner Vogels](https://twitter.com/Werner)
 * [Decentralized Thoughts](https://ittaiab.github.io/) by various authors including [Ittai Abraham](https://twitter.com/ittaia?lang=en)
+* [Micah Lerner](https://www.micahlerner.com)
 
 ### Reading lists
 * [Awesome Consensus](https://github.com/dgryski/awesome-consensus) by [Damian Gryski](https://twitter.com/dgryski)
