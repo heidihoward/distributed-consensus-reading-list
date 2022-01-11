@@ -538,6 +538,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Scaling Membership of Byzantine Consensus, TOCS 2021 [[acmdl](https://dl.acm.org/doi/full/10.1145/3473138)]
 * BFT in Blockchains: From Protocols to Use Cases, ACM Computing Surveys 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3503042)]
   * New survey paper on BFT, more up-to-date than "Consensus in the Age of Blockchains".
+* DiemBFT v4: State Machine Replication in the Diem Blockchain, White paper 2021 
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
