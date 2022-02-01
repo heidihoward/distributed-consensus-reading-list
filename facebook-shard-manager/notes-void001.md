@@ -92,7 +92,8 @@ Shard Allocations has two modes, by seperating modes between different use-cases
 
 Given the abovementioned constraints and goals, SM adopted ReBalancer. ReBalancer provides the API for user to specifiy "constraints" and "goals" which just matches to the SM "constraints" and "goals". (Comments: I think that's why SM want to model their objectives as "constraints" and "goals" because ReBalancer has this kind of interface.)
 
-ReBalancer has different solvers: **MIP (Mixed Integer Programming)** and  **Local Search**. SM uses **Local Search** to scale the constraint solver.
+ReBalancer has different solvers: **MIP (Mixed Integer Programming)** and  **Local Search[2]**. SM uses **Local Search** to scale the constraint solver.
+SM also uses the traditional techniques such as batch requests, prioritize requests to achieve near real-time performance. ReBalancer separate the problem two to parts: System developer try to model the placement problems, and the optimization experts improves the optimizer performance & result based on the highly abstracted model system developers provided.
 
 * [ ] TBD(void001): The detail about the solver is not elaborated in this paper.
 
@@ -113,9 +114,11 @@ S1:[10,99], S2:[100,100000]
 * Here is a list of Facebook's systems
   - ZippyDB: https://engineering.fb.com/2021/08/06/core-data/zippydb/
   - Laser: https://web.eecs.umich.edu/~mosharaf/Readings/Facebook-Streaming.pdf
-  - ReBalancer: 
+  - ReBalancer: _I didn't find any resource yet_
   - Twine: https://www.usenix.org/system/files/osdi20-tang.pdf
 
 ---
 # References
 \[1\]: https://www.usenix.org/system/files/conference/osdi16/osdi16-adya.pdf
+
+\[2\]: https://www.researchgate.net/publication/220780245_Local_Search_in_Combinatorial_Optimization
