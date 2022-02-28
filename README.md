@@ -541,6 +541,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * DiemBFT v4: State Machine Replication in the Diem Blockchain, White paper 2021
 * Quadratic worst-case message complexity for State Machine Replication in the partial synchrony model, Preprint 2022 [[arxiv](https://arxiv.org/abs/2201.01107)]
 * Liveness and Latency of Byzantine State-Machine Replication, Preprint 2022 [[arxiv](https://arxiv.org/pdf/2202.06679.pdf)]
+* Crime and Punishment in Distributed Byzantine Decision Tasks, Preprint 2022 [[arxiv](https://eprint.iacr.org/2022/121)]
 
 
 ### Alternative fault models in distributed consensus
