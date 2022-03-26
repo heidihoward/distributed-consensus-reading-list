@@ -538,13 +538,16 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Scaling Membership of Byzantine Consensus, TOCS 2021 [[acmdl](https://dl.acm.org/doi/full/10.1145/3473138)]
 * BFT in Blockchains: From Protocols to Use Cases, ACM Computing Surveys 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3503042)]
   * New survey paper on BFT, more up-to-date than "Consensus in the Age of Blockchains".
-* DiemBFT v4: State Machine Replication in the Diem Blockchain, White paper 2021
+* DiemBFT v4: State Machine Replication in the Diem Blockchain, White paper 2021 [[pdf](https://developers.diem.com/papers/diem-consensus-state-machine-replication-in-the-diem-blockchain/2021-08-17.pdf)]
+  * Describes the latest version of DiemBFT, based on a variant of HotStuff with 2-phases and quadratic view changes.
 * Quadratic worst-case message complexity for State Machine Replication in the partial synchrony model, Preprint 2022 [[arxiv](https://arxiv.org/abs/2201.01107)]
 * Liveness and Latency of Byzantine State-Machine Replication, Preprint 2022 [[arxiv](https://arxiv.org/pdf/2202.06679.pdf)]
 * Crime and Punishment in Distributed Byzantine Decision Tasks, Preprint 2022 [[arxiv](https://eprint.iacr.org/2022/121)]
 * Dissecting BFT Consensus: In Trusted Components we Trust!, Preprint 2022 [[arxiv](https://arxiv.org/pdf/2202.01354.pdf)]
 * Scalable Byzantine Fault Tolerance via Partial Decentralization, Preprint 2022 [[arxiv](https://arxiv.org/abs/2202.13408)]
 * Byzantine Agreement in Polynomial Time with Near-Optimal Resilience. Preprint 2022 [[arxiv](https://arxiv.org/abs/2202.13452)]
+* Block-STM: Scaling Blockchain Execution by Turning Ordering Curse to a Performance Blessing, Preprint 2022 [[arxiv](https://arxiv.org/abs/2203.06871)]
+  * Parallel execution of transactions in BFT-SMR, implemented in [DiemBFT](https://developers.diem.com/papers/diem-consensus-state-machine-replication-in-the-diem-blockchain/2021-08-17.pdf).
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
