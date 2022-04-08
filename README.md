@@ -133,6 +133,7 @@ This section lists papers describing algorithms for distributed consensus. These
 * Spire: A Cooperative, Phase-Symmetric Solution to Distributed Consensus, IEEE Access 2021 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9481103)]
   * Consensus algorithm which permits multiple proposals in the same round (similar to Fast Paxos) but uses two phases instead of larger quorums.
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
+* Relaxed Paxos: Quorum intersection revisited (again), PaPoC 2022 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3517209.3524040),[arvix](https://arxiv.org/abs/2203.03058)]
 
 ### Consensus for specialist hardware
 This section lists papers describing consensus algorithms using specialist hardware such as [SDN](https://en.wikipedia.org/wiki/Software-defined_networking), [IP-multicast](https://en.wikipedia.org/wiki/IP_multicast), or [RDMA](https://en.wikipedia.org/wiki/Remote_direct_memory_access).
@@ -330,7 +331,7 @@ This section lists papers on reconfiguration & leader election.
 ## Related Topics
 
 ### Weaker consistency models
-This section lists papers that discuss alternative consistency models to [linearizability](https://en.wikipedia.org/wiki/Linearizability) or systems that depend upon clocks for correctness.
+This section lists papers that discuss alternative consistency models to [linearizability](https://en.wikipedia.org/wiki/Linearizability) and/or systems that depend upon synchrony for correctness (not just liveness).
 * Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency, SOSP 1989 [[acmdl](https://dl.acm.org/citation.cfm?id=74870),[pdf](https://web.stanford.edu/class/cs240/readings/89-leases.pdf)]
   * This paper introduced the idea of leases for distributed caches. This idea is used in master leases and read quorum leases.
 * ⭐️ Towards Robust Distributed Systems, PODC 2000 [[acmdl](https://dl.acm.org/citation.cfm?id=343502),[pdf](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)]
@@ -374,6 +375,7 @@ This section lists papers that discuss alternative consistency models to [linear
   * [talk/slides](https://www.usenix.org/conference/fast20/presentation/ganesan)
 * Regular Sequential Serializability and Regular Sequential Consistency, SOSP 2021 [[pdf](https://arxiv.org/pdf/2109.08930.pdf)]
   * New consistency models which are invariant equivalent to linearizability.
+* Making CRDTs Byzantine Fault Tolerant, PaPoC 2022 [[pdf](https://martin.kleppmann.com/papers/bft-crdt-papoc22.pdf),[acmdl](https://dl.acm.org/doi/abs/10.1145/3517209.3524042)]
 
 ### Failures
 This section lists papers that analyze and/or handle real-world failures of distributed systems.
@@ -403,6 +405,8 @@ The liveness of distributed consensus depends on some degree of clock synchroniz
   * [Useful write up by Aleksey Charapko](http://charap.co/reading-group-sundial-fault-tolerant-clock-synchronization-for-datacenters/)
 * Systems Research is Running out of Time, HotOS 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3458336.3465293),[pdf](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s04-najafi.pdf),[talk](https://youtu.be/euBWOgfgZIo)]
   * Some great examples of things that can go wrong with clocks.
+* Graham: Synchronizing Clocks by Leveraging Local Clock Properties, NSDI 2022 [[pdf](https://www.usenix.org/system/files/nsdi22-paper-najafi_1.pdf)]
+  * Substantially reduced clock drift when time synchronization (such as NTP, PTP, Sundial) fails. Uses only commodity hardware. Won best paper award.
 
 ### Correctness of consensus algorithms
 This section lists papers on proving or testing the correctness of consensus algorithms.
@@ -433,6 +437,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * I4: Incremental Inference of Inductive Invariants for Verification of Distributed Protocols, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359651),[code](https://github.com/GLaDOS-Michigan/I4)]
 * Scaling symbolic evaluation for automated verification of systems code with Serval, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359641)]
 * WormSpace: A Modular Foundation for Simple, Verifiable Distributed Systems, SoCC 2019 [[acmdl](https://dl.acm.org/doi/10.1145/3357223.3362739)]
+* TLA+ model checking made symbolic, OOPSLA 2019 [[acmdl](https://dl.acm.org/doi/10.1145/3360549)]
 * Towards an Automatic Proof of Lamport’s Paxos, FMCAD 2021 [[arxiv](https://arxiv.org/abs/2108.08796)]
   * Automatic inference of Paxos's inductive invariants
 * DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols, OSDI 2021 [[pdf](https://www.usenix.org/system/files/osdi21-yao.pdf)]
@@ -542,6 +547,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
   * New survey paper on BFT, more up-to-date than "Consensus in the Age of Blockchains".
 * DiemBFT v4: State Machine Replication in the Diem Blockchain, White paper 2021 [[pdf](https://developers.diem.com/papers/diem-consensus-state-machine-replication-in-the-diem-blockchain/2021-08-17.pdf)]
   * Describes the latest version of DiemBFT, based on a variant of HotStuff with 2-phases and quadratic view changes.
+* Dissecting the Performance of Chained-BFT, Preprint 2021 [[arxiv](https://arxiv.org/abs/2103.00777)]
 * Quadratic worst-case message complexity for State Machine Replication in the partial synchrony model, Preprint 2022 [[arxiv](https://arxiv.org/abs/2201.01107)]
 * Liveness and Latency of Byzantine State-Machine Replication, Preprint 2022 [[arxiv](https://arxiv.org/pdf/2202.06679.pdf)]
 * Crime and Punishment in Distributed Byzantine Decision Tasks, Preprint 2022 [[arxiv](https://eprint.iacr.org/2022/121)]
@@ -551,8 +557,11 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Block-STM: Scaling Blockchain Execution by Turning Ordering Curse to a Performance Blessing, Preprint 2022 [[arxiv](https://arxiv.org/abs/2203.06871)]
   * Parallel execution of transactions in BFT-SMR, implemented in [DiemBFT](https://developers.diem.com/papers/diem-consensus-state-machine-replication-in-the-diem-blockchain/2021-08-17.pdf).
 * Hierarchical Consensus: A Horizontal Scaling Framework for Blockchains, Preprint 2022 [[pdf](https://research.protocol.ai/publications/hierarchical-consensus-a-horizontal-scaling-framework-for-blockchains/delarocha2022.pdf)]
-* IA-CCF: Individual Accountability for Permissioned Ledgers, NSDI 2022 [[arxiv](https://arxiv.org/abs/2105.13116)]
-* Dissecting BFT Consensus: In Trusted Components we Trust!, Preprint 2022 [[arxiv](https://arxiv.org/abs/2202.01354)]
+* IA-CCF: Individual Accountability for Permissioned Ledgers, NSDI 2022 [[arxiv](https://arxiv.org/abs/2105.13116),[pdf](https://www.usenix.org/system/files/nsdi22-paper-shamis.pdf)]
+* DispersedLedger: High-Throughput Byzantine Consensus on Variable Bandwidth Networks, NSDI 2022 [[pdf](https://www.usenix.org/system/files/nsdi22-paper-yang_lei.pdf)]
+* DAMYSUS: Streamlined BFT Consensus Leveraging, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519568)
+* State Machine Replication Scalability Made Simple, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519579)]
+* Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519594)]
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
@@ -612,43 +621,46 @@ The following lists contain places to watch for new writings in the field of dis
 * [Foundational distributed systems papers](http://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html)
 * [Errors found in distributed protocols](https://github.com/dranov/protocol-bugs-list)
 * [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/bft/)
+* [Blockchain@UBC](https://blockchain.ubc.ca/research/research-papers)
 
 ### Academic conferences & symposiums
-* USENIX Symposium on Networked Systems Design and Implementation (NSDI) [[2019](https://www.usenix.org/conference/nsdi19),[2020](https://www.usenix.org/conference/nsdi20)]
-* USENIX Conference on File and Storage Technologies (FAST) [[2019](https://www.usenix.org/conference/fast19),[2020](https://www.usenix.org/conference/fast20)]
+* Networked Systems Design and Implementation (NSDI) [[2019](https://www.usenix.org/conference/nsdi19),[2020](https://www.usenix.org/conference/nsdi20)]
+* File and Storage Technologies (FAST) [[2019](https://www.usenix.org/conference/fast19),[2020](https://www.usenix.org/conference/fast20)]
 * European Conference on Computer Systems (EuroSys) [[2019](https://2019.eurosys.org),[2020](https://www.eurosys2020.org)]
-* IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
-* ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) [[website](https://spaa.acm.org),[2019](https://spaa.acm.org/2019/)]
-* ACM SIGMOD/PODS Conference [[2019](https://sigmod2019.org),[2020](https://sigmod2020.org)]
-* ACM SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/),[2020](http://www.sigmetrics.org/sigmetrics2020/)]
-* ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org),[2020](https://conf.researchr.org/home/pldi-2020)]
-* ACM Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/),[2020](http://acm-stoc.org/stoc2020/)]
-* ACM Symposium on Principles of Distributed Computing (PODC) [[website](http://www.podc.org)]
-* IEEE International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/),[2020](https://icdcs2020.sg)]
-* USENIX Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19),[2020](https://www.usenix.org/conference/atc20)]
-* ACM Annual Conference of the Special Interest Group on Data Communication (SIGCOMM) [[website](http://sigcomm.org/events/sigcomm-conference),[2019](http://conferences.sigcomm.org/sigcomm/2019/),[2020](https://conferences.sigcomm.org/sigcomm/2020/)]
-* International Conference on Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/),[2020](https://vldb2020.org)]
-* USENIX Symposium on Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18),[2020](https://www.usenix.org/conference/osdi20)]
+* Dependable Systems and Networks (DSN) [[2019](http://2019.dsn.org),[2020](https://dsn2020.webs.upv.es)]
+* [Symposium on Parallelism in Algorithms and Architectures (SPAA)](https://spaa.acm.org)
+* SIGMOD/PODS [[2019](https://sigmod2019.org),[2020](https://sigmod2020.org)]
+* SIGMETRICS / IFIP Performance [[2019](https://www.sigmetrics.org/sigmetrics2019/),[2020](http://www.sigmetrics.org/sigmetrics2020/)]
+* Programming Language Design and Implementation (PLDI) [[2019](https://pldi19.sigplan.org),[2020](https://conf.researchr.org/home/pldi-2020)]
+* Symposium on Theory of Computing (STOC) [[2019](http://acm-stoc.org/stoc2019/),[2020](http://acm-stoc.org/stoc2020/)]
+* [Principles of Distributed Computing (PODC)](http://www.podc.org)
+* International Conference on Distributed Computing Systems (ICDCS) [[2019](https://theory.utdallas.edu/ICDCS2019/),[2020](https://icdcs2020.sg)]
+* Annual Technical Conference (ATC) [[2019](https://www.usenix.org/conference/atc19),[2020](https://www.usenix.org/conference/atc20)]
+* [Special Interest Group on Data Communication (SIGCOMM)](http://sigcomm.org/events/sigcomm-conference)
+* Very Large Data Bases (VLDB) [[2019](http://vldb.org/2019/),[2020](https://vldb2020.org)]
+* Operating Systems Design and Implementation (OSDI) [[website](https://www.usenix.org/conferences/byname/179),[2018](https://www.usenix.org/conference/osdi18),[2020](https://www.usenix.org/conference/osdi20)]
   * Biennial evens only
-* International Symposium on Reliable Distributed Systems (SRDS) [[website](https://srds-conference.org),[2019](https://srds2019.projet.liris.cnrs.fr)]
-* International Symposium on Distributed Computing (DISC) [[website](http://www.disc-conference.org/wp/),[2019](http://www.disc-conference.org/wp/disc2019/)]
+* [Symposium on Reliable Distributed Systems (SRDS)](https://srds-conference.org)
+* [International Symposium on Distributed Computing (DISC)](http://www.disc-conference.org/wp/)
 * International Conference on Principles of Distributed Systems (OPODIS) [[2019](https://opodis2019.unine.ch)]
-* ACM Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)]
+* Symposium on Operating Systems Principles (SOSP) [[2019](https://sosp19.rcs.uwaterloo.ca)]
   * Biennial odds only
-* ACM Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
+* Symposium on Cloud Computing (SoCC) [[2019](https://acmsocc.github.io/2019/)]
 * Conference on Innovative Data Systems Research (CIDR) [[2021](http://cidrdb.org/cidr2021/cfp.html)]
+* [ACM Advances in Financial Technologies (AFT)](https://aft.acm.org/aft22/index.html)
 
 [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/index.html) maintains a useful list of [systems conferences by deadline](http://www.cs.technion.ac.il/~dan/index_sysvenues_deadline.html).
 
 ### Academic workshops
-* Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC) [[2019](https://novasys.di.fct.unl.pt/conferences/papoc19/)]
-* ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS) [[website](http://ladisworkshop.org)]
-* USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage) [[2019](https://www.usenix.org/conference/hotstorage19)]
-* Workshop on Hot Topics in Operating Systems (HotOS) [[2019](https://www.sigops.org/2018/hotos2019/)]
-* ACM Workshop on Hot Topics in Networks (HotNets) [[2019](https://conferences.sigcomm.org/hotnets/2019/)]
-* USENIX Workshop on Hot Topics in Cloud Computing (HotCloud) [[2019](https://www.usenix.org/conference/hotcloud19)]
-* USENIX Workshop on Hot Topics in Edge Computing (HotEdge) [[2019](https://www.usenix.org/conference/hotedge19)]
-* International Workshop on Distributed Cloud Computing (DCC) [[2019](http://www.disc-conference.org/wp/dcc2019/)]
+* Principles and Practice of Consistency for Distributed Data (PaPoC) [[2019](https://novasys.di.fct.unl.pt/conferences/papoc19/)]
+* [Large-Scale Distributed Systems and Middleware (LADIS)](http://ladisworkshop.org)
+* Hot Topics in Storage and File Systems (HotStorage) [[2019](https://www.usenix.org/conference/hotstorage19)]
+* Hot Topics in Operating Systems (HotOS) [[2019](https://www.sigops.org/2018/hotos2019/)]
+* Hot Topics in Networks (HotNets) [[2019](https://conferences.sigcomm.org/hotnets/2019/)]
+* Hot Topics in Cloud Computing (HotCloud) [[2019](https://www.usenix.org/conference/hotcloud19)]
+* Hot Topics in Edge Computing (HotEdge) [[2019](https://www.usenix.org/conference/hotedge19)]
+* Distributed Cloud Computing (DCC) [[2019](http://www.disc-conference.org/wp/dcc2019/)]
+* [High Performance Transaction Systems (HPTS)](http://www.hpts.ws)
 
 ### Academic journals & magazines
 * ACM
@@ -660,6 +672,7 @@ The following lists contain places to watch for new writings in the field of dis
   * [Transactions on Database Systems (TODS)](https://tods.acm.org)
   * [ACM Queue](https://queue.acm.org)
   * [SIGACT News](https://dl.acm.org/citation.cfm?id=J697)
+  * [Distributed Ledger Technologies: Research and Practice (DLT)](https://dl.acm.org/journal/dlt)
 * IEEE
   * [Transactions on Dependable and Secure Computing (TDSC)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)
   * [Transactions on Parallel and Distributed Systems (TPDS)](https://www.computer.org/csdl/journal/td)
