@@ -350,6 +350,7 @@ This section lists papers that discuss alternative consistency models to [linear
   * Google implements this using Truetime, GPS, and atomic clocks in their data centers instead of [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol).
   * Closed source but now available as a cloud service called [Cloud Spanner](https://cloud.google.com/spanner/).
 * TAO: Facebook’s Distributed Data Store for the Social Graph, ATC 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2535468),[pdf](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)]
+* Highly Available Transactions: Virtues and Limitations, VLDB 2013 [[pdf](https://www.vldb.org/pvldb/vol7/p181-bailis.pdf)]
 * Eventual Consistency Today: Limitations, Extensions, and Beyond, ACM Queue 2013 [[acmdl](https://dl.acm.org/citation.cfm?id=2462076),[pdf](https://queue.acm.org/detail.cfm?id=2462076)]
 * Quantifying eventual consistency with PBS, CACM 2014 [[acmdl](https://dl.acm.org/citation.cfm?id=2632792),[pdf](http://www.bailis.org/papers/pbs-vldbj2014.pdf)]
 * Existential Consistency: Measuring and Understanding Consistency at Facebook, SOSP 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2815426),[pdf](http://sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/240-lu.pdf)]
@@ -444,6 +445,7 @@ This section lists papers on proving or testing the correctness of consensus alg
   * Next step in the inference of inductive invariants for distributed protocols, following on from Ivy and I4. Still does not support Paxos.
 * Much ADO about Failures: A Fault-Aware Model for Compositional Verification of Strongly Consistent Distributed Systems, OOPSLA 2021 [[pdf](https://flint.cs.yale.edu/flint/publications/ado-tr.pdf)]
   * Formal proofs of distributed protocols in Coq including Multi-Paxos, produces verified C executables.
+* Adore: Atomic Distributed Objects with Certified Reconfiguration, PLDI 2022 [[pdf](https://flint.cs.yale.edu/flint/publications/adore.pdf)]
 
 ### Quorum systems
 This section lists papers on quorum systems.
@@ -589,6 +591,7 @@ Blog posts, books, talks, dissertations, etc...
 * [Waltz: A Distributed Write-Ahead Log](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
 * [Open-sourcing LogDevice, a distributed data store for sequential data](https://logdevice.io/blog/)
 * [Apache BookKeeper Insights Part 1 — External Consensus and Dynamic Membership](https://medium.com/splunk-maas/apache-bookkeeper-insights-part-1-external-consensus-and-dynamic-membership-c259f388da21)
+* Building on Quicksand, CIDR 2009 [[pdf](https://dsf.berkeley.edu/cs286/papers/quicksand-cidr2009.pdf)]
 
 ## Future reading list
 The following lists contain places to watch for new writings in the field of distributed consensus.
