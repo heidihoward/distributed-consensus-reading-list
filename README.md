@@ -377,6 +377,7 @@ This section lists papers that discuss alternative consistency models to [linear
 * Regular Sequential Serializability and Regular Sequential Consistency, SOSP 2021 [[pdf](https://arxiv.org/pdf/2109.08930.pdf)]
   * New consistency models which are invariant equivalent to linearizability.
 * Making CRDTs Byzantine Fault Tolerant, PaPoC 2022 [[pdf](https://martin.kleppmann.com/papers/bft-crdt-papoc22.pdf),[acmdl](https://dl.acm.org/doi/abs/10.1145/3517209.3524042)]
+* Stabilizer: Geo-Replication with User-defined Consistency, ISDCS 2022 [[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/ICDCS_Stabilizer2022-camera_ready-0413.pdf)]
 
 ### Failures
 This section lists papers that analyze and/or handle real-world failures of distributed systems.
@@ -565,6 +566,8 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * State Machine Replication Scalability Made Simple, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519579)]
 * Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519594)]
 * UTT: Decentralized Ecash with Accountable Privacy, Preprint 2022 [[pdf](https://eprint.iacr.org/2022/452.pdf)]
+* Treaty: Secure Distributed Transactions, Preprint 2022 [[pdf](https://dse.in.tum.de/wp-content/uploads/2022/04/Treaty_PDFExpress.pdf)]
+* Basilic: Resilient Optimal Consensus Protocols With Benign and Deceitful Faults, Preprint 2022 [[arxiv](https://arxiv.org/abs/2204.08670)]
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
