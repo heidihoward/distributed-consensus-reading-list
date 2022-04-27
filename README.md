@@ -539,6 +539,8 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Flexible Byzantine Fault Tolerance, CCS 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3319535.3354225),[pdf](https://dahliamalkhi.files.wordpress.com/2019/09/flex-bft-ccs19.pdf)]
 * Making Byzantine Consensus Live, DISC 2020 [[arvix](https://arxiv.org/abs/2008.04167),[talk](https://youtu.be/8tBk4pFkrVo)]
   * Liveness proof for various BFT protocols including view synchtronization
+* Order-Fairness for Byzantine Consensus, Crypto 2020 [[acmdl](https://dl.acm.org/doi/10.1007/978-3-030-56877-1_16),[pdf](https://eprint.iacr.org/2020/269)]
+* Byzantine Ordered Consensus without Byzantine Oligarchy, OSDI 2020 [[acmdl](https://dl.acm.org/doi/10.5555/3488766.3488802),[pdf](https://www.usenix.org/system/files/osdi20-zhang_yunhao_0.pdf),[talk](https://youtu.be/m2wVye5FCS8)]
 * Making Reads in BFT State Machine Replication Fast, Linearizable, and Live, SRDS 2021 [[arxiv](https://arxiv.org/abs/2107.11144)]
   * Identifies and fixes a liveness issue in [PBFT](http://pmg.csail.mit.edu/papers/osdi99.pdf)'s fast path for non-linearizable read-only operations
 * Be Aware of Your Leaders, Unpublished 2021 [[pdf](https://sonnino.com/papers/leader-reputation.pdf)]
@@ -566,7 +568,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * State Machine Replication Scalability Made Simple, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519579)]
 * Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519594)]
 * UTT: Decentralized Ecash with Accountable Privacy, Preprint 2022 [[pdf](https://eprint.iacr.org/2022/452.pdf)]
-* Treaty: Secure Distributed Transactions, Preprint 2022 [[pdf](https://dse.in.tum.de/wp-content/uploads/2022/04/Treaty_PDFExpress.pdf)]
+* Treaty: Secure Distributed Transactions, DSN 2022 [[pdf](https://dse.in.tum.de/wp-content/uploads/2022/04/Treaty_PDFExpress.pdf)]
 * Basilic: Resilient Optimal Consensus Protocols With Benign and Deceitful Faults, Preprint 2022 [[arxiv](https://arxiv.org/abs/2204.08670)]
 
 ### Alternative fault models in distributed consensus
