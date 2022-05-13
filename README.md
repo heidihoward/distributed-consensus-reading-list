@@ -219,7 +219,7 @@ This section lists papers describing experiences of deploying distributed consen
   * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
   * [Apache Kafka](https://kafka.apache.org) uses Zookeeper, as well as its own replication protocol, by described [here](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka/). This is no longer true.
   * Architecture is similar to Google's Chubby but unlike Chubby is described in detail and is open source
-  * Writes are linearizable, reads may be stale. Note: calling sync before a write doesn't make it linearizable
+  * Writes are linearizable, reads may be stale. Note: calling sync before a read doesn't make it linearizable
   * Clients may have multiple outstanding requests, they will be handled FIFO
   * Uses primary-backup replication instead of state machine replication
   * Featured in [the morning paper](https://blog.acolyer.org/2015/03/09/zab-high-performance-broadcast-for-primary-backup-systems/)
