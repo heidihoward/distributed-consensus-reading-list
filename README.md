@@ -445,7 +445,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * TLA+ model checking made symbolic, OOPSLA 2019 [[acmdl](https://dl.acm.org/doi/10.1145/3360549)]
 * Towards an Automatic Proof of Lamport’s Paxos, FMCAD 2021 [[arxiv](https://arxiv.org/abs/2108.08796)]
   * Automatic inference of Paxos's inductive invariants
-* DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols, OSDI 2021 [[pdf](https://www.usenix.org/system/files/osdi21-yao.pdf)]
+* DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols, OSDI 2021 [[code](https://github.com/VeriGu/DistAI),[pdf](https://www.usenix.org/system/files/osdi21-yao.pdf)]
   * Next step in the inference of inductive invariants for distributed protocols, following on from Ivy and I4. Still does not support Paxos.
 * Much ADO about Failures: A Fault-Aware Model for Compositional Verification of Strongly Consistent Distributed Systems, OOPSLA 2021 [[pdf](https://flint.cs.yale.edu/flint/publications/ado-tr.pdf)]
   * Formal proofs of distributed protocols in Coq including Multi-Paxos, produces verified C executables.
@@ -674,6 +674,7 @@ They are in no particular order.
 * [Computer and Communications Security (CCS)](http://www.sigsac.org/ccs.html)
 * [USENIX Security](https://www.usenix.org/conference/usenixsecurity22)
 * [Security and Privacy (S&P) / Oakland](https://www.ieee-security.org/TC/SP2023/cfpapers.html)
+* [Certified Programs and Proofs (CCP)](https://popl22.sigplan.org/home/CPP-2022#About)
 
 [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/index.html) maintains a useful list of [systems conferences by deadline](http://www.cs.technion.ac.il/~dan/index_sysvenues_deadline.html).
 
