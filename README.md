@@ -547,6 +547,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Hardening Cassandra Against Byzantine Failures, OPODIS 2017 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2018/8642/pdf/LIPIcs-OPODIS-2017-27.pdf)]
 * Casper the Friendly Finality Gadget, Tech report 2017 [[arxiv](https://arxiv.org/abs/1710.09437)]
   * Casper FFG, the proposed PoS alternative for [Ethereum](https://ethereum.org/en/) (aka [Eth2](https://ethereum.org/en/eth2/))
+* BFT Protocols Under Fire, NSDI 2008 [[pdf](https://www.usenix.org/legacy/event/nsdi08/tech/full_papers/singh/singh.pdf)]
 * Algorand: A secure and efficient distributed ledger, TCS 2019 [[code](https://github.com/algorand/go-algorand),[pdf](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf)]
   * 2nd of the two Algorand papers
 * HotStuff: BFT Consensus with Linearity and Responsiveness, PODC 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3331591),[arxiv](https://arxiv.org/abs/1803.05069)]
