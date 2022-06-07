@@ -295,6 +295,7 @@ This section lists papers describing implementations of distributed consensus al
   * Latest edition in the line of papers on shared totally-ordered logs: Tango, Corfu, vCorfu, Scalog, Delos
 * Gossip Consensus, Middleware 2021 [[pdf](https://www.inf.usi.ch/faculty/pedone/Paper/2021/middleware2021b.pdf)]
   * Looks at using gossip to reduce communication overhead of Multi-Paxos. An unstructured version of PigPaxos/Canopus. 
+* Baxos: Backing off for Robust and Efficient Consensus, Preprint 2022 [[arxiv](https://arxiv.org/pdf/2204.10934.pdf)]
 
 ### Evaluations of consensus
 This section lists papers describing standalone evaluations of consensus algorithms.
