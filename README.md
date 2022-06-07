@@ -584,6 +584,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus, Eurosys 2022 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3492321.3519594)]
 * UTT: Decentralized Ecash with Accountable Privacy, Preprint 2022 [[pdf](https://eprint.iacr.org/2022/452.pdf)]
 * Treaty: Secure Distributed Transactions, DSN 2022 [[pdf](https://dse.in.tum.de/wp-content/uploads/2022/04/Treaty_PDFExpress.pdf)]
+* SplitBFT: Improving Byzantine Fault Tolerance Safety Using Trusted Compartments, Middleware 2022 [[acmdl]](https://dl.acm.org/doi/abs/10.1145/3528535.3531516),[arxiv](https://arxiv.org/abs/2205.08938)]
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
