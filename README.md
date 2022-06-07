@@ -689,6 +689,7 @@ They are in no particular order.
 * [Hot Topics in Edge Computing (HotEdge)](https://www.usenix.org/conference/hotedge19)
 * [Distributed Cloud Computing (DCC)](http://www.disc-conference.org/wp/dcc2019/)
 * [High Performance Transaction Systems (HPTS)](http://www.hpts.ws)
+* [ConsensusDay](https://research.protocol.ai/sites/consensusday22/)
 
 ### Academic journals & magazines
 * ACM
