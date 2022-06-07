@@ -545,6 +545,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
   * BFT-SMR implementation, similar to PBFT. Often used as a benchmark against which new BFT protocols are evaluated.
 * The Next 700 BFT Protocols, TOCS 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2658994),[pdf](http://www.vukolic.com/700-Eurosys.pdf)]
 * Algorand: Scaling Byzantine Agreements for Cryptocurrencies, SOSP 2017 [[acmdl](https://dl.acm.org/doi/10.1145/3132747.3132757),[pdf](https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf)]
+* Hybrids on Steroids: SGX-Based High Performance BFT, Eurosys 2017 [[acmdl](https://dl.acm.org/doi/10.1145/3064176.3064213),[pdf](https://www4.cs.fau.de/Publications/2017/behl_17_eurosys.pdf)]
 * Hardening Cassandra Against Byzantine Failures, OPODIS 2017 [[pdf](http://drops.dagstuhl.de/opus/volltexte/2018/8642/pdf/LIPIcs-OPODIS-2017-27.pdf)]
 * Casper the Friendly Finality Gadget, Tech report 2017 [[arxiv](https://arxiv.org/abs/1710.09437)]
   * Casper FFG, the proposed PoS alternative for [Ethereum](https://ethereum.org/en/) (aka [Eth2](https://ethereum.org/en/eth2/))
