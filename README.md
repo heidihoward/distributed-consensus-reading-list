@@ -435,6 +435,7 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Paxos Made EPR: Decidable Reasoning about Distributed Protocols, OOPSLA 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3152284.3140568),[pdf](https://www.cs.tau.ac.il/~odedp/paxos-made-epr-oopsla17.pdf)]
 * Growing a protocol, HotCloud 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3154593),[pdf](https://www.usenix.org/conference/hotcloud17/program/presentation/ramasubramanian)]
   * Featured in [the morning paper](https://blog.acolyer.org/2017/08/23/growing-a-protocol/)
+* An Empirical Study on the Correctness of Formally Verified Distributed Systems, Eurosys 2017 [[acmdl](https://dl.acm.org/doi/10.1145/3064176.3064183),[pdf](https://www.cs.purdue.edu/homes/pfonseca/papers/eurosys2017-dsbugs.pdf)]
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf)]
   * Describes DSLabs, an alternative to TLA+, for model checking distributed protocols.
   * Featured in [the morning paper](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)
