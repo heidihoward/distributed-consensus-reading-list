@@ -401,6 +401,7 @@ This section lists papers that analyze and/or handle real-world failures of dist
 * Metastable Failures in Distributed Systems, HotOS 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3458336.3465286)]
 * Immunizing Systems from Distant Failures by Limiting Lamport Exposure, HotNets 2021 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3484266.3487387)]
 * Cores That Don’t Count, HotOS 2021 [[acmdl](https://dl.acm.org/doi/10.1145/3458336.3465297),[pdf](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s01-hochschild.pdf),[talk](https://youtu.be/QMF3rqhjYuM)]
+* Metastable Failures in the Wild, OSDI 2022 [[pdf](https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf)]
 
 ### Clocks
 The liveness of distributed consensus depends on some degree of clock synchronization. The following section lists papers on the topic of clock synchronization.
