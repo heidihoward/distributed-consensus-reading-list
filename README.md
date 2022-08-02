@@ -454,6 +454,7 @@ This section lists papers on proving or testing the correctness of consensus alg
   * Formal proofs of distributed protocols in Coq including Multi-Paxos, produces verified C executables.
 * Adore: Atomic Distributed Objects with Certified Reconfiguration, PLDI 2022 [[pdf](https://flint.cs.yale.edu/flint/publications/adore.pdf)]
 * Formal Verification of a Distributed Dynamic Reconfiguration Protocol, CCP 2022 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3497775.3503688),[arxiv](https://arxiv.org/abs/2109.11987),[pdf](https://will62794.github.io/assets/papers/cpp22-formal-verification-reconfig.pdf),[code](https://github.com/will62794/logless-reconfig/tree/master]),[talk](https://youtu.be/VwCBlmS7XEA)]
+  * Also see: Design and Analysis of a Logless Dynamic Reconfiguration Protocol, OPODIS 2021 [[pdf](https://will62794.github.io/assets/papers/LIPIcs-OPODIS-2021-26.pdf)]
 * Plain and Simple Inductive Invariant Inference for Distributed Protocols in TLA+, Draft 2022 [[pdf](https://will62794.github.io/assets/papers/dist-invariant-inference-tla.pdf)]
 * Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda, NFM 2022 [[arxiv](https://arxiv.org/abs/2203.14711)]
 
