@@ -372,6 +372,7 @@ This section lists papers that discuss alternative consistency models to [linear
   * Featured in [the morning paper](https://blog.acolyer.org/2019/03/27/amazon-aurora-on-avoiding-distributed-consensus-for-i-os-commits-and-membership-changes/)
 * Sharding the Shards: Managing Datastore Locality at Scale with Akkio, OSDI 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3291201),[pdf](https://www.usenix.org/system/files/osdi18-annamalai.pdf)]
   * Featured in [the morning paper](https://blog.acolyer.org/2018/11/05/sharding-the-shards-managing-datastore-locality-at-scale-with-akkio/)
+* Tunable Consistency in MongoDB, VLDB 2019 [[pdf](http://www.vldb.org/pvldb/vol12/p2071-schultz.pdf)]
 * On mixing eventual and strong consistency: Bayou revisited, PODC 2019 [[arxiv](https://arxiv.org/abs/1905.11762),[pdf](https://dl.acm.org/citation.cfm?id=3331583)]
 * Harmonia: Near-Linear Scalability for Replicated Storage with In-Network Conflict Detection, VLDB 2020 [[pdf](https://drkp.net/papers/harmonia-vldb20.pdf)]
   * Implemented on programmable switches
