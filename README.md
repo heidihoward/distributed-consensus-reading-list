@@ -673,7 +673,7 @@ They are in no particular order.
 * [Special Interest Group on Data Communication (SIGCOMM)](http://sigcomm.org/events/sigcomm-conference)
 * [Very Large Data Bases (VLDB)](https://vldb2020.org)
 * [Operating Systems Design and Implementation (OSDI)](https://www.usenix.org/conferences/byname/179)
-* [Symposium on Reliable Distributed Systems (SRDS)](https://srds-conference.org)
+* Symposium on Reliable Distributed Systems (SRDS)
 * [International Symposium on Distributed Computing (DISC)](http://www.disc-conference.org/wp/)
 * [International Conference on Principles of Distributed Systems (OPODIS)](https://opodis2019.unine.ch)
 * [Symposium on Operating Systems Principles (SOSP)](https://sosp19.rcs.uwaterloo.ca)
