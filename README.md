@@ -1,11 +1,11 @@
 # Distributed Consensus Reading List 📚
 
 Since its inception in the 1980s, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) has been the subject of extensive academic research. Whilst definitions vary, [distributed consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science)) (or equivalently, [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast)) most often refers to the problem of how to decide an ordered sequence of values between a set of distributed nodes. This can be used to implement an append-only replicated log which can be utilized either directly or indirectly, to provide services such as primary backup replication or [state machine replication](https://en.wikipedia.org/wiki/State_machine_replication). These abstractions can, in turn, form the building blocks of new abstractions, such as a distributed [key-value store](https://en.wikipedia.org/wiki/Key–value_database). Some consensus algorithms instead decide only a single value or a partially ordered sequence of values.
-What unifies distributed consensus algorithms is the fact that they are always safe, regardless of delays and crashes (though they are not necessarily [Byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)), and are guaranteed to make progress provided sufficient liveness. 
+What unifies distributed consensus algorithms is the fact that they are always safe, regardless of delays and crashes (though they are not necessarily [Byzantine fault tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)), and are guaranteed to make progress provided sufficient liveness.
 
-This is a long list of papers relating to distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided. 
+This is a long list of papers relating to distributed consensus. Many of the papers listed below fit into more than one section. However, for simplicity, each paper is listed only in the most relevant section. Where possible, open access links for each paper have been provided.
 
-Contributions via pull requests are welcome. 
+Contributions via pull requests are welcome.
 
 ⭐️ Influential papers - If you are looking for a starting point, a subset of the most influential papers on distributed consensus are highlighted using a yellow star. ⭐️
 
@@ -188,11 +188,11 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
 * Multileader WAN Paxos: Ruling the Archipelago with Fast Consensus, Tech report 2017 [[pdf](https://cse.buffalo.edu/tech-reports/2017-01.pdf)]
 * WPaxos: Wide Area Network Flexible Consensus, Unpublished 2017 [[pdf](https://arxiv.org/abs/1703.08905)]
   * Related blog post, [Modelling Paxos performance in wide area](http://charap.co/modeling-paxos-performance-in-wide-area-part-3/)
-* Speeding up Consensus by Chasing Fast Decisions, DSN 2017 [[pdf](https://arxiv.org/pdf/1704.03319.pdf)]  
+* Speeding up Consensus by Chasing Fast Decisions, DSN 2017 [[pdf](https://arxiv.org/pdf/1704.03319.pdf)]
   * Implements an optimization to EPaxos
 * Leader Set Selection for Low-Latency Geo-Replicated State Machine, IEEE TPDS 2017 [[pdf](https://ieeexplore.ieee.org/document/7774985)]
 * DPaxos: Managing Data Closer to Users for Low-Latency and Mobile Applications, SIGMOD 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3196928),[pdf](https://nawab.me/Uploads/Nawab_DPaxos_SIGMOD2018.pdf)]
-* SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines, SoCC 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3267837),[pdf](https://www.microsoft.com/en-us/research/publication/sdpaxos-building-efficient-semi-decentralized-geo-replicated-state-machines/)]
+* SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines, SoCC 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3267837),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2018/09/172-zhao.pdf)]
 * FleetDB: Follow-the-workload Data Migration for Globe-Spanning Databases, Tech report 2018 [[pdf](https://cse.buffalo.edu/tech-reports/2018-02.pdf)]
 * Geographic State Machine Replication, SRDS 2018 [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8613971)]
 * Session Guarantees with Raft and Hybrid Logical Clocks, ICDCN 2019 [[acmdl](https://dl.acm.org/doi/pdf/10.1145/3288599.3288619)]
@@ -213,9 +213,9 @@ This section lists papers describing experiences of deploying distributed consen
   * Featured in [the morning paper](https://blog.acolyer.org/2015/03/05/paxos-made-live/)
 * ⭐️ ZooKeeper: Wait-free coordination for Internet-scale systems, ATC 2010 [[acmdl](https://dl.acm.org/citation.cfm?id=1855840.1855851),[pdf](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)]
     * Featured in [the morning paper](https://blog.acolyer.org/2015/01/27/zookeeper-wait-free-coordination-for-internet-scale-systems/)
-* Windows Azure Storage: a highly available cloud storage service with strong consistency, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043571),[pdf](https://webcourse.cs.technion.ac.il/236802/Spring2018/ho/WCFiles/Azure_Cloud_Storage.pdf)]
+* Windows Azure Storage: a highly available cloud storage service with strong consistency, SOSP 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2043571),[pdf](https://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf)]
 * Megastore: Providing Scalable, Highly Available Storage for Interactive Services, CIDR 2011 [[pdf](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf)]
-  * Megastore uses SMR with witnesses, replicas that participate in log replication but do not run a state machine and read-only replicas that only run a state machine. This paper seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for slot i-1.  
+  * Megastore uses SMR with witnesses, replicas that participate in log replication but do not run a state machine and read-only replicas that only run a state machine. This paper seems to use an unusual definition of Multi-Paxos where each instance is district but the 1a/1b messages for slot i is piggybacked onto 2a2/b for slot i-1.
 * Zab: High-performance broadcast for primary-backup systems, DSN 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2056409),[pdf](https://knowably-attachments.s3.amazonaws.com/u/55b69a1ce4b00ab397d67250/7c8734d3cf02154499a9b3161ef9f575/Zab_2011.pdf)]
   * Widely utilized Apache licensed open source project written in Java [project website](https://zookeeper.apache.org)
   * [Apache Kafka](https://kafka.apache.org) uses Zookeeper, as well as its own replication protocol, by described [here](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka/). This is no longer true.
@@ -279,7 +279,7 @@ This section lists papers describing implementations of distributed consensus al
 * The FuzzyLog: A Partially Ordered Shared Log, OSDI 2018 [[pdf](https://www.usenix.org/system/files/osdi18-lockerman.pdf)]
 * Aegean: Replication beyond the client-server model, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359663)]
   * Also supports BFT
-* Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf),[thesis](https://web.stanford.edu/~ouster/cgi-bin/papers/ParkPhD.pdf)]  
+* Exploiting Commutativity For Practical Fast Replication, NSDI 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3323240),[pdf](https://www.usenix.org/system/files/nsdi19-park.pdf),[thesis](https://web.stanford.edu/~ouster/cgi-bin/papers/ParkPhD.pdf)]
   * Featured in [the morning paper](https://blog.acolyer.org/2019/03/15/exploiting-commutativity-for-practical-fast-replication/)
 * Unifying Consensus and Atomic Commitment for Effective Cloud Data Management, VLDB 2019 [[acmdl](https://dl.acm.org/doi/10.14778/3303753.3303765),[pdf](http://www.vldb.org/pvldb/vol12/p611-maiyya.pdf)]
 * Linearizable Quorum Reads in Paxos, HotStorage 2019 [[pdf](https://www.usenix.org/system/files/hotstorage19-paper-charapko.pdf),[slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage19_slides_charapko.pdf)]
@@ -295,7 +295,7 @@ This section lists papers describing implementations of distributed consensus al
 * Boki: Stateful Serverless Computing with Shared Logs, SOSP 2021 [[pdf](https://www.cs.utexas.edu/~zjia/boki-sosp21.pdf)]
   * Latest edition in the line of papers on shared totally-ordered logs: Tango, Corfu, vCorfu, Scalog, Delos
 * Gossip Consensus, Middleware 2021 [[pdf](https://www.inf.usi.ch/faculty/pedone/Paper/2021/middleware2021b.pdf)]
-  * Looks at using gossip to reduce communication overhead of Multi-Paxos. An unstructured version of PigPaxos/Canopus. 
+  * Looks at using gossip to reduce communication overhead of Multi-Paxos. An unstructured version of PigPaxos/Canopus.
 * Baxos: Backing off for Robust and Efficient Consensus, Preprint 2022 [[arxiv](https://arxiv.org/pdf/2204.10934.pdf)]
 
 ### Evaluations of consensus
@@ -366,7 +366,7 @@ This section lists papers that discuss alternative consistency models to [linear
 * The many faces of consistency, DE 2016 [[pdf](http://sites.computer.org/debull/A16mar/p3.pdf)]
 * Spanner, TrueTime & The CAP Theorem, Tech Report 2017 [[pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)]
 * Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases, SIGMOD 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3056101)]
-  * Related blog on [all things distributed](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
+  * Related blog on [all things distributed](https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html)
   * Featured in [the morning paper](https://blog.acolyer.org/2019/03/25/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases/)
 * Fine-grained consistency for geo-replicated systems, ATC 2018 [[pdf](https://www.usenix.org/system/files/conference/atc18/atc18-li_cheng.pdf)]
 * Amazon Aurora: On Avoiding Distributed Consensus for I/Os, Commits, and Membership Changes, SIGMOD 2018 [[acmdl](https://dl.acm.org/citation.cfm?id=3183713.3196937)]
@@ -378,7 +378,7 @@ This section lists papers that discuss alternative consistency models to [linear
 * Harmonia: Near-Linear Scalability for Replicated Storage with In-Network Conflict Detection, VLDB 2020 [[pdf](https://drkp.net/papers/harmonia-vldb20.pdf)]
   * Implemented on programmable switches
   * Comes with TLA+ spec in [tech report](https://arxiv.org/pdf/1904.08964.pdf)
-* Strong and Efficient Consistency with Consistency-Aware Durability, FAST 2020 [[pdf](http://pages.cs.wisc.edu/~ag/cad.pdf)]
+* Strong and Efficient Consistency with Consistency-Aware Durability, FAST 2020 [[pdf](https://www.usenix.org/system/files/fast20-ganesan.pdf)]
   * [talk/slides](https://www.usenix.org/conference/fast20/presentation/ganesan)
 * Regular Sequential Serializability and Regular Sequential Consistency, SOSP 2021 [[pdf](https://arxiv.org/pdf/2109.08930.pdf)]
   * New consistency models which are invariant equivalent to linearizability.
@@ -432,17 +432,17 @@ This section lists papers on proving or testing the correctness of consensus alg
 * How Amazon web services uses formal methods, CACM 2015 [[acmdl](https://dl.acm.org/citation.cfm?id=2699417),[html](https://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)]
 * PSYNC: A partially synchronous language for fault-tolerant distributed algorithms, POPL 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2837650),[pdf](https://www.di.ens.fr/~cezarad/popl16.pdf)]
   * Featured in [the morning paper](https://blog.acolyer.org/2016/02/01/psync/)
-* Ivy: safety verification by interactive generalization, PLDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2908080.2908118),[pdf](http://www.cs.tau.ac.il/~odedp/pldi16-paper228.pdf),[code](http://apanda.github.io/ivy/)]
+* Ivy: safety verification by interactive generalization, PLDI 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2908080.2908118),[pdf](https://cs.stanford.edu/~padon/ivy.pdf),[code](http://apanda.github.io/ivy/)]
 * Brief Announcement: A Family of Leaderless Generalized-Consensus Algorithms, PODC 2016 [[acmdl](https://dl.acm.org/citation.cfm?id=2933072),[pdf](https://www.losa.fr/2016_podc.pdf)]
   * TLA+ specs are [online](https://www.losa.fr/research/leaderless/)
-* Paxos Made EPR: Decidable Reasoning about Distributed Protocols, OOPSLA 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3152284.3140568),[pdf](https://www.cs.tau.ac.il/~odedp/paxos-made-epr-oopsla17.pdf)]
+* Paxos Made EPR: Decidable Reasoning about Distributed Protocols, OOPSLA 2017 [[acmdl](https://dl.acm.org/citation.cfm?doid=3152284.3140568),[arxiv](https://arxiv.org/abs/1710.07191)]
 * Growing a protocol, HotCloud 2017 [[acmdl](https://dl.acm.org/citation.cfm?id=3154593),[pdf](https://www.usenix.org/conference/hotcloud17/program/presentation/ramasubramanian)]
   * Featured in [the morning paper](https://blog.acolyer.org/2017/08/23/growing-a-protocol/)
 * An Empirical Study on the Correctness of Formally Verified Distributed Systems, Eurosys 2017 [[acmdl](https://dl.acm.org/doi/10.1145/3064176.3064183),[pdf](https://www.cs.purdue.edu/homes/pfonseca/papers/eurosys2017-dsbugs.pdf)]
 * Teaching Rigorous Distributed Systems With Efficient Model Checking, EuroSys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303947),[pdf](https://homes.cs.washington.edu/~mernst/pubs/dslabs-eurosys2019.pdf)]
   * Describes DSLabs, an alternative to TLA+, for model checking distributed protocols.
   * Featured in [the morning paper](https://blog.acolyer.org/2019/04/17/teaching-rigorous-distributed-systems-with-efficient-model-checking/)
-* FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems, Eurosys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303986),[pdf](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf)]  
+* FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems, Eurosys 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3303986),[pdf](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf)]
 * Proving the Correctness of Disk Paxos in Isabelle/HOL, Unpublished 2019 [[pdf](https://www.isa-afp.org/browser_info/current/AFP/DiskPaxos/outline.pdf)]
 * I4: Incremental Inference of Inductive Invariants for Verification of Distributed Protocols, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359651),[code](https://github.com/GLaDOS-Michigan/I4)]
 * Scaling symbolic evaluation for automated verification of systems code with Serval, SOSP 2019 [[acmdl](https://dl.acm.org/citation.cfm?id=3359641)]
@@ -455,9 +455,9 @@ This section lists papers on proving or testing the correctness of consensus alg
 * Much ADO about Failures: A Fault-Aware Model for Compositional Verification of Strongly Consistent Distributed Systems, OOPSLA 2021 [[pdf](https://flint.cs.yale.edu/flint/publications/ado-tr.pdf)]
   * Formal proofs of distributed protocols in Coq including Multi-Paxos, produces verified C executables.
 * Adore: Atomic Distributed Objects with Certified Reconfiguration, PLDI 2022 [[pdf](https://flint.cs.yale.edu/flint/publications/adore.pdf)]
-* Formal Verification of a Distributed Dynamic Reconfiguration Protocol, CCP 2022 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3497775.3503688),[arxiv](https://arxiv.org/abs/2109.11987),[pdf](https://will62794.github.io/assets/papers/cpp22-formal-verification-reconfig.pdf),[code](https://github.com/will62794/logless-reconfig/tree/master]),[talk](https://youtu.be/VwCBlmS7XEA)]
+* Formal Verification of a Distributed Dynamic Reconfiguration Protocol, CCP 2022 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3497775.3503688),[arxiv](https://arxiv.org/abs/2109.11987),[pdf](https://will62794.github.io/assets/papers/cpp22-formal-verification-reconfig.pdf),[code](https://github.com/will62794/logless-reconfig/tree/master),[talk](https://youtu.be/VwCBlmS7XEA)]
   * Also see: Design and Analysis of a Logless Dynamic Reconfiguration Protocol, OPODIS 2021 [[pdf](https://will62794.github.io/assets/papers/LIPIcs-OPODIS-2021-26.pdf)]
-* Plain and Simple Inductive Invariant Inference for Distributed Protocols in TLA+, Draft 2022 [[pdf](https://will62794.github.io/assets/papers/dist-invariant-inference-tla.pdf)]
+* Plain and Simple Inductive Invariant Inference for Distributed Protocols in TLA+, FMCAD 2022 [[pdf](https://will62794.github.io/assets/papers/fmcad22-tla-dist-invariant-inference.pdf)]
 * Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda, NFM 2022 [[arxiv](https://arxiv.org/abs/2203.14711)]
 
 ### Quorum systems
@@ -501,7 +501,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
   * Considered to be the first proof that Byzantine agreement requires at least 3f+1 nodes to tolerate f faults.
 * ⭐️ The Byzantine Generals Problem, TPLS 1982 [[acmdl](https://dl.acm.org/doi/10.1145/357172.357176),[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Byzantine-Generals-Problem.pdf)]
   * Famous Lamport paper which popularized the Byzantine agreement problem
-* Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134),[pdf](https://zoo.cs.yale.edu/classes/cs426/2013/bib/bracha85asynchronous.pdf)]
+* Asynchronous consensus and broadcast protocols, JACM 1985 [[acmdl](https://dl.acm.org/citation.cfm?id=214134)]
   * Another proof that crash fault tolerance requires 2f+1 nodes and BFT requires 3f+1 nodes.
 * Byzantine quorum systems, STOC 1997 [[acmdl](https://dl.acm.org/citation.cfm?id=258650),[pdf](https://dahliamalkhi.files.wordpress.com/2015/12/byzquorums-distcomputing1998.pdf)]
   * Similar to the [Naor and Wool paper on the load, capacity, and availability of quorum systems](https://epubs.siam.org/doi/pdf/10.1137/S0097539795281232) but with Byzantine faults.
@@ -511,7 +511,7 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * Fast Byzantine Consensus, IEEE TDSC 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1159374),[pdf](http://www.cs.cornell.edu/lorenzo/papers/Martin06Fast.pdf)]
   * Describes FaB, similar in nature to Q/U.
  * Bosco: One-Step Byzantine Asynchronous Consensus, DISC 2008 [[acmdl](https://dl.acm.org/citation.cfm?id=1432322),[pdf](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/52180438.pdf)]
-  * Byzantine consensus in 1 round trip (instead of the usual three) using quorums of 4f+1 from 5f+1 nodes. 
+  * Byzantine consensus in 1 round trip (instead of the usual three) using quorums of 4f+1 from 5f+1 nodes.
 * Matrix Signatures: From MACs to Digital Signatures in Distributed Systems, DISC 2008 [[pdf](http://www.cs.cornell.edu/lorenzo/papers/Aiyer08Matrix.pdf)]
 * Leaderless Byzantine Paxos, DISC 2011 [[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Leaderless-Byzantine-Paxos.pdf)]
 * Byzantizing Paxos by Refinement, DISC 2011 [[acmdl](https://dl.acm.org/citation.cfm?id=2075058),[pdf](https://lamport.azurewebsites.net/tla/byzsimple.pdf)]
@@ -537,13 +537,13 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
   * Describes the Q/U protocol, leaderless but requires 5f+1 nodes instead of 3f+1 nodes
 * HQ Replication: A Hybrid Quorum Protocol for Byzantine Fault Tolerance, OSDI 2006 [[acmdl](https://dl.acm.org/citation.cfm?id=1298473),[pdf](http://pmg.csail.mit.edu/papers/hq/hq-osdi06.pdf)]
 * Zyzzyva: speculative byzantine fault tolerance, SOSP 2007 [[acmdl](https://dl.acm.org/citation.cfm?id=1294267),[pdf](http://www.cs.cornell.edu/lorenzo/papers/kotla07Zyzzyva.pdf)]
-* Attested Append-Only Memory: Making Adversaries Stick to their Word, SOSP 2007 [[acmdl](https://dl.acm.org/doi/10.1145/1294261.1294280),[pdf](http://www.sosp2007.org/papers/sosp134-chun.pdf)]
-* Tolerating Byzantine Faults in Transaction Processing Systems using Commit Barrier Scheduling, OSR 2007 [[pdf](http://db.csail.mit.edu/pubs/hrdb.pdf),[acmdl](https://dl.acm.org/doi/10.1145/1323293.1294268)]
+* Attested Append-Only Memory: Making Adversaries Stick to their Word, SOSP 2007 [[acmdl](https://dl.acm.org/doi/10.1145/1294261.1294280)]
+* Tolerating Byzantine Faults in Transaction Processing Systems using Commit Barrier Scheduling, OSR 2007 [[acmdl](https://dl.acm.org/doi/10.1145/1323293.1294268)]
 * Upright cluster services, SOSP 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1629602),[pdf](http://www.cs.albany.edu/~jhh/courses/readings/clement.sosp09.upright.pdf),[code](https://github.com/amiller/upright)]
   * Develops a BFT fork of Zookeeper and HDFS, source code does not seem to be used/maintained
 * Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults, NSDI 2009 [[acmdl](https://dl.acm.org/citation.cfm?id=1558988),[pdf](http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf)]
 * TrInc: Small Trusted Hardware for Large Distributed Systems, NSDI 2009 [[pdf](https://www.usenix.org/legacy/events/nsdi09/tech/full_papers/levin/levin.pdf),[acmdl](https://dl.acm.org/doi/10.5555/1558977.1558978)]
-* Zzyzx: Scalable Fault Tolerance through Byzantine Locking, DSN 2010 [[pdf](https://www.cs.unc.edu/~reiter/papers/2010/DSN.pdf)]
+* Zzyzx: Scalable Fault Tolerance through Byzantine Locking, DSN 2010 [[pdf](https://www.pdl.cmu.edu/PDL-FTP/PASIS/hendricks-dsn2010.pdf)]
 * Byzantine Chain Replication, OPODIS 2012 [[pdf](http://www.cs.cornell.edu/home/rvr/newpapers/opodis2012.pdf)]
 * Automatic Reconfiguration for Large-Scale Reliable Storage Systems, TDSC 2012 [[pdf](http://www.pmg.csail.mit.edu/papers/tdsc12.pdf)]
   * Describes an approach to reconfigure BFT systems
@@ -635,7 +635,7 @@ They are in no particular order.
 * [Christopher Meiklejohn](http://christophermeiklejohn.com)
 * [Denis Rystsov](http://rystsov.info)
 * [Metadata](http://muratbuffalo.blogspot.com) by [Murat Demirbas](https://twitter.com/muratdemirbas)
-* [Slash dev slash null](https://simbo1905.blog)
+* Slash dev slash null
 * [David Turner](https://davecturner.github.io)
 * [Aleksey Charapko](http://charap.co)
 * [Marc Brooker](http://brooker.co.za/blog/)
@@ -668,7 +668,7 @@ They are in no particular order.
 * [Programming Language Design and Implementation (PLDI)](https://conf.researchr.org/home/pldi-2020)
 * [Symposium on Theory of Computing (STOC)](http://acm-stoc.org/stoc2020/)
 * [Principles of Distributed Computing (PODC)](http://www.podc.org)
-* [International Conference on Distributed Computing Systems (ICDCS)](https://icdcs2020.sg)
+* [International Conference on Distributed Computing Systems (ICDCS)](https://icdcs2022.icdcs.org)
 * [Annual Technical Conference (ATC)](https://www.usenix.org/conference/atc20)
 * [Special Interest Group on Data Communication (SIGCOMM)](http://sigcomm.org/events/sigcomm-conference)
 * [Very Large Data Bases (VLDB)](https://vldb2020.org)
@@ -690,7 +690,7 @@ They are in no particular order.
 
 ### Academic workshops
 * [Principles and Practice of Consistency for Distributed Data (PaPoC)](https://novasys.di.fct.unl.pt/conferences/papoc19/)
-* [Large-Scale Distributed Systems and Middleware (LADIS)](http://ladisworkshop.org)
+* [Large-Scale Distributed Systems and Middleware (LADIS)](https://ladisworkshop.org/2021/)
 * [Hot Topics in Storage and File Systems (HotStorage)](https://www.hotstorage.org/2022/)
 * [Hot Topics in Operating Systems (HotOS)](https://www.sigops.org/2018/hotos2019/)
 * [Hot Topics in Networks (HotNets)](https://conferences.sigcomm.org/hotnets/2019/)
@@ -705,7 +705,7 @@ They are in no particular order.
   * [Transactions on Computer Systems (TOCS)](https://tocs.acm.org)
   * [Journal of the ACM (JACM)](https://jacm.acm.org)
   * [Communications of the ACM (CACM)](https://cacm.acm.org)
-  * [SIGOPS Operating Systems Review (OSR)](https://www.sigops.org/osr.html)
+  * [SIGOPS Operating Systems Review (OSR)](https://www.sigops.org)
   * [Computing Surveys (CSUR)](https://csur.acm.org)
   * [Transactions on Database Systems (TODS)](https://tods.acm.org)
   * [ACM Queue](https://queue.acm.org)
