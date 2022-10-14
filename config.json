@@ -1,0 +1,10 @@
+{
+    "ignorePatterns": [
+      {
+        "pattern": "acm.org"
+      },
+      {
+        "pattern": "citeseerx.ist.psu.edu"
+      }
+    ]
+  }
