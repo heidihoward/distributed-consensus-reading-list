@@ -4,6 +4,9 @@
         "pattern": "acm.org"
       },
       {
+        "pattern": "microsoft.com"
+      },
+      {
         "pattern": "citeseerx.ist.psu.edu"
       }
     ]
