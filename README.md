@@ -138,6 +138,8 @@ This section lists papers describing algorithms for distributed consensus. These
 * Paxos Made Practical, Unpublished [[pdf](http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf)]
 * Relaxed Paxos: Quorum intersection revisited (again), PaPoC 2022 [[acmdl](https://dl.acm.org/doi/abs/10.1145/3517209.3524040),[arvix](https://arxiv.org/abs/2203.03058)]
 * Live SMR in partitionable networks [[pdf](https://jcsd2022.networks.imdea.org/wp-content/uploads/sites/20/2022/06/01-live-smr-in-partitionable-networks.pdf)]
+* QuePaxa: Escaping the tyranny of timeouts in consensus, SOSP 2023 [[pdf](https://dl.acm.org/doi/pdf/10.1145/3600006.3613150)]
+
 
 ### Consensus for specialist hardware
 This section lists papers describing consensus algorithms using specialist hardware such as [SDN](https://en.wikipedia.org/wiki/Software-defined_networking), [IP-multicast](https://en.wikipedia.org/wiki/IP_multicast), or [RDMA](https://en.wikipedia.org/wiki/Remote_direct_memory_access).
@@ -204,6 +206,7 @@ This section covers papers describing consensus algorithms for WANs and/or geo-r
   * Describes Tempo, a leaderless partial ordering protocol that uses timestamp ordering.
 * Reducing the Latency of Dependent Operations in Large-Scale Geo-Distributed Systems, PhD Thesis 2021 [[pdf](https://uwspace.uwaterloo.ca/bitstream/handle/10012/17639/Yan_Xinan.pdf?sequence=1&isAllowed=y)]
 * LEGOStore: A Linearizable Geo-Distributed Store Combining Replication and Erasure Coding, Preprint 2021 [[arxiv](https://arxiv.org/abs/2111.12009)]
+* RACS and SADL: Towards Robust SMR in the Wide-Area Network, Preprint 2024 [[arxiv](https://arxiv.org/pdf/2404.04183)]
 
 ### Consensus in production
 This section lists papers describing experiences of deploying distributed consensus in production.
