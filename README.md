@@ -636,7 +636,7 @@ They are in no particular order.
 * [Brave new geek](https://bravenewgeek.com/archive/) by Tyler Treat
 * [Highly Available, Seldom Consistent](http://www.bailis.org/blog/) by [Peter Bailis](https://twitter.com/pbailis)
 * [Christopher Meiklejohn](http://christophermeiklejohn.com)
-* [Denis Rystsov](http://rystsov.info)
+* [Denis Rystsov](http://rystsov.com)
 * [Metadata](http://muratbuffalo.blogspot.com) by [Murat Demirbas](https://twitter.com/muratdemirbas)
 * Slash dev slash null
 * [David Turner](https://davecturner.github.io)
