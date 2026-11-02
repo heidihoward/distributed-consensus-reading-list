@@ -595,6 +595,8 @@ This section lists papers on [Byzantine Fault Tolerance](https://en.wikipedia.or
 * UTT: Decentralized Ecash with Accountable Privacy, Preprint 2022 [[pdf](https://eprint.iacr.org/2022/452.pdf)]
 * Treaty: Secure Distributed Transactions, DSN 2022 [[pdf](https://dse.in.tum.de/wp-content/uploads/2022/04/Treaty_PDFExpress.pdf)]
 * SplitBFT: Improving Byzantine Fault Tolerance Safety Using Trusted Compartments, Middleware 2022 [[acmdl]](https://dl.acm.org/doi/abs/10.1145/3528535.3531516),[arxiv](https://arxiv.org/abs/2205.08938)]
+* Cerberus: Minimalistic Multi-shard Byzantine-resilient Transaction Processing, JSys 2023 [[pdf](https://escholarship.org/uc/item/6h427354),[arxiv](https://arxiv.org/abs/2008.04450)]
+  * Multi-shard BFT transaction processing in three variants that trade coordination in the well-behaved case against the cost of recovering from attacks. The sharded protocol has not run in production; [a comparison with PBFT, HotStuff and Tendermint](https://radix.wiki/contents/tech/comparisons/cerberus-vs-other-bft-protocols) records what has been deployed from it.
 
 ### Alternative fault models in distributed consensus
 Most of these papers handle crash faults or byzantine faults. This section considers the fault models between crash and byzantine.
